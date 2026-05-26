@@ -297,6 +297,53 @@ def _load_chunks(stem: str) -> Optional[dict]:
 M11_TOP_SECTIONS = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"]
 
 
+# === Enrichment / extraction loaders (mtime-cached) ===============
+
+
+def _load_enriched(stem: str) -> Optional[dict]:
+    """Load enriched.json (Stage 3 output) if present."""
+    path = ROOT / "dataset" / stem / "enriched.json"
+    if not path.exists():
+        return None
+    mtime = path.stat().st_mtime
+    key = f"enriched::{path}"
+    cached = _RESULT_CACHE.get(key)
+    if cached and cached[0] == mtime:
+        return cached[1]
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    _RESULT_CACHE[key] = (mtime, payload)
+    return payload
+
+
+def _load_doc_indexes(stem: str) -> Optional[dict]:
+    path = ROOT / "dataset" / stem / "doc_indexes.json"
+    if not path.exists():
+        return None
+    mtime = path.stat().st_mtime
+    key = f"indexes::{path}"
+    cached = _RESULT_CACHE.get(key)
+    if cached and cached[0] == mtime:
+        return cached[1]
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    _RESULT_CACHE[key] = (mtime, payload)
+    return payload
+
+
+def _load_extracted_jsonl(stem: str, name: str) -> list[dict]:
+    """Load one of dataset/{stem}/extracted/*.jsonl — list of Extracted[T] records."""
+    path = ROOT / "dataset" / stem / "extracted" / f"{name}.jsonl"
+    if not path.exists():
+        return []
+    out: list[dict] = []
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            out.append(json.loads(line))
+    return out
+
+
 def _build_doc_tree(chunks_doc: dict) -> dict:
     """From a ChunkedDocument, build:
       - tree: nested {section_path[-1]: {m11, page, chunks_in_section, children}}
@@ -565,6 +612,225 @@ def _render_crop(stem: str, pdf_path: str, page_idx: int, dpi: int,
     buf = io.BytesIO()
     crop.save(buf, format="PNG", optimize=True)
     return buf.getvalue()
+
+
+@app.get("/docs/{stem}/usdm/eligibility", response_class=HTMLResponse)
+def usdm_eligibility(stem: str, request: Request):
+    """Show extracted USDM EligibilityCriterion + EligibilityCriterionItem records."""
+    records = _load_extracted_jsonl(stem, "eligibility")
+    if not records:
+        raise HTTPException(status_code=404, detail=f"no extracted/eligibility.jsonl for {stem}")
+
+    # Split into items (text holders) and refs (category + identifier holders)
+    items_by_id: dict[str, dict] = {}
+    refs: list[dict] = []
+    for r in records:
+        v = r.get("value", {})
+        itype = v.get("instanceType")
+        if itype == "EligibilityCriterionItem":
+            items_by_id[v["id"]] = r
+        elif itype == "EligibilityCriterion":
+            refs.append(r)
+
+    # Pair each ref with its item; build a render-friendly list.
+    cards: list[dict] = []
+    for ref in refs:
+        v = ref["value"]
+        item = items_by_id.get(v.get("criterionItemId"), {})
+        item_v = item.get("value", {})
+        prov = ref.get("provenance", {})
+        cards.append({
+            "id": v.get("id"),
+            "category": v.get("category", {}).get("decode", "unknown"),
+            "identifier": v.get("identifier") or "",
+            "text": item_v.get("text", "(no text)"),
+            "evidence_chunk_id": prov.get("evidence_chunk_id"),
+            "evidence_page": prov.get("evidence_page"),
+            "evidence_bbox": prov.get("evidence_bbox"),
+            "extractor": prov.get("extractor"),
+            "extraction_confidence": prov.get("extraction_confidence"),
+        })
+
+    cards_inc = [c for c in cards if c["category"] == "inclusion"]
+    cards_exc = [c for c in cards if c["category"] == "exclusion"]
+    cards_wd = [c for c in cards if c["category"] not in ("inclusion", "exclusion")]
+
+    indexes = _load_doc_indexes(stem) or {}
+    metadata = indexes.get("metadata", {}) or {}
+
+    return templates.TemplateResponse(
+        request,
+        "usdm_eligibility.html",
+        {
+            "stem": stem,
+            "metadata": metadata,
+            "cards_inclusion": cards_inc,
+            "cards_exclusion": cards_exc,
+            "cards_withdrawal": cards_wd,
+            "n_total": len(cards),
+        },
+    )
+
+
+@app.get("/docs/{stem}/enrichment", response_class=HTMLResponse)
+def enrichment_view(stem: str, request: Request, section: Optional[str] = None, limit: int = 30):
+    """Show enriched chunks with entity/negation/acronym overlays.
+
+    Defaults to first 30 enriched chunks. Use ?section=5.1 to restrict.
+    """
+    enriched = _load_enriched(stem)
+    chunks = _load_chunks(stem)
+    if not enriched or not chunks:
+        raise HTTPException(status_code=404, detail=f"no enrichment for {stem}")
+
+    chunks_by_id = {c["chunk_id"]: c for c in chunks.get("chunks") or []}
+
+    # Filter
+    enriched_chunks = enriched.get("chunks") or {}
+    filtered: list[tuple[str, dict, dict]] = []  # (chunk_id, chunk_raw, enrichment)
+    for cid, ce in enriched_chunks.items():
+        ich_m11 = (ce.get("domain") or {}).get("section_taxonomy_mapping", {}).get("ich_m11", "")
+        if section and not (ich_m11 == section or ich_m11.startswith(section + ".")):
+            continue
+        raw = chunks_by_id.get(cid)
+        if not raw:
+            continue
+        filtered.append((cid, raw, ce))
+        if len(filtered) >= limit:
+            break
+
+    # For each chunk, build annotation overlays by char-index
+    rendered = []
+    for cid, raw, ce in filtered:
+        text = raw.get("text") or ""
+        # Collect spans (start, end, kind, payload)
+        spans: list[dict] = []
+        for e in (ce.get("semantic") or {}).get("entities") or []:
+            sp = e.get("span") or {}
+            spans.append({
+                "start": sp.get("start", 0),
+                "end": sp.get("end", 0),
+                "kind": "entity",
+                "subtype": e.get("subtype") or e.get("entity_type"),
+                "abstract_type": e.get("entity_type"),
+            })
+        for n in (ce.get("linguistic") or {}).get("negation_annotations") or []:
+            ts = n.get("target_span") or {}
+            spans.append({
+                "start": ts.get("start", 0),
+                "end": ts.get("end", 0),
+                "kind": "negation",
+                "negation_type": n.get("negation_type"),
+                "cue": n.get("cue_text"),
+            })
+        for a in (ce.get("linguistic") or {}).get("acronym_uses") or []:
+            sp = a.get("span") or {}
+            spans.append({
+                "start": sp.get("start", 0),
+                "end": sp.get("end", 0),
+                "kind": "acronym",
+                "expansion": a.get("expansion") or "",
+            })
+        for ir in (ce.get("structural") or {}).get("internal_references") or []:
+            sp = ir.get("span") or {}
+            spans.append({
+                "start": sp.get("start", 0),
+                "end": sp.get("end", 0),
+                "kind": "xref",
+                "target_chunk_id": ir.get("target_chunk_id"),
+                "reference_kind": ir.get("reference_kind"),
+            })
+
+        # Sort spans + render text with inline HTML
+        spans.sort(key=lambda s: (s["start"], -s["end"]))
+        rendered_html = _render_text_with_spans(text, spans)
+
+        rendered.append({
+            "chunk_id": cid,
+            "page_num": raw.get("page_num"),
+            "section_path": raw.get("section_path") or [],
+            "m11_section": raw.get("m11_section"),
+            "block_type": raw.get("block_type"),
+            "role_hints": (ce.get("domain") or {}).get("role_hints") or [],
+            "schema_class_hints": (ce.get("domain") or {}).get("schema_class_hints") or [],
+            "html": rendered_html,
+            "n_entities": len((ce.get("semantic") or {}).get("entities") or []),
+            "n_negations": len((ce.get("linguistic") or {}).get("negation_annotations") or []),
+            "n_acronyms": len((ce.get("linguistic") or {}).get("acronym_uses") or []),
+            "n_xrefs": len((ce.get("structural") or {}).get("internal_references") or []),
+        })
+
+    return templates.TemplateResponse(
+        request,
+        "enrichment.html",
+        {
+            "stem": stem,
+            "section_filter": section,
+            "limit": limit,
+            "n_shown": len(rendered),
+            "n_enriched_total": len(enriched_chunks),
+            "rendered": rendered,
+        },
+    )
+
+
+def _render_text_with_spans(text: str, spans: list[dict]) -> str:
+    """Render text with inline HTML <span> wrappers for each annotation.
+
+    Handles overlapping spans by sorting + truncating; each char position gets at most one span class. Innermost span wins for the overlap.
+    """
+    import html as _html
+
+    if not spans:
+        return _html.escape(text).replace("\n", "<br>")
+
+    # Mark each position with the highest-priority span class.
+    priority = {"negation": 4, "entity": 3, "xref": 2, "acronym": 1}
+    pos_class = [None] * len(text)
+    pos_data = [None] * len(text)
+    for s in spans:
+        st = max(0, s.get("start", 0))
+        en = min(len(text), s.get("end", 0))
+        if en <= st:
+            continue
+        p = priority.get(s["kind"], 0)
+        for i in range(st, en):
+            cur = pos_class[i]
+            if cur is None or priority.get(cur, 0) < p:
+                pos_class[i] = s["kind"]
+                pos_data[i] = s
+
+    # Emit HTML
+    out: list[str] = []
+    i = 0
+    n = len(text)
+    while i < n:
+        cls = pos_class[i]
+        if cls is None:
+            j = i
+            while j < n and pos_class[j] is None:
+                j += 1
+            out.append(_html.escape(text[i:j]).replace("\n", "<br>"))
+            i = j
+        else:
+            data = pos_data[i]
+            j = i
+            while j < n and pos_class[j] == cls and pos_data[j] is data:
+                j += 1
+            segment = _html.escape(text[i:j])
+            title = ""
+            if cls == "entity":
+                title = f'{data.get("abstract_type","")}/{data.get("subtype","")}'
+            elif cls == "negation":
+                title = f'NEG ({data.get("negation_type","")}; cue: {data.get("cue","")})'
+            elif cls == "acronym":
+                title = f'{data.get("expansion","")}'
+            elif cls == "xref":
+                t = data.get("target_chunk_id") or "unresolved"
+                title = f'{data.get("reference_kind","")} → {t}'
+            out.append(f'<span class="anno-{cls}" title="{_html.escape(title)}">{segment}</span>')
+            i = j
+    return "".join(out)
 
 
 @app.get("/docs/{stem}/raw")

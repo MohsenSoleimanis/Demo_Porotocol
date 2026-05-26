@@ -12,6 +12,13 @@
   parse {{ '%.0f ms'|format(stage_timings_ms.get('parse_ms', 0) or 0) }})
 </p>
 
+<p class="doc-nav-links">
+  <a href="/docs/{{ stem }}/enrichment" class="doc-nav-link">📝 Enrichment overlay</a>
+  <a href="/docs/{{ stem }}/enrichment?section=5" class="doc-nav-link">§5 eligibility chunks</a>
+  <a href="/docs/{{ stem }}/usdm/eligibility" class="doc-nav-link">⚕ USDM eligibility records</a>
+  <a href="/docs/{{ stem }}/raw" class="doc-nav-link">raw JSON</a>
+</p>
+
 {# ===== Document tree (from chunks.json if available) ===== #}
 {% if tree_data %}
 {% set cov = tree_data.m11_coverage %}

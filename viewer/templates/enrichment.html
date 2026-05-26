@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}{{ stem }} · Enrichment — FMLS{% endblock %}
+{% block nav %}<a href="/">all docs</a> · <a href="/docs/{{ stem }}">{{ stem }}</a>{% endblock %}
+{% block content %}
+
+<h1>{{ stem }} — Chunk enrichment</h1>
+<p class="muted small">
+  Showing {{ n_shown }} chunks (out of {{ n_enriched_total }} enriched)
+  {% if section_filter %}· filter: m11 §{{ section_filter }}{% endif %}
+</p>
+
+<form class="enrichment-filter" method="get" action="">
+  <label>m11 section:
+    <input type="text" name="section" value="{{ section_filter or '' }}" placeholder="e.g. 5.1, 3, 8"
+           style="width:8em;padding:2px 4px">
+  </label>
+  <label>limit:
+    <input type="number" name="limit" value="{{ limit }}" min="1" max="500"
+           style="width:5em;padding:2px 4px">
+  </label>
+  <button type="submit" style="padding:4px 10px">Apply</button>
+</form>
+
+<div class="enrichment-legend">
+  <span class="anno-entity legend-pill">Entity (GLiNER-bio)</span>
+  <span class="anno-negation legend-pill">Negation (MedSpaCy ConText)</span>
+  <span class="anno-acronym legend-pill">Acronym</span>
+  <span class="anno-xref legend-pill">Cross-reference</span>
+</div>
+
+{% for r in rendered %}
+<article class="enrichment-chunk">
+  <header class="enrichment-chunk-head">
+    <span class="muted small">
+      [{{ r.chunk_id }}] page {{ r.page_num + 1 }} · {{ r.block_type }}
+    </span>
+    {% if r.m11_section %}<span class="chip m11-chip">§{{ r.m11_section }}</span>{% endif %}
+    {% for h in r.role_hints %}<span class="chip role-chip">{{ h }}</span>{% endfor %}
+    {% for h in r.schema_class_hints %}<span class="chip usdm-chip">USDM: {{ h }}</span>{% endfor %}
+    <span class="anno-counts muted small">
+      e={{ r.n_entities }} n={{ r.n_negations }} a={{ r.n_acronyms }} x={{ r.n_xrefs }}
+    </span>
+  </header>
+  <div class="enrichment-section-path muted small">
+    {{ " > ".join(r.section_path) }}
+  </div>
+  <div class="enrichment-chunk-body">{{ r.html|safe }}</div>
+</article>
+{% endfor %}
+
+{% endblock %}

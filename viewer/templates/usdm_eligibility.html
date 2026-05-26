@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}{{ stem }} · USDM Eligibility — FMLS{% endblock %}
+{% block nav %}<a href="/">all docs</a> · <a href="/docs/{{ stem }}">{{ stem }}</a>{% endblock %}
+{% block content %}
+
+<h1>{{ stem }} — USDM Eligibility</h1>
+<p class="muted small">
+  Sponsor: {{ metadata.sponsor or "—" }} ·
+  Protocol: {{ metadata.sponsor_protocol_number or "—" }} ·
+  Phase: {{ metadata.phase or "—" }} ·
+  Indication: {{ metadata.indication or "—" }}
+</p>
+<p class="muted small">
+  {{ n_total }} criteria extracted ({{ cards_inclusion|length }} inclusion ·
+  {{ cards_exclusion|length }} exclusion · {{ cards_withdrawal|length }} withdrawal)
+</p>
+
+{% macro card(c) %}
+<div class="usdm-card usdm-card-{{ c.category }}">
+  <div class="usdm-card-head">
+    <span class="usdm-cat-badge usdm-cat-{{ c.category }}">{{ c.category }}</span>
+    {% if c.identifier %}<span class="usdm-ident">{{ c.identifier }}</span>{% endif %}
+    <span class="usdm-source">
+      <a href="/docs/{{ stem }}/p/{{ c.evidence_page }}"
+         title="Source: page {{ c.evidence_page + 1 }}, chunk {{ c.evidence_chunk_id }}">
+        p {{ c.evidence_page + 1 }}
+      </a>
+    </span>
+    <span class="usdm-conf">conf {{ "%.2f"|format(c.extraction_confidence or 0) }}</span>
+    <span class="usdm-extractor muted small">{{ c.extractor }}</span>
+  </div>
+  <div class="usdm-card-text">{{ c.text }}</div>
+</div>
+{% endmacro %}
+
+{% if cards_inclusion %}
+<h2>Inclusion ({{ cards_inclusion|length }})</h2>
+<div class="usdm-cards-grid">
+  {% for c in cards_inclusion %}{{ card(c) }}{% endfor %}
+</div>
+{% endif %}
+
+{% if cards_exclusion %}
+<h2>Exclusion ({{ cards_exclusion|length }})</h2>
+<div class="usdm-cards-grid">
+  {% for c in cards_exclusion %}{{ card(c) }}{% endfor %}
+</div>
+{% endif %}
+
+{% if cards_withdrawal %}
+<h2>Withdrawal ({{ cards_withdrawal|length }})</h2>
+<div class="usdm-cards-grid">
+  {% for c in cards_withdrawal %}{{ card(c) }}{% endfor %}
+</div>
+{% endif %}
+
+{% endblock %}
