@@ -103,11 +103,13 @@ def main() -> int:
     ap.add_argument("--threshold", type=float, default=0.5,
                     help="Jaccard threshold for considering a match (default 0.5)")
     ap.add_argument("--partial-threshold", type=float, default=0.3)
+    ap.add_argument("--extracted", default="extracted/eligibility.jsonl",
+                    help="Path to extracted JSONL relative to dataset/{stem}/")
     args = ap.parse_args()
 
     doc_dir = DATASET / args.stem
     gold_path = doc_dir / "gold_eligibility.json"
-    extracted_path = doc_dir / "extracted" / "eligibility.jsonl"
+    extracted_path = doc_dir / args.extracted
 
     if not gold_path.exists():
         print(f"ERROR: {gold_path} not found.", file=sys.stderr)

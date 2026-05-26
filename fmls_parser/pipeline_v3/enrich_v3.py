@@ -49,6 +49,15 @@ _FOOTER_HEADER_HINTS = re.compile(
 )
 _MARKER_RX = re.compile(r"^\s*(\d+|\([a-z]\)|\([A-Z]\)|[A-Z]\d?|\([ivx]+\))[\.\s]")
 
+# Specific marker shapes used to decide primary vs sub-clause vs sub-bullet
+# inside an eligibility section. Numeric markers (1, 2, 3) at the top of a
+# paragraph in §5.x are criteria; parenthesized alpha markers ((a), (i)) are
+# sub-clauses of a criterion; leading dashes / unicode bullets are sub-bullets.
+_NUMERIC_MARKER_RX = re.compile(r"^\s*(\d{1,3})[\.\s)]")
+_ALPHA_CLAUSE_RX = re.compile(r"^\s*\(([a-zA-Z]|[ivxlcdm]+)\)\s+\S")
+_BULLET_RX = re.compile(r"^\s*[-•○●▪–—]\s+")
+_NOTE_PREFIX_RX = re.compile(r"^(note|n\.b\.?|nb)[:\s\-]", re.IGNORECASE)
+
 
 def extract_marker(text: str) -> Optional[str]:
     if not text:
@@ -57,43 +66,99 @@ def extract_marker(text: str) -> Optional[str]:
     return m.group(1) if m else None
 
 
+def _is_eligibility_section(m11: str) -> bool:
+    return m11.startswith("5.") or m11 == "5"
+
+
 def rule_classify(chunk: Chunk) -> Optional[SemanticRoleAnnotation]:
     """Return a SemanticRoleAnnotation iff a rule unambiguously matches.
 
-    Returns None when no rule matches — the LLM fallback handles those cases.
+    Reads MinerU's per-block `mineru_type` (preserved in `chunk.metadata`)
+    so we don't pay an LLM call to re-derive what MinerU's VLM already saw.
+    Returns None when no rule applies — the LLM fallback handles those.
     """
     text = (chunk.text or "").strip()
     if not text:
         return _make_annotation("skip", confidence=1.0, method="rule")
 
+    md = chunk.metadata or {}
+    mineru_type = (md.get("mineru_type") or "").lower()
     bt = chunk.block_type.value if hasattr(chunk.block_type, "value") else str(chunk.block_type)
+    m11 = chunk.m11_section or ""
+    has_parent = chunk.parent_chunk_id is not None or md.get("parent_block_id") is not None
 
-    # Page numbers
-    if _PAGE_NUMBER_RX.match(text):
+    # ---- MinerU type direct mappings (highest priority) ----
+    if mineru_type == "page_number":
         return _make_annotation("page_number", confidence=1.0, method="rule")
-
-    # Header/footer text
-    if bt in ("header", "footer") or _FOOTER_HEADER_HINTS.search(text):
-        return _make_annotation("header_footer", confidence=0.9, method="rule")
-
-    # Footnote bodies (MinerU labels these)
-    if bt == "footnote":
-        return _make_annotation("footnote_body", confidence=1.0, method="rule")
-
-    # Tables (preserve as-is)
-    if bt == "table":
+    if mineru_type in ("header", "footer"):
+        return _make_annotation("header_footer", confidence=1.0, method="rule")
+    if mineru_type == "table_caption":
+        return _make_annotation("table_caption", confidence=0.95, method="rule")
+    if mineru_type in ("image_caption", "chart_caption"):
+        return _make_annotation("figure_caption", confidence=0.95, method="rule")
+    if mineru_type in ("table_footnote", "image_footnote", "chart_footnote", "page_footnote"):
+        return _make_annotation("footnote_body", confidence=0.95, method="rule")
+    if mineru_type == "table":
         return _make_annotation("table", confidence=1.0, method="rule")
 
-    if bt == "caption":
-        # Could be table_caption or figure_caption; without proximity info default to figure
-        return _make_annotation("figure_caption", confidence=0.6, method="rule")
+    # ---- Section heading: MinerU emits as `title` with numeric prefix ----
+    if mineru_type == "title" and _NUMERIC_SECTION_RX.match(text):
+        return _make_annotation("section_header", confidence=0.97, method="rule")
 
-    # Section headers (chunker tagged m11_section means this IS the section
-    # heading itself if block_type == heading AND text matches numeric prefix)
+    # ---- Eligibility-section role inference from leading marker ----
+    # In §5.x:
+    #   • Numeric markers (1, 2, 3, ...) are ALWAYS primary criteria, even when
+    #     MinerU groups them under a list-container parent block. AZ_demo §5.2
+    #     emits exc_1..6 with pbid=<container>; they are still primary items.
+    #   • Parenthesized alpha markers ((a), (b), (i)) are sub-clauses of the
+    #     preceding criterion.
+    #   • Dashes / bullets / circles are sub-bullets.
+    if _is_eligibility_section(m11) and bt == "paragraph" and mineru_type in ("text", "ref_text", ""):
+        m_num = _NUMERIC_MARKER_RX.match(text)
+        if m_num:
+            return _make_annotation(
+                "primary_item", confidence=0.93, method="rule",
+                marker=m_num.group(1),
+            )
+        m_alpha = _ALPHA_CLAUSE_RX.match(text)
+        if m_alpha:
+            return _make_annotation(
+                "sub_clause", confidence=0.9, method="rule",
+                marker=m_alpha.group(1),
+            )
+        if _BULLET_RX.match(text):
+            return _make_annotation("sub_bullet", confidence=0.9, method="rule")
+        if _NOTE_PREFIX_RX.match(text):
+            return _make_annotation("note", confidence=0.9, method="rule")
+
+    # ---- Category headers inside eligibility sections (MinerU `title` ----
+    # without a numeric prefix: "Age", "Type of Participant", "Medical
+    # Conditions", "Reproduction") ----
+    if (
+        _is_eligibility_section(m11)
+        and mineru_type == "title"
+        and not _NUMERIC_SECTION_RX.match(text)
+        and len(text.split()) <= 8
+    ):
+        return _make_annotation(
+            "category_header", confidence=0.92, method="rule",
+            category_label=text,
+        )
+
+    # ---- Fallback rules on coarse block_type (legacy) ----
+    if _PAGE_NUMBER_RX.match(text):
+        return _make_annotation("page_number", confidence=1.0, method="rule")
+    if bt in ("header", "footer") or _FOOTER_HEADER_HINTS.search(text):
+        return _make_annotation("header_footer", confidence=0.9, method="rule")
+    if bt == "footnote":
+        return _make_annotation("footnote_body", confidence=1.0, method="rule")
+    if bt == "table":
+        return _make_annotation("table", confidence=1.0, method="rule")
+    if bt == "caption":
+        return _make_annotation("figure_caption", confidence=0.6, method="rule")
     if bt == "heading" and _NUMERIC_SECTION_RX.match(text):
         return _make_annotation("section_header", confidence=0.95, method="rule")
 
-    # Otherwise let the LLM decide
     return None
 
 
