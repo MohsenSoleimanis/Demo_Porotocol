@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fmls_parser"
+version = "0.1.0"
+description = "Triage-routed PDF parsing pipeline for clinical protocols (local + Lightning AI remote)."
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.6,<3",
+    "python-dotenv>=1.0",
+    "pymupdf>=1.24",
+    "pdfplumber>=0.11",
+    "httpx>=0.27",
+    "pillow>=10.0",
+]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.32", "pandas>=2.0"]
+
+[tool.setuptools.packages.find]
+include = ["fmls_parser*"]
+exclude = ["scripts*", "tests*"]

@@ -1,0 +1,447 @@
+{
+  "doc_id": "AZ_demo",
+  "schema_version": "fmls-doc-indexes-1.0",
+  "built_at": "2026-05-26T10:22:27.942155Z",
+  "cross_references": [
+    {
+      "surface": "TABLE 3",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Figure 1",
+      "kind": "figure",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Figure 2",
+      "kind": "figure",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 1",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 2",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 4",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 5",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 6",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 7",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 8",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 9",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 10",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 11",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 12",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 13",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 14",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Table 15",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Appendix A",
+      "kind": "appendix",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Appendix B",
+      "kind": "appendix",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Appendix C",
+      "kind": "appendix",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Appendix D",
+      "kind": "appendix",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Appendix E",
+      "kind": "appendix",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Appendix F",
+      "kind": "appendix",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Appendix G",
+      "kind": "appendix",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Appendix H",
+      "kind": "appendix",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Section 3",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p29_b12",
+      "target_section_path": [
+        "3 OBJECTIVES AND ENDPOINTS"
+      ]
+    },
+    {
+      "surface": "Section 8.1.2.2",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 8.5.2.4",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 2.2",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p26_b8",
+      "target_section_path": [
+        "2 INTRODUCTION",
+        "2.2 Background"
+      ]
+    },
+    {
+      "surface": "Section 8.1",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 8.3.7",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 9.4.2.1",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p67_b14",
+      "target_section_path": [
+        "9 STATISTICAL CONSIDERATIONS"
+      ]
+    },
+    {
+      "surface": "Section 1.3",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p17_b12",
+      "target_section_path": [
+        "1 PROTOCOL SUMMARY",
+        "1.3 Schedule of Activities"
+      ]
+    },
+    {
+      "surface": "Section 5.1",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p38_b6",
+      "target_section_path": [
+        "5 STUDY POPULATION",
+        "5.1 Inclusion Criteria"
+      ]
+    },
+    {
+      "surface": "Section 6.5",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p42_b6",
+      "target_section_path": [
+        "6 STUDY INTERVENTION"
+      ]
+    },
+    {
+      "surface": "Section 7.1",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p48_b4",
+      "target_section_path": [
+        "7 DISCONTINUATION OF STUDY INTERVENTION AND PARTICIPANT DISCONTINUATION/WITHDRAWAL"
+      ]
+    },
+    {
+      "surface": "Section 6.1.2",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p42_b6",
+      "target_section_path": [
+        "6 STUDY INTERVENTION"
+      ]
+    },
+    {
+      "surface": "Section 4.4",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p33_b11",
+      "target_section_path": [
+        "4 STUDY DESIGN"
+      ]
+    },
+    {
+      "surface": "Section 6",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p42_b6",
+      "target_section_path": [
+        "6 STUDY INTERVENTION"
+      ]
+    },
+    {
+      "surface": "Section 8.6.1.1",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 8.1.1",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 8.6.1.2",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 8.6",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 8.3.9",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 8.5.2.1",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 8.3.5",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 8.3",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 8.3.10",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 5.6",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p38_b4",
+      "target_section_path": [
+        "5 STUDY POPULATION"
+      ]
+    },
+    {
+      "surface": "Section 5.2",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p40_b4",
+      "target_section_path": [
+        "5 STUDY POPULATION",
+        "5.2 Exclusion Criteria"
+      ]
+    },
+    {
+      "surface": "Section 8.6.2",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 8.5",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 9.2",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p67_b14",
+      "target_section_path": [
+        "9 STATISTICAL CONSIDERATIONS"
+      ]
+    },
+    {
+      "surface": "Section 9.5",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p67_b14",
+      "target_section_path": [
+        "9 STATISTICAL CONSIDERATIONS"
+      ]
+    },
+    {
+      "surface": "Section 9.4.4",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p67_b14",
+      "target_section_path": [
+        "9 STATISTICAL CONSIDERATIONS"
+      ]
+    },
+    {
+      "surface": "Section 8.1.3",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    },
+    {
+      "surface": "Section 8.3.8",
+      "kind": "section",
+      "target_chunk_id": "AZ_demo_p49_b16",
+      "target_section_path": [
+        "8 STUDY ASSESSMENTS AND PROCEDURES"
+      ]
+    }
+  ],
+  "acronyms": [
+    {
+      "surface": "IATA",
+      "expansion": "International Airline Transportation Association",
+      "source_chunk_id": "AZ_demo_p91_b7",
+      "inferred_by": "regex"
+    }
+  ],
+  "glossary": [
+    {
+      "surface": "Adverse Events",
+      "definition": "the development of any untoward medical occurrence in a patient or clinical study participant administered a medicinal product and which does not necessarily have a causal relationship with this treatment.",
+      "source_chunk_id": "AZ_demo_p86_b4"
+    },
+    {
+      "surface": "Serious Adverse Events",
+      "definition": "an AE occurring during any study phase that fulfils one or more of the following criteria: Results in death; Is immediately life-threatening; Requires in-participant hospitalization or prolongation of existing hospitalization; Results in persistent or significant disability or incapacity; Is a congenital abnormality or birth defect; Is an important medical event that may jeopardize the participant or may require medical treatment to prevent one of the outcomes listed above.",
+      "source_chunk_id": "AZ_demo_p86_b8"
+    }
+  ],
+  "metadata": {
+    "nct_id": null,
+    "sponsor_protocol_number": "D8110C00001",
+    "other_identifiers": {},
+    "sponsor": "AstraZeneca",
+    "indication": "COVID-19",
+    "phase": "3",
+    "full_title": "A Phase III Randomized, Double-blind, Placebo-controlled Multicenter Study in Adults to Determine the Safety, Efficacy, and Immunogenicity of AZD1222, a Non-replicating ChAdOx1 Vector Vaccine, for the Prevention of COVID-19",
+    "short_title": "Phase III Double-blind, Placebo-controlled Study of AZD1222 for the Prevention of COVID-19 in Adults"
+  }
+}

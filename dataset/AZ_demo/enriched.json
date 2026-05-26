@@ -1,0 +1,6375 @@
+{
+  "document_id": "AZ_demo",
+  "schema_version": "fmls-enrichment-1.0",
+  "enriched_at": "2026-05-26T10:26:39.593362Z",
+  "primary_language": "en",
+  "additional_languages": [],
+  "domain": "clinical",
+  "glossary": [],
+  "cross_reference_index": [],
+  "version_history": [],
+  "document_topic_labels": [],
+  "chunks": {
+    "AZ_demo_p38_b6": {
+      "chunk_id": "AZ_demo_p38_b6",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:39.594160Z",
+      "structural": {
+        "chunk_type": "heading",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria"
+        ],
+        "parent_heading": "5.1 Inclusion Criteria",
+        "depth": 2,
+        "page": 38,
+        "bbox": [
+          82.0,
+          144.0,
+          249.0,
+          159.0
+        ],
+        "reading_order_index": 6,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:39.594160Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b6",
+            "start": 0,
+            "end": 22
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:39.594160Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:39.594160Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:39.594160Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:39.594160Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b7": {
+      "chunk_id": "AZ_demo_p38_b7",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:52.440546Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria"
+        ],
+        "parent_heading": "5.1 Inclusion Criteria",
+        "depth": 2,
+        "page": 38,
+        "bbox": [
+          81.0,
+          165.0,
+          529.0,
+          180.0
+        ],
+        "reading_order_index": 7,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:52.440546Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b7",
+            "start": 0,
+            "end": 98
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:52.440546Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "Participants",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b7",
+              "start": 0,
+              "end": 12
+            },
+            "entity_type": "PERSON",
+            "subtype": "PERSON",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:52.440546Z",
+              "confidence": 0.900315523147583,
+              "notes": null
+            }
+          },
+          {
+            "surface": "all of the following criteria",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b7",
+              "start": 62,
+              "end": 91
+            },
+            "entity_type": "TERM",
+            "subtype": "CRITERION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:52.440546Z",
+              "confidence": 0.8055937886238098,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:52.440546Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:52.440546Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:52.440546Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b8": {
+      "chunk_id": "AZ_demo_p38_b8",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:53.073382Z",
+      "structural": {
+        "chunk_type": "heading",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Age"
+        ],
+        "parent_heading": "Age",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          82.0,
+          194.0,
+          106.0,
+          208.0
+        ],
+        "reading_order_index": 8,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.073382Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "tl",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b8",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.073382Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.073382Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.073382Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.073382Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b9": {
+      "chunk_id": "AZ_demo_p38_b9",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:53.076644Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Age"
+        ],
+        "parent_heading": "Age",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          82.0,
+          213.0,
+          331.0,
+          228.0
+        ],
+        "reading_order_index": 9,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.076644Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b9",
+            "start": 0,
+            "end": 52
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.076644Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "Adult",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b9",
+              "start": 2,
+              "end": 7
+            },
+            "entity_type": "PERSON",
+            "subtype": "DEMOGRAPHIC",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.076644Z",
+              "confidence": 0.807571291923523,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.076644Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.076644Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.076644Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b10": {
+      "chunk_id": "AZ_demo_p38_b10",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:53.247514Z",
+      "structural": {
+        "chunk_type": "heading",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Type of Participant"
+        ],
+        "parent_heading": "Type of Participant",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          82.0,
+          248.0,
+          187.0,
+          262.0
+        ],
+        "reading_order_index": 10,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.247514Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b10",
+            "start": 0,
+            "end": 19
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.247514Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.247514Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.247514Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.247514Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b11": {
+      "chunk_id": "AZ_demo_p38_b11",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:53.682604Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Type of Participant"
+        ],
+        "parent_heading": "Type of Participant",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          82.0,
+          267.0,
+          304.0,
+          282.0
+        ],
+        "reading_order_index": 11,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.682604Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b11",
+            "start": 0,
+            "end": 40
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.682604Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.682604Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.682604Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.682604Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b12": {
+      "chunk_id": "AZ_demo_p38_b12",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:53.738029Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Type of Participant"
+        ],
+        "parent_heading": "Type of Participant",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          99.0,
+          287.0,
+          523.0,
+          334.0
+        ],
+        "reading_order_index": 12,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.738029Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b12",
+            "start": 0,
+            "end": 220
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.738029Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "adults",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b12",
+              "start": 13,
+              "end": 19
+            },
+            "entity_type": "PERSON",
+            "subtype": "DEMOGRAPHIC",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.738029Z",
+              "confidence": 0.9342015981674194,
+              "notes": null
+            }
+          },
+          {
+            "surface": "believed to be at risk/exposure",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b12",
+              "start": 188,
+              "end": 219
+            },
+            "entity_type": "CONDITION",
+            "subtype": "CONDITION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.738029Z",
+              "confidence": 0.5118377208709717,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.738029Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.738029Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.738029Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b13": {
+      "chunk_id": "AZ_demo_p38_b13",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:53.810030Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Type of Participant"
+        ],
+        "parent_heading": "Type of Participant",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          81.0,
+          338.0,
+          531.0,
+          384.0
+        ],
+        "reading_order_index": 13,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.810030Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b13",
+            "start": 0,
+            "end": 248
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.810030Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "Medically stable",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b13",
+              "start": 2,
+              "end": 18
+            },
+            "entity_type": "CONDITION",
+            "subtype": "CONDITION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.810030Z",
+              "confidence": 0.8299870491027832,
+              "notes": null
+            }
+          },
+          {
+            "surface": "investigator",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b13",
+              "start": 63,
+              "end": 75
+            },
+            "entity_type": "PERSON",
+            "subtype": "PERSON",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.810030Z",
+              "confidence": 0.887793779373169,
+              "notes": null
+            }
+          },
+          {
+            "surface": "study period",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b13",
+              "start": 104,
+              "end": 116
+            },
+            "entity_type": "QUANTITY",
+            "subtype": "DURATION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.810030Z",
+              "confidence": 0.8598892092704773,
+              "notes": null
+            }
+          },
+          {
+            "surface": "participant",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b13",
+              "start": 144,
+              "end": 155
+            },
+            "entity_type": "PERSON",
+            "subtype": "PERSON",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.810030Z",
+              "confidence": 0.837414026260376,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.810030Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.810030Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.810030Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b14": {
+      "chunk_id": "AZ_demo_p38_b14",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:53.892276Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Type of Participant"
+        ],
+        "parent_heading": "Type of Participant",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          99.0,
+          389.0,
+          520.0,
+          434.0
+        ],
+        "reading_order_index": 14,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.892276Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b14",
+            "start": 0,
+            "end": 175
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.892276Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "stable medical condition",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b14",
+              "start": 4,
+              "end": 28
+            },
+            "entity_type": "CONDITION",
+            "subtype": "CONDITION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.892276Z",
+              "confidence": 0.8690678477287292,
+              "notes": null
+            }
+          },
+          {
+            "surface": "disease",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b14",
+              "start": 43,
+              "end": 50
+            },
+            "entity_type": "CONDITION",
+            "subtype": "CONDITION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.892276Z",
+              "confidence": 0.5642486810684204,
+              "notes": null
+            }
+          },
+          {
+            "surface": "worsening disease",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b14",
+              "start": 118,
+              "end": 135
+            },
+            "entity_type": "CONDITION",
+            "subtype": "CONDITION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.892276Z",
+              "confidence": 0.6721171140670776,
+              "notes": null
+            }
+          },
+          {
+            "surface": "3 months",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b14",
+              "start": 147,
+              "end": 155
+            },
+            "entity_type": "QUANTITY",
+            "subtype": "DURATION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.892276Z",
+              "confidence": 0.8288891911506653,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.892276Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.892276Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.892276Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b15": {
+      "chunk_id": "AZ_demo_p38_b15",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:53.958250Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Type of Participant"
+        ],
+        "parent_heading": "Type of Participant",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          81.0,
+          440.0,
+          527.0,
+          486.0
+        ],
+        "reading_order_index": 15,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.958250Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b15",
+            "start": 0,
+            "end": 205
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.958250Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "caregiver",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b15",
+              "start": 102,
+              "end": 111
+            },
+            "entity_type": "PERSON",
+            "subtype": "PERSON",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.958250Z",
+              "confidence": 0.8332663178443909,
+              "notes": null
+            }
+          },
+          {
+            "surface": "surrogate",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b15",
+              "start": 113,
+              "end": 122
+            },
+            "entity_type": "PERSON",
+            "subtype": "PERSON",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.958250Z",
+              "confidence": 0.8010371327400208,
+              "notes": null
+            }
+          },
+          {
+            "surface": "legally authorized representative",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b15",
+              "start": 127,
+              "end": 160
+            },
+            "entity_type": "PERSON",
+            "subtype": "PERSON",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.958250Z",
+              "confidence": 0.7321906089782715,
+              "notes": null
+            }
+          },
+          {
+            "surface": "investigator",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b15",
+              "start": 193,
+              "end": 205
+            },
+            "entity_type": "PERSON",
+            "subtype": "PERSON",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:53.958250Z",
+              "confidence": 0.8868581652641296,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.958250Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.958250Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:53.958250Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b16": {
+      "chunk_id": "AZ_demo_p38_b16",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.026582Z",
+      "structural": {
+        "chunk_type": "heading",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          82.0,
+          508.0,
+          157.0,
+          522.0
+        ],
+        "reading_order_index": 16,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.026582Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b16",
+            "start": 0,
+            "end": 12
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.026582Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.026582Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.026582Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.026582Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b17": {
+      "chunk_id": "AZ_demo_p38_b17",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.094183Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          81.0,
+          527.0,
+          521.0,
+          559.0
+        ],
+        "reading_order_index": 17,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.094183Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b17",
+            "start": 0,
+            "end": 155
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.094183Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "women",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b17",
+              "start": 23,
+              "end": 28
+            },
+            "entity_type": "PERSON",
+            "subtype": "DEMOGRAPHIC",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.094183Z",
+              "confidence": 0.9120110273361206,
+              "notes": null
+            }
+          },
+          {
+            "surface": "local regulations",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b17",
+              "start": 55,
+              "end": 72
+            },
+            "entity_type": "ORGANIZATION",
+            "subtype": "ORGANIZATION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.094183Z",
+              "confidence": 0.7787204384803772,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.094183Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.094183Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.094183Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b18": {
+      "chunk_id": "AZ_demo_p38_b18",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.159105Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          82.0,
+          562.0,
+          203.0,
+          576.0
+        ],
+        "reading_order_index": 18,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.159105Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "ca",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b18",
+            "start": 0,
+            "end": 21
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.159105Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.159105Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.159105Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.159105Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b19": {
+      "chunk_id": "AZ_demo_p38_b19",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.223792Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          103.0,
+          581.0,
+          317.0,
+          595.0
+        ],
+        "reading_order_index": 19,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.223792Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b19",
+            "start": 0,
+            "end": 41
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.223792Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "Women of childbearing potential",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b19",
+              "start": 4,
+              "end": 35
+            },
+            "entity_type": "PERSON",
+            "subtype": "DEMOGRAPHIC",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.223792Z",
+              "confidence": 0.9313276410102844,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.223792Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.223792Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.223792Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b20": {
+      "chunk_id": "AZ_demo_p38_b20",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.283885Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          123.0,
+          601.0,
+          481.0,
+          615.0
+        ],
+        "reading_order_index": 20,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.283885Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b20",
+            "start": 0,
+            "end": 69
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.283885Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.283885Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.283885Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.283885Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p38_b21": {
+      "chunk_id": "AZ_demo_p38_b21",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.338680Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 38,
+        "bbox": [
+          123.0,
+          618.0,
+          531.0,
+          716.0
+        ],
+        "reading_order_index": 21,
+        "internal_references": [
+          {
+            "surface_text": "Table 6",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b21",
+              "start": 400,
+              "end": 407
+            },
+            "target_section_path": null,
+            "target_chunk_id": null,
+            "reference_kind": "table",
+            "provenance": {
+              "producer": "regex-xref-v1",
+              "producer_version": "1.0",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.338680Z",
+              "confidence": 0.5,
+              "notes": null
+            }
+          }
+        ],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.338680Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p38_b21",
+            "start": 0,
+            "end": 239
+          },
+          {
+            "chunk_id": "AZ_demo_p38_b21",
+            "start": 239,
+            "end": 410
+          },
+          {
+            "chunk_id": "AZ_demo_p38_b21",
+            "start": 410,
+            "end": 509
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.338680Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "28 days",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b21",
+              "start": 62,
+              "end": 69
+            },
+            "entity_type": "QUANTITY",
+            "subtype": "DURATION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.338680Z",
+              "confidence": 0.6017783880233765,
+              "notes": null
+            }
+          },
+          {
+            "surface": "60 days",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b21",
+              "start": 164,
+              "end": 171
+            },
+            "entity_type": "QUANTITY",
+            "subtype": "DURATION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.338680Z",
+              "confidence": 0.6091423034667969,
+              "notes": null
+            }
+          },
+          {
+            "surface": "study intervention",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b21",
+              "start": 219,
+              "end": 237
+            },
+            "entity_type": "PRODUCT",
+            "subtype": "INTERVENTION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.338680Z",
+              "confidence": 0.6280844807624817,
+              "notes": null
+            }
+          },
+          {
+            "surface": "Periodic abstinence",
+            "span": {
+              "chunk_id": "AZ_demo_p38_b21",
+              "start": 410,
+              "end": 429
+            },
+            "entity_type": "QUANTITY",
+            "subtype": "FREQUENCY",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.338680Z",
+              "confidence": 0.680759847164154,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.338680Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.338680Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.338680Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b0": {
+      "chunk_id": "AZ_demo_p39_b0",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.428381Z",
+      "structural": {
+        "chunk_type": "other",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          82.0,
+          34.0,
+          247.0,
+          57.0
+        ],
+        "reading_order_index": 0,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.428381Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b0",
+            "start": 0,
+            "end": 59
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.428381Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.428381Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.428381Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.428381Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b1": {
+      "chunk_id": "AZ_demo_p39_b1",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.487860Z",
+      "structural": {
+        "chunk_type": "other",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          488.0,
+          35.0,
+          542.0,
+          47.0
+        ],
+        "reading_order_index": 1,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.487860Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "es",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b1",
+            "start": 0,
+            "end": 11
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.487860Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "AstraZeneca",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b1",
+              "start": 0,
+              "end": 11
+            },
+            "entity_type": "ORGANIZATION",
+            "subtype": "ORGANIZATION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.487860Z",
+              "confidence": 0.9288840889930725,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.487860Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.487860Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.487860Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b2": {
+      "chunk_id": "AZ_demo_p39_b2",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.545919Z",
+      "structural": {
+        "chunk_type": "other",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          82.0,
+          744.0,
+          254.0,
+          756.0
+        ],
+        "reading_order_index": 2,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.545919Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b2",
+            "start": 0,
+            "end": 28
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.545919Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.545919Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.545919Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.545919Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b3": {
+      "chunk_id": "AZ_demo_p39_b3",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.606975Z",
+      "structural": {
+        "chunk_type": "other",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          291.0,
+          744.0,
+          333.0,
+          755.0
+        ],
+        "reading_order_index": 3,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.606975Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b3",
+            "start": 0,
+            "end": 9
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.606975Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.606975Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.606975Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.606975Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b4": {
+      "chunk_id": "AZ_demo_p39_b4",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.608194Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          102.0,
+          71.0,
+          504.0,
+          102.0
+        ],
+        "reading_order_index": 4,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.608194Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b4",
+            "start": 0,
+            "end": 101
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.608194Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "Women",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b4",
+              "start": 4,
+              "end": 9
+            },
+            "entity_type": "PERSON",
+            "subtype": "DEMOGRAPHIC",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.608194Z",
+              "confidence": 0.9767552018165588,
+              "notes": null
+            }
+          },
+          {
+            "surface": "either of the following criteria",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b4",
+              "start": 68,
+              "end": 100
+            },
+            "entity_type": "TERM",
+            "subtype": "CRITERION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.608194Z",
+              "confidence": 0.6646267771720886,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.608194Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.608194Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.608194Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b5": {
+      "chunk_id": "AZ_demo_p39_b5",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.668385Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          123.0,
+          106.0,
+          541.0,
+          135.0
+        ],
+        "reading_order_index": 5,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.668385Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b5",
+            "start": 0,
+            "end": 105
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.668385Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "bilateral tubal ligation",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b5",
+              "start": 35,
+              "end": 59
+            },
+            "entity_type": "PROCEDURE",
+            "subtype": "PROCEDURE",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.668385Z",
+              "confidence": 0.8178468942642212,
+              "notes": null
+            }
+          },
+          {
+            "surface": "bilateral oophorectomy",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b5",
+              "start": 61,
+              "end": 83
+            },
+            "entity_type": "PROCEDURE",
+            "subtype": "PROCEDURE",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.668385Z",
+              "confidence": 0.7586108446121216,
+              "notes": null
+            }
+          },
+          {
+            "surface": "hysterectomy",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b5",
+              "start": 88,
+              "end": 100
+            },
+            "entity_type": "PROCEDURE",
+            "subtype": "PROCEDURE",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.668385Z",
+              "confidence": 0.8189471960067749,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.668385Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.668385Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.668385Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b6": {
+      "chunk_id": "AZ_demo_p39_b6",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.730156Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          124.0,
+          139.0,
+          233.0,
+          153.0
+        ],
+        "reading_order_index": 6,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.730156Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "lt",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b6",
+            "start": 0,
+            "end": 15
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.730156Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.730156Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.730156Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.730156Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b7": {
+      "chunk_id": "AZ_demo_p39_b7",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.788927Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          146.0,
+          156.0,
+          518.0,
+          171.0
+        ],
+        "reading_order_index": 7,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.788927Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b7",
+            "start": 0,
+            "end": 72
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.788927Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "women",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b7",
+              "start": 6,
+              "end": 11
+            },
+            "entity_type": "PERSON",
+            "subtype": "DEMOGRAPHIC",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.788927Z",
+              "confidence": 0.7773175835609436,
+              "notes": null
+            }
+          },
+          {
+            "surface": "post-menopausal",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b7",
+              "start": 30,
+              "end": 45
+            },
+            "entity_type": "CONDITION",
+            "subtype": "CONDITION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.788927Z",
+              "confidence": 0.924656331539154,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.788927Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.788927Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.788927Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b8": {
+      "chunk_id": "AZ_demo_p39_b8",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.847618Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          167.0,
+          173.0,
+          529.0,
+          219.0
+        ],
+        "reading_order_index": 8,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.847618Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b8",
+            "start": 0,
+            "end": 155
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [
+          {
+            "target_span": {
+              "chunk_id": "AZ_demo_p39_b8",
+              "start": 20,
+              "end": 29
+            },
+            "cue_text": "history of",
+            "cue_span": {
+              "chunk_id": "AZ_demo_p39_b8",
+              "start": 4,
+              "end": 14
+            },
+            "negation_type": "history",
+            "provenance": {
+              "producer": "negex-fallback",
+              "producer_version": "1.0",
+              "prompt_hash": null,
+              "ruleset_version": "custom-clinical-v1",
+              "created_at": "2026-05-26T10:26:54.847618Z",
+              "confidence": 0.75,
+              "notes": null
+            }
+          }
+        ],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.847618Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "12 months",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b8",
+              "start": 20,
+              "end": 29
+            },
+            "entity_type": "QUANTITY",
+            "subtype": "DURATION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.847618Z",
+              "confidence": 0.6304340362548828,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.847618Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.847618Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.847618Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b9": {
+      "chunk_id": "AZ_demo_p39_b9",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.911134Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          167.0,
+          224.0,
+          530.0,
+          274.0
+        ],
+        "reading_order_index": 9,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.911134Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b9",
+            "start": 0,
+            "end": 209
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.911134Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "follicle-stimulating hormone level",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b9",
+              "start": 4,
+              "end": 38
+            },
+            "entity_type": "MEASUREMENT",
+            "subtype": "LAB_VALUE",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.911134Z",
+              "confidence": 0.5109543204307556,
+              "notes": null
+            }
+          },
+          {
+            "surface": "participant",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b9",
+              "start": 152,
+              "end": 163
+            },
+            "entity_type": "PERSON",
+            "subtype": "PERSON",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.911134Z",
+              "confidence": 0.8650779128074646,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.911134Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.911134Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.911134Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b10": {
+      "chunk_id": "AZ_demo_p39_b10",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:54.978393Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          146.0,
+          278.0,
+          536.0,
+          321.0
+        ],
+        "reading_order_index": 10,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.978393Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b10",
+            "start": 0,
+            "end": 217
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [
+          {
+            "target_span": {
+              "chunk_id": "AZ_demo_p39_b10",
+              "start": 82,
+              "end": 96
+            },
+            "cue_text": "history of",
+            "cue_span": {
+              "chunk_id": "AZ_demo_p39_b10",
+              "start": 71,
+              "end": 81
+            },
+            "negation_type": "history",
+            "provenance": {
+              "producer": "negex-fallback",
+              "producer_version": "1.0",
+              "prompt_hash": null,
+              "ruleset_version": "custom-clinical-v1",
+              "created_at": "2026-05-26T10:26:54.978393Z",
+              "confidence": 0.75,
+              "notes": null
+            }
+          },
+          {
+            "target_span": {
+              "chunk_id": "AZ_demo_p39_b10",
+              "start": 97,
+              "end": 107
+            },
+            "cue_text": "history of",
+            "cue_span": {
+              "chunk_id": "AZ_demo_p39_b10",
+              "start": 71,
+              "end": 81
+            },
+            "negation_type": "history",
+            "provenance": {
+              "producer": "negex-fallback",
+              "producer_version": "1.0",
+              "prompt_hash": null,
+              "ruleset_version": "custom-clinical-v1",
+              "created_at": "2026-05-26T10:26:54.978393Z",
+              "confidence": 0.75,
+              "notes": null
+            }
+          },
+          {
+            "target_span": {
+              "chunk_id": "AZ_demo_p39_b10",
+              "start": 132,
+              "end": 160
+            },
+            "cue_text": "history of",
+            "cue_span": {
+              "chunk_id": "AZ_demo_p39_b10",
+              "start": 71,
+              "end": 81
+            },
+            "negation_type": "history",
+            "provenance": {
+              "producer": "negex-fallback",
+              "producer_version": "1.0",
+              "prompt_hash": null,
+              "ruleset_version": "custom-clinical-v1",
+              "created_at": "2026-05-26T10:26:54.978393Z",
+              "confidence": 0.75,
+              "notes": null
+            }
+          }
+        ],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.978393Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "women",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b10",
+              "start": 6,
+              "end": 11
+            },
+            "entity_type": "PERSON",
+            "subtype": "DEMOGRAPHIC",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.978393Z",
+              "confidence": 0.838938295841217,
+              "notes": null
+            }
+          },
+          {
+            "surface": "post-menopausal",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b10",
+              "start": 32,
+              "end": 47
+            },
+            "entity_type": "CONDITION",
+            "subtype": "CONDITION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.978393Z",
+              "confidence": 0.9069870710372925,
+              "notes": null
+            }
+          },
+          {
+            "surface": "\\geq 12 months",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b10",
+              "start": 82,
+              "end": 96
+            },
+            "entity_type": "QUANTITY",
+            "subtype": "DURATION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.978393Z",
+              "confidence": 0.5086023211479187,
+              "notes": null
+            }
+          },
+          {
+            "surface": "amenorrhea",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b10",
+              "start": 97,
+              "end": 107
+            },
+            "entity_type": "CONDITION",
+            "subtype": "CONDITION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.978393Z",
+              "confidence": 0.8337761759757996,
+              "notes": null
+            }
+          },
+          {
+            "surface": "without an alternative cause",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b10",
+              "start": 132,
+              "end": 160
+            },
+            "entity_type": "CONDITION",
+            "subtype": "CONDITION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:54.978393Z",
+              "confidence": 0.7214943170547485,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.978393Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.978393Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:54.978393Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b11": {
+      "chunk_id": "AZ_demo_p39_b11",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:55.044834Z",
+      "structural": {
+        "chunk_type": "table",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          83.0,
+          355.0,
+          541.0,
+          507.0
+        ],
+        "reading_order_index": 11,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.044834Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.044834Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.044834Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.044834Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.044834Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b12": {
+      "chunk_id": "AZ_demo_p39_b12",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:55.044966Z",
+      "structural": {
+        "chunk_type": "caption",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          88.0,
+          336.0,
+          398.0,
+          352.0
+        ],
+        "reading_order_index": 12,
+        "internal_references": [
+          {
+            "surface_text": "Table 6",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b12",
+              "start": 0,
+              "end": 7
+            },
+            "target_section_path": null,
+            "target_chunk_id": null,
+            "reference_kind": "table",
+            "provenance": {
+              "producer": "regex-xref-v1",
+              "producer_version": "1.0",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:55.044966Z",
+              "confidence": 0.5,
+              "notes": null
+            }
+          }
+        ],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.044966Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b12",
+            "start": 0,
+            "end": 49
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.044966Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.044966Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.044966Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.044966Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b13": {
+      "chunk_id": "AZ_demo_p39_b13",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:55.098693Z",
+      "structural": {
+        "chunk_type": "footnote",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          88.0,
+          508.0,
+          285.0,
+          518.0
+        ],
+        "reading_order_index": 13,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.098693Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b13",
+            "start": 0,
+            "end": 41
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.098693Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.098693Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.098693Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.098693Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b14": {
+      "chunk_id": "AZ_demo_p39_b14",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:55.152522Z",
+      "structural": {
+        "chunk_type": "footnote",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          88.0,
+          519.0,
+          526.0,
+          542.0
+        ],
+        "reading_order_index": 14,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.152522Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b14",
+            "start": 0,
+            "end": 197
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.152522Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "partner",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b14",
+              "start": 16,
+              "end": 23
+            },
+            "entity_type": "PERSON",
+            "subtype": "PERSON",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:55.152522Z",
+              "confidence": 0.8194313645362854,
+              "notes": null
+            }
+          },
+          {
+            "surface": "partner",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b14",
+              "start": 43,
+              "end": 50
+            },
+            "entity_type": "PERSON",
+            "subtype": "PERSON",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:55.152522Z",
+              "confidence": 0.7685269117355347,
+              "notes": null
+            }
+          },
+          {
+            "surface": "study participant",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b14",
+              "start": 90,
+              "end": 107
+            },
+            "entity_type": "PERSON",
+            "subtype": "PERSON",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:55.152522Z",
+              "confidence": 0.5709449648857117,
+              "notes": null
+            }
+          },
+          {
+            "surface": "partner",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b14",
+              "start": 134,
+              "end": 141
+            },
+            "entity_type": "PERSON",
+            "subtype": "PERSON",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:55.152522Z",
+              "confidence": 0.8670772314071655,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.152522Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.152522Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.152522Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b15": {
+      "chunk_id": "AZ_demo_p39_b15",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:55.218555Z",
+      "structural": {
+        "chunk_type": "footnote",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Reproduction"
+        ],
+        "parent_heading": "Reproduction",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          88.0,
+          542.0,
+          533.0,
+          578.0
+        ],
+        "reading_order_index": 15,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.218555Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b15",
+            "start": 0,
+            "end": 294
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.218555Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "28 days prior to Day 1",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b15",
+              "start": 123,
+              "end": 145
+            },
+            "entity_type": "QUANTITY",
+            "subtype": "DURATION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:55.218555Z",
+              "confidence": 0.6778542995452881,
+              "notes": null
+            }
+          },
+          {
+            "surface": "60 days",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b15",
+              "start": 154,
+              "end": 161
+            },
+            "entity_type": "QUANTITY",
+            "subtype": "DURATION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:55.218555Z",
+              "confidence": 0.716760516166687,
+              "notes": null
+            }
+          },
+          {
+            "surface": "second dose",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b15",
+              "start": 194,
+              "end": 205
+            },
+            "entity_type": "QUANTITY",
+            "subtype": "DOSE",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:55.218555Z",
+              "confidence": 0.8519889116287231,
+              "notes": null
+            }
+          },
+          {
+            "surface": "study intervention",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b15",
+              "start": 209,
+              "end": 227
+            },
+            "entity_type": "PRODUCT",
+            "subtype": "INTERVENTION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:55.218555Z",
+              "confidence": 0.8006247878074646,
+              "notes": null
+            }
+          },
+          {
+            "surface": "participant",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b15",
+              "start": 283,
+              "end": 294
+            },
+            "entity_type": "PERSON",
+            "subtype": "PERSON",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:55.218555Z",
+              "confidence": 0.880842924118042,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.218555Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.218555Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.218555Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b16": {
+      "chunk_id": "AZ_demo_p39_b16",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:55.291714Z",
+      "structural": {
+        "chunk_type": "heading",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Informed Consent"
+        ],
+        "parent_heading": "Informed Consent",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          82.0,
+          590.0,
+          180.0,
+          604.0
+        ],
+        "reading_order_index": 16,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.291714Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b16",
+            "start": 0,
+            "end": 16
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.291714Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.291714Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.291714Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.291714Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p39_b17": {
+      "chunk_id": "AZ_demo_p39_b17",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:55.348077Z",
+      "structural": {
+        "chunk_type": "paragraph",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Informed Consent"
+        ],
+        "parent_heading": "Informed Consent",
+        "depth": 3,
+        "page": 39,
+        "bbox": [
+          82.0,
+          611.0,
+          530.0,
+          643.0
+        ],
+        "reading_order_index": 17,
+        "internal_references": [
+          {
+            "surface_text": "Appendix A",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b17",
+              "start": 60,
+              "end": 70
+            },
+            "target_section_path": null,
+            "target_chunk_id": null,
+            "reference_kind": "appendix",
+            "provenance": {
+              "producer": "regex-xref-v1",
+              "producer_version": "1.0",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:55.348077Z",
+              "confidence": 0.5,
+              "notes": null
+            }
+          }
+        ],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.348077Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p39_b17",
+            "start": 0,
+            "end": 175
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.348077Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "ICF",
+            "span": {
+              "chunk_id": "AZ_demo_p39_b17",
+              "start": 151,
+              "end": 154
+            },
+            "entity_type": "ORGANIZATION",
+            "subtype": "ORGANIZATION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:55.348077Z",
+              "confidence": 0.6687288880348206,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.348077Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.348077Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.348077Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p40_b0": {
+      "chunk_id": "AZ_demo_p40_b0",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:55.413136Z",
+      "structural": {
+        "chunk_type": "other",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Informed Consent"
+        ],
+        "parent_heading": "Informed Consent",
+        "depth": 3,
+        "page": 40,
+        "bbox": [
+          82.0,
+          34.0,
+          245.0,
+          57.0
+        ],
+        "reading_order_index": 0,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.413136Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p40_b0",
+            "start": 0,
+            "end": 59
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.413136Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.413136Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.413136Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.413136Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p40_b1": {
+      "chunk_id": "AZ_demo_p40_b1",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:55.472846Z",
+      "structural": {
+        "chunk_type": "other",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Informed Consent"
+        ],
+        "parent_heading": "Informed Consent",
+        "depth": 3,
+        "page": 40,
+        "bbox": [
+          487.0,
+          35.0,
+          542.0,
+          47.0
+        ],
+        "reading_order_index": 1,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.472846Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "es",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p40_b1",
+            "start": 0,
+            "end": 11
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.472846Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [
+          {
+            "surface": "AstraZeneca",
+            "span": {
+              "chunk_id": "AZ_demo_p40_b1",
+              "start": 0,
+              "end": 11
+            },
+            "entity_type": "ORGANIZATION",
+            "subtype": "ORGANIZATION",
+            "canonical_id": null,
+            "canonical_vocab": null,
+            "canonical_uri": null,
+            "provenance": {
+              "producer": "gliner-bio",
+              "producer_version": "urchade/gliner_large_bio-v0.1",
+              "prompt_hash": null,
+              "ruleset_version": null,
+              "created_at": "2026-05-26T10:26:55.472846Z",
+              "confidence": 0.9288840889930725,
+              "notes": null
+            }
+          }
+        ],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.472846Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.472846Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.472846Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p40_b2": {
+      "chunk_id": "AZ_demo_p40_b2",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:55.530791Z",
+      "structural": {
+        "chunk_type": "other",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Informed Consent"
+        ],
+        "parent_heading": "Informed Consent",
+        "depth": 3,
+        "page": 40,
+        "bbox": [
+          82.0,
+          744.0,
+          253.0,
+          755.0
+        ],
+        "reading_order_index": 2,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.530791Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p40_b2",
+            "start": 0,
+            "end": 28
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.530791Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.530791Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.530791Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.530791Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    },
+    "AZ_demo_p40_b3": {
+      "chunk_id": "AZ_demo_p40_b3",
+      "schema_version": "fmls-enrichment-1.0",
+      "enriched_at": "2026-05-26T10:26:55.591556Z",
+      "structural": {
+        "chunk_type": "other",
+        "section_path": [
+          "5 STUDY POPULATION",
+          "5.1 Inclusion Criteria",
+          "Informed Consent"
+        ],
+        "parent_heading": "Informed Consent",
+        "depth": 3,
+        "page": 40,
+        "bbox": [
+          291.0,
+          744.0,
+          332.0,
+          755.0
+        ],
+        "reading_order_index": 3,
+        "internal_references": [],
+        "co_occurring_chunks": [],
+        "version_anchor": null,
+        "supersedes_chunk_id": null,
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-chunker",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.591556Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "linguistic": {
+        "language": "en",
+        "script": null,
+        "sentence_spans": [
+          {
+            "chunk_id": "AZ_demo_p40_b3",
+            "start": 0,
+            "end": 9
+          }
+        ],
+        "acronym_uses": [],
+        "defined_term_uses": [],
+        "negation_annotations": [],
+        "certainty_annotations": [],
+        "temporal_annotations": [],
+        "coreference_clusters": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-linguistic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.591556Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "semantic": {
+        "entities": [],
+        "relations": [],
+        "topic_labels": [],
+        "citations": [],
+        "embedding_id": null,
+        "nearest_neighbor_chunk_ids": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-semantic",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.591556Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "quality": {
+        "ocr_confidence": null,
+        "layout_confidence": null,
+        "completeness_score": 1.0,
+        "boilerplate_score": 0.0,
+        "near_duplicate_chunk_ids": [],
+        "language_purity": 1.0,
+        "pii_detected": false,
+        "pii_annotations": [],
+        "quality_flags": [],
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-quality",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.591556Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "domain": {
+        "domain": "clinical",
+        "section_taxonomy_mapping": {
+          "ich_m11": "5.1"
+        },
+        "role_hints": [
+          "inclusion_criterion"
+        ],
+        "schema_class_hints": [
+          "EligibilityCriterion",
+          "EligibilityCriterionItem"
+        ],
+        "custom": {
+          "functional_label": "eligibility_inclusion"
+        },
+        "layer_version": "fmls-enrichment-1.0",
+        "provenance": {
+          "producer": "fmls-domain-clinical",
+          "producer_version": "0.1",
+          "prompt_hash": null,
+          "ruleset_version": null,
+          "created_at": "2026-05-26T10:26:55.591556Z",
+          "confidence": 1.0,
+          "notes": null
+        }
+      },
+      "table": null,
+      "figure": null,
+      "code": null,
+      "equation": null
+    }
+  },
+  "producers_used": [
+    "fmls-chunker",
+    "fmls-linguistic",
+    "fmls-semantic"
+  ],
+  "total_annotations": 58
+}
