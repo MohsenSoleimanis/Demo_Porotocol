@@ -1,0 +1,535 @@
+{
+  "doc_id": "NCT04194944",
+  "schema_version": "fmls-doc-indexes-1.0",
+  "built_at": "2026-05-26T10:09:41.513599Z",
+  "cross_references": [
+    {
+      "surface": "section 6.6.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p48_b4",
+      "target_section_path": [
+        "6. Study Intervention"
+      ]
+    },
+    {
+      "surface": "Section 8.1.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 8.2.2.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Table 2",
+      "kind": "table",
+      "target_chunk_id": null,
+      "target_section_path": null
+    },
+    {
+      "surface": "Section 5",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p41_b4",
+      "target_section_path": [
+        "5. Study Population"
+      ]
+    },
+    {
+      "surface": "Section 8.8",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 8.8.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 8.2.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 8.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 8.5",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 8.9",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 6.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p48_b4",
+      "target_section_path": [
+        "6. Study Intervention"
+      ]
+    },
+    {
+      "surface": "Section 5.2.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p43_b12",
+      "target_section_path": [
+        "7. Ability to swallow capsules.",
+        "5.2. Exclusion Criteria"
+      ]
+    },
+    {
+      "surface": "Section 9.3",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b33",
+      "target_section_path": [
+        "9. Statistical Considerations 80"
+      ]
+    },
+    {
+      "surface": "Section 1.3",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p13_b4",
+      "target_section_path": [
+        "1. Protocol Summary",
+        "1.3. Schedule of Activities (SoA)"
+      ]
+    },
+    {
+      "surface": "Section 6.5.1.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p48_b4",
+      "target_section_path": [
+        "6. Study Intervention"
+      ]
+    },
+    {
+      "surface": "Section 6.5.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p48_b4",
+      "target_section_path": [
+        "6. Study Intervention"
+      ]
+    },
+    {
+      "surface": "Section 8.2.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 4.4",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p38_b4",
+      "target_section_path": [
+        "4. Study Design"
+      ]
+    },
+    {
+      "surface": "Section 7",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b4",
+      "target_section_path": [
+        "7. Discontinuation of Study Intervention and Participant Discontinuation/Withdrawal 63"
+      ]
+    },
+    {
+      "surface": "Section 8.3",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 8.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 10.1.8.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p88_b4",
+      "target_section_path": [
+        "10. Supporting Documentation and Operational Considerations"
+      ]
+    },
+    {
+      "surface": "Section 6.6",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p48_b4",
+      "target_section_path": [
+        "6. Study Intervention"
+      ]
+    },
+    {
+      "surface": "Section 8.3.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 5.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p41_b6",
+      "target_section_path": [
+        "5. Study Population",
+        "5.1. Inclusion Criteria"
+      ]
+    },
+    {
+      "surface": "Section 9.5",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b33",
+      "target_section_path": [
+        "9. Statistical Considerations 80"
+      ]
+    },
+    {
+      "surface": "Section 8.3.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 6.5",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p48_b4",
+      "target_section_path": [
+        "6. Study Intervention"
+      ]
+    },
+    {
+      "surface": "Section 3",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p36_b4",
+      "target_section_path": [
+        "3. Objectives and Endpoints"
+      ]
+    },
+    {
+      "surface": "Section 4.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p38_b4",
+      "target_section_path": [
+        "4. Study Design"
+      ]
+    },
+    {
+      "surface": "section 9.4.3.3",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b33",
+      "target_section_path": [
+        "9. Statistical Considerations 80"
+      ]
+    },
+    {
+      "surface": "Section 1.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p8_b5",
+      "target_section_path": [
+        "1. Protocol Summary",
+        "1.1. Synopsis"
+      ]
+    },
+    {
+      "surface": "Section 1.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p12_b4",
+      "target_section_path": [
+        "1. Protocol Summary",
+        "1.2. Schema"
+      ]
+    },
+    {
+      "surface": "Section 4.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p38_b4",
+      "target_section_path": [
+        "4. Study Design"
+      ]
+    },
+    {
+      "surface": "Section 5.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p43_b12",
+      "target_section_path": [
+        "7. Ability to swallow capsules.",
+        "5.2. Exclusion Criteria"
+      ]
+    },
+    {
+      "surface": "Section 6.1.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p48_b4",
+      "target_section_path": [
+        "6. Study Intervention"
+      ]
+    },
+    {
+      "surface": "Section 6.3",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p48_b4",
+      "target_section_path": [
+        "6. Study Intervention"
+      ]
+    },
+    {
+      "surface": "Section 6.5.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p48_b4",
+      "target_section_path": [
+        "6. Study Intervention"
+      ]
+    },
+    {
+      "surface": "Section 8.1.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 8.8.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 8.9.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b9",
+      "target_section_path": [
+        "8. Study Assessments and Procedures 65"
+      ]
+    },
+    {
+      "surface": "Section 9.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b33",
+      "target_section_path": [
+        "9. Statistical Considerations 80"
+      ]
+    },
+    {
+      "surface": "Section 9.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b33",
+      "target_section_path": [
+        "9. Statistical Considerations 80"
+      ]
+    },
+    {
+      "surface": "Section 9.4.3.1",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b33",
+      "target_section_path": [
+        "9. Statistical Considerations 80"
+      ]
+    },
+    {
+      "surface": "Section 9.4.3.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b33",
+      "target_section_path": [
+        "9. Statistical Considerations 80"
+      ]
+    },
+    {
+      "surface": "Section 9.4.4",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p6_b33",
+      "target_section_path": [
+        "9. Statistical Considerations 80"
+      ]
+    },
+    {
+      "surface": "Section 10.2",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p88_b4",
+      "target_section_path": [
+        "10. Supporting Documentation and Operational Considerations"
+      ]
+    },
+    {
+      "surface": "Section 10.5",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p88_b4",
+      "target_section_path": [
+        "10. Supporting Documentation and Operational Considerations"
+      ]
+    },
+    {
+      "surface": "Section 10.6",
+      "kind": "section",
+      "target_chunk_id": "NCT04194944_p88_b4",
+      "target_section_path": [
+        "10. Supporting Documentation and Operational Considerations"
+      ]
+    }
+  ],
+  "acronyms": [
+    {
+      "surface": "IB",
+      "expansion": "Investigator Brochure",
+      "source_chunk_id": "NCT04194944_p2_b9",
+      "inferred_by": "regex"
+    },
+    {
+      "surface": "ECOG",
+      "expansion": "Eastern Cooperative Oncology Group",
+      "source_chunk_id": "NCT04194944_p10_b11",
+      "inferred_by": "regex"
+    },
+    {
+      "surface": "IDMC",
+      "expansion": "Independent Data Monitoring Committee",
+      "source_chunk_id": "NCT04194944_p34_b10",
+      "inferred_by": "regex"
+    },
+    {
+      "surface": "CLIA",
+      "expansion": "Clinical Laboratory Improvement Amendments",
+      "source_chunk_id": "NCT04194944_p38_b12",
+      "inferred_by": "regex"
+    },
+    {
+      "surface": "DL",
+      "expansion": "Dose Level",
+      "source_chunk_id": "NCT04194944_p59_b4",
+      "inferred_by": "regex"
+    },
+    {
+      "surface": "UK",
+      "expansion": "United Kingdom",
+      "source_chunk_id": "NCT04194944_p64_b10",
+      "inferred_by": "regex"
+    },
+    {
+      "surface": "CT",
+      "expansion": "Computed tomography",
+      "source_chunk_id": "NCT04194944_p65_b14",
+      "inferred_by": "regex"
+    },
+    {
+      "surface": "IRB",
+      "expansion": "Institutional Review Boards",
+      "source_chunk_id": "NCT04194944_p74_b8",
+      "inferred_by": "regex"
+    },
+    {
+      "surface": "IEC",
+      "expansion": "Independent Ethics Committees",
+      "source_chunk_id": "NCT04194944_p74_b8",
+      "inferred_by": "regex"
+    },
+    {
+      "surface": "GDPR",
+      "expansion": "General Data Protection Regulation",
+      "source_chunk_id": "NCT04194944_p89_b14",
+      "inferred_by": "regex"
+    }
+  ],
+  "glossary": [
+    {
+      "surface": "End of Study",
+      "definition": "The end of the study is defined as the date of the last visit of the last participant in the study or last scheduled procedure shown in the SoA for the last participant in the trial globally.",
+      "source_chunk_id": "NCT04194944_p40_b5"
+    },
+    {
+      "surface": "Events meeting the AE definition",
+      "definition": "Any abnormal laboratory test results or other safety assessments, for example, ECG, radiological scans, and vital signs measurements, including those that worsen from baseline, considered clinically significant in the medical and scientific judgment of the investigator, that is, not related to progression of underlying disease.",
+      "source_chunk_id": "NCT04194944_p71_b12"
+    },
+    {
+      "surface": "Exacerbation of a chronic or intermittent pre-existing condition",
+      "definition": "Including either an increase in frequency and/or intensity of the condition.",
+      "source_chunk_id": "NCT04194944_p71_b14"
+    },
+    {
+      "surface": "New condition",
+      "definition": "Detected or diagnosed after study intervention administration even though it may have been present before the start of the study.",
+      "source_chunk_id": "NCT04194944_p72_b4"
+    },
+    {
+      "surface": "Signs, symptoms, or the clinical sequelae of a suspected drug-drug interaction",
+      "definition": "",
+      "source_chunk_id": "NCT04194944_p72_b5"
+    },
+    {
+      "surface": "Medication error, misuse, or abuse of IMP",
+      "definition": "Including signs, symptoms, or clinical sequelae.",
+      "source_chunk_id": "NCT04194944_p72_b6"
+    },
+    {
+      "surface": "Lack of efficacy or failure of expected pharmacological action",
+      "definition": "Per se will not be reported as an AE or SAE. Such instances will be captured in the efficacy assessments.",
+      "source_chunk_id": "NCT04194944_p72_b7"
+    },
+    {
+      "surface": "Woman of Childbearing Potential (WOCBP)",
+      "definition": "A woman is considered fertile following menarche and until becoming postmenopausal unless permanently sterile.",
+      "source_chunk_id": "NCT04194944_p95_b6"
+    },
+    {
+      "surface": "Postmenopausal state",
+      "definition": "Defined as no menses for 12 months without an alternative medical cause.",
+      "source_chunk_id": "NCT04194944_p95_b18"
+    }
+  ],
+  "metadata": {
+    "nct_id": "NCT04194944",
+    "sponsor_protocol_number": "J2G-MC-JZJC",
+    "other_identifiers": {
+      "eudract": "2019-001979-36",
+      "IND": "144697",
+      "EudraCT": "2019-001979-36",
+      "EU trial number": "2023-506783-14-00"
+    },
+    "sponsor": null,
+    "indication": "Advanced or metastatic RET fusion-positive non-small cell lung cancer",
+    "phase": "3",
+    "full_title": "LIBRETTO-431: A Multicenter, Randomized, Open-Label, Phase 3 Trial Comparing Selpercatinib to Platinum-Based and Pemetrexed Therapy with or without Pembrolizumab as Initial Treatment of Advanced or Metastatic RET Fusion-Positive Non-Small Cell Lung Cancer",
+    "short_title": "A Phase 3 Trial Comparing Selpercatinib to Platinum-Based and Pemetrexed Therapy with or without Pembrolizumab (LIBRETTO-431)"
+  }
+}
