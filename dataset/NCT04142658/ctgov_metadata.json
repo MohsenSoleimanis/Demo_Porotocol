@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT04142658",
+  "brief_title": "PROACT Xa - A Trial to Determine if Participants With an On-X Aortic Valve Can be Maintained Safely on Apixaban",
+  "official_title": "A Prospective, Randomized, Active (Warfarin) Controlled, Parallel-arm Clinical Trial to Determine if Participants With an On-X Aortic Valve Can be Maintained Safely and Effectively on Apixaban",
+  "lead_sponsor": "Artivion Inc.",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [
+    "Duke Clinical Research Institute"
+  ],
+  "overall_status": "TERMINATED",
+  "start_date": "2020-05-01",
+  "completion_date": "2022-12-12",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "NONE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 863,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Aortic Valve Disease",
+    "Aortic Valve Stenosis",
+    "Aortic Valve Failure"
+  ],
+  "keywords": [],
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female at least 18 years of age at the time of giving informed consent.\n* Participants currently receiving warfarin anticoagulation and who are able to receive warfarin with a target INR 2.0 to 3.0.\n* Participants are able to take low-dose aspirin at a dose of 75 -100 mg daily or have a documented contraindication to aspirin use.\n* Implantation of an On-X mechanical valve in the aortic position at least 3 months (90 days) ago.\n* Female participants of childbearing potential, including those who are less than 2 years post-menopausal, must agree to, and comply with using a highly effective method of birth control (eg, barrier contraceptives \\[condom or diaphragm with a spermicidal gel\\], hormonal contraceptives \\[implants, injectables, combination oral contraceptives, transdermal patches, or contraceptive rings\\], intrauterine devices or sexual abstinence) while partaking in this study. In addition, all women of childbearing potential must agree to continue to use birth control throughout the study until last study visit.\n* Informed of the full nature and purpose of the study, including possible risks and side effects, given ample time and opportunity to read and understand this information, and sign and date the written informed consent before inclusion in the study.\n\nExclusion Criteria:\n\n* Mechanical valve in any position other than aortic valve.\n* Any cardiac surgery in the three months (90 days) prior to enrollment.\n* Need to be on aspirin \\>100 mg daily or a P2Y12 inhibitor (clopidogrel, ticagrelor, prasugrel, or ticlopidine).\n* Known hypersensitivity or other contraindication to apixaban.\n* On dialysis or a creatinine clearance \\< 25 mL/min.\n* Ischemic stroke or intracranial hemorrhage within 3 months.\n* Active pathological bleeding at the time of screening for enrollment.\n* Active endocarditis at the time of screening for enrollment.\n* Pregnant, plan to become pregnant, or are breast feeding.\n* On concomitant combined strong P-gp and CYP3A4 inducers or inhibitors.\n* History of non-compliance with recommended monthly INR testing.",
+  "sex": "ALL",
+  "min_age": "18 Years",
+  "max_age": null,
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "Apixaban",
+      "type": "EXPERIMENTAL",
+      "description": "Apixaban 5 mg twice daily(BID) or 2.5 mg BID",
+      "intervention_names": [
+        "Drug: Apixaban 5 MG",
+        "Drug: Apixaban 2.5 MG",
+        "Device: On-X Aortic Mechanical Valve"
+      ]
+    },
+    {
+      "label": "Warfarin",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "Patients randomized to the warfarin arm will continue warfarin in the INR range of (2.0-3.0)",
+      "intervention_names": [
+        "Drug: Warfarin",
+        "Device: On-X Aortic Mechanical Valve"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Apixaban 5 MG",
+      "description": "For patients that do NOT meet the following criteria\n\n* age \u2265 80 years\n* weight \u2264 60 kilograms\n* creatinine \u2265 1.5 mg/dL (133 micromol/L)",
+      "arm_group_labels": [
+        "Apixaban"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Apixaban 2.5 MG",
+      "description": "For patients that meet at least 2 of the following criteria\n\n* age \u2265 80 years\n* weight \u2264 60 kilograms\n* creatinine \u2265 1.5 mg/dL (133 micromol/L)",
+      "arm_group_labels": [
+        "Apixaban"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Warfarin",
+      "description": "Active Control Intervention",
+      "arm_group_labels": [
+        "Warfarin"
+      ]
+    },
+    {
+      "type": "DEVICE",
+      "name": "On-X Aortic Mechanical Valve",
+      "description": "Inclusion Criterion: Implantation of an On-X mechanical valve in the aortic position at least 3 months (90 days) ago.",
+      "arm_group_labels": [
+        "Apixaban",
+        "Warfarin"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Composite of Valve Thrombosis and Valve-related Thromboembolism",
+      "description": "Valve thrombosis was defined as any thrombus, not caused by infection, attached to or near an implanted On-X valve that occluded part of the blood-flow path, interfered with valve function, or was sufficiently large to warrant treatment other than continued oral anticoagulation. Valve-related thromboembolism was defined as any thromboembolic stroke, transient ischemic attack, myocardial infarction, or arterial thromboembolism to an organ or limb that was not associated with infection or an intracardiac tumor and was definitely or possibly related to the valve.",
+      "time_frame": "through study closure, a median follow-up of 13.5 months"
+    },
+    {
+      "measure": "Major Bleeding",
+      "description": "Major bleeding defined as any episode of internal or external bleeding that caused death, hospitalization, or permanent injury or necessitated transfusion, pericardiocentesis, or reoperation.",
+      "time_frame": "through study closure, a median follow-up of 13.5 months"
+    }
+  ],
+  "secondary_outcomes": []
+}

@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% block title %}{{ filename }} — FMLS{% endblock %}
+{% block nav %}<a href="/">all docs</a>{% endblock %}
+{% block content %}
+<h1>{{ filename }}</h1>
+<p class="muted">{{ total_pages }} pages ·
+  routes:
+  {% for r, c in routes.items() %}<span class="route route-{{ r }}">{{ r }}:{{ c }}</span>{% endfor %}
+  · total {{ '%.1f s'|format((stage_timings_ms.get('total_ms', 0) or 0) / 1000) }}
+  (triage {{ '%.0f ms'|format(stage_timings_ms.get('triage_ms', 0) or 0) }},
+  mineru {{ '%.0f ms'|format(stage_timings_ms.get('mineru_bulk_ms', 0) or 0) }},
+  parse {{ '%.0f ms'|format(stage_timings_ms.get('parse_ms', 0) or 0) }})
+</p>
+
+{# ===== Document tree (from chunks.json if available) ===== #}
+{% if tree_data %}
+{% set cov = tree_data.m11_coverage %}
+<section class="doc-tree-section">
+  <div class="tree-header">
+    <h2 style="margin:0">Document tree</h2>
+    <div class="m11-cov">
+      <strong>ICH M11 coverage: {{ cov.percent }}%</strong>
+      <span class="m11-coverage-bar">
+        {% for s in ['1','2','3','4','5','6','7','8','9','10','11'] %}
+          {% set on = s in cov.present %}
+          <span class="m11-cell {% if on %}on{% else %}off{% endif %}" title="§{{ s }} {{ 'present' if on else 'missing' }}">§{{ s }}</span>
+        {% endfor %}
+      </span>
+    </div>
+  </div>
+  <div class="tree-controls">
+    <button type="button" id="tree-expand">Expand all</button>
+    <button type="button" id="tree-collapse">Collapse all</button>
+    <input type="search" id="tree-filter" placeholder="filter sections..." />
+  </div>
+  <ul class="doc-tree">
+    {% macro render_node(node) %}
+      <li class="tree-node" data-label="{{ (node.label or '') | lower }}">
+        <details {% if node.children and node.path|length <= 1 %}open{% endif %}>
+          <summary>
+            {% if node.m11_section %}<span class="chip m11-chip" title="ICH M11 §{{ node.m11_section }}">§{{ node.m11_section }}</span>{% endif %}
+            <a class="tree-link" href="/docs/{{ stem }}/p/{{ node.page_num }}">{{ node.label }}</a>
+            <span class="muted small">page {{ node.page_num + 1 }} · {{ node.chunk_count }} chunk{% if node.chunk_count != 1 %}s{% endif %}</span>
+          </summary>
+          {% if node.children %}
+            <ul>
+              {% for ch in node.children %}{{ render_node(ch) }}{% endfor %}
+            </ul>
+          {% endif %}
+        </details>
+      </li>
+    {% endmacro %}
+    {% for node in tree_data.tree %}{{ render_node(node) }}{% endfor %}
+  </ul>
+</section>
+
+<script>
+(function () {
+  const root = document.querySelector('.doc-tree');
+  if (!root) return;
+  const allDetails = () => root.querySelectorAll('details');
+  document.getElementById('tree-expand').addEventListener('click', () => {
+    allDetails().forEach(d => d.open = true);
+  });
+  document.getElementById('tree-collapse').addEventListener('click', () => {
+    allDetails().forEach(d => d.open = false);
+  });
+  const filter = document.getElementById('tree-filter');
+  filter.addEventListener('input', () => {
+    const q = filter.value.trim().toLowerCase();
+    if (!q) {
+      root.querySelectorAll('.tree-node').forEach(n => n.style.display = '');
+      return;
+    }
+    // Mark matching nodes; show ancestors of any match.
+    const matches = new Set();
+    root.querySelectorAll('.tree-node').forEach(n => {
+      if (n.dataset.label && n.dataset.label.includes(q)) {
+        matches.add(n);
+        let p = n.parentElement;
+        while (p && p !== root) {
+          if (p.classList && p.classList.contains('tree-node')) matches.add(p);
+          p = p.parentElement;
+        }
+      }
+    });
+    root.querySelectorAll('.tree-node').forEach(n => {
+      n.style.display = matches.has(n) ? '' : 'none';
+      if (matches.has(n)) {
+        const d = n.querySelector(':scope > details');
+        if (d) d.open = true;
+      }
+    });
+  });
+})();
+</script>
+{% else %}
+<p class="muted small">No <code>chunks.json</code> for this doc yet — run <code>scripts/build_chunks.py --stem {{ stem }}</code> to build the section tree.</p>
+{% endif %}
+
+<h2>Triage table</h2>
+<table class="grid sticky">
+  <thead>
+    <tr>
+      <th>Page</th>
+      <th>Route</th>
+      <th>Status</th>
+      <th>Blocks</th>
+      <th>Time</th>
+      <th>Tables</th>
+      <th>Cols</th>
+      <th>Scanned?</th>
+      <th>Block types</th>
+      <th>Reason</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for row in rows %}
+    <tr>
+      <td><a href="/docs/{{ stem }}/p/{{ row.page_num }}">{{ row.page_num + 1 }}</a></td>
+      <td><span class="route route-{{ row.route }}">{{ row.route }}</span></td>
+      <td class="status status-{{ row.status }}">{{ row.status }}</td>
+      <td class="num">{{ row.blocks }}</td>
+      <td class="num">{{ '%.0f ms'|format(row.duration_ms) }}</td>
+      <td class="num">{{ row.n_tables }}</td>
+      <td class="num">{{ row.n_cols }}</td>
+      <td>{% if row.scanned %}yes{% else %}no{% endif %}</td>
+      <td class="types">
+        {% for t, c in row.type_counts.items() %}<span class="chip chip-{{ t }}">{{ t }}:{{ c }}</span>{% endfor %}
+      </td>
+      <td class="muted">{{ row.reason }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

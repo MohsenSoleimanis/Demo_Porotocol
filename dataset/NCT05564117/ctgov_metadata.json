@@ -1,0 +1,206 @@
+{
+  "nct_id": "NCT05564117",
+  "brief_title": "Research Study Looking at How Well Semaglutide Tablets Taken Once Daily Work in People Who Have a Body Weight Above the Healthy Range",
+  "official_title": "Efficacy and Safety of Oral Semaglutide 25 mg Once Daily in Adults With Overweight or Obesity",
+  "lead_sponsor": "Novo Nordisk A/S",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "overall_status": "COMPLETED",
+  "start_date": "2022-10-11",
+  "completion_date": "2024-05-07",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 307,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Overweight",
+    "Obesity"
+  ],
+  "keywords": [],
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Informed consent obtained before any study-related activities. Study-related activities are any procedures that are carried out as part of the study, including activities to determine suitability for the study\n* Male or female, age greater than or equal to 18 years at the time of signing informed consent\n* Body mass index (BMI) of\n* Greater than or equal to 27.0 kg/m\\^2 with the presence of at least one of the following weight-related complications (treated or untreated): hypertension, dyslipidaemia, obstructive sleep apnoea or cardiovascular (CV) disease OR\n* Greater than or equal to 30.0 kg/m\\^2\n* History of at least one self-reported unsuccessful dietary effort to lose body weight\n\nExclusion Criteria:\n\n* A self-reported change in body weight greater than 5 kg (11 pound \\[lbs\\]) within 90 days before screening irrespective of medical records\n* HbA1c greater than or equal to 6.5 percent (48 mmol/mol) as measured by the central laboratory at screening",
+  "sex": "ALL",
+  "min_age": "18 Years",
+  "max_age": null,
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "Oral semaglutide 25 mg",
+      "type": "EXPERIMENTAL",
+      "description": "Participants will receive semaglutide tablets orally once daily. Participants will receive semaglutide in a dose escalation manner for 64 weeks: 3 mg (weeks 0 to 4), 7 mg (weeks 5 to 8), 14 mg (weeks 9 to 12), and 25 mg (weeks 13 to 64).",
+      "intervention_names": [
+        "Drug: Semaglutide"
+      ]
+    },
+    {
+      "label": "Oral semaglutide placebo",
+      "type": "PLACEBO_COMPARATOR",
+      "description": "Participants will receive placebo tablets matched to semaglutide orally once daily for 64 weeks.",
+      "intervention_names": [
+        "Drug: Placebo semaglutide"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Semaglutide",
+      "description": "Semaglutide tablets orally once daily for 64 weeks.",
+      "arm_group_labels": [
+        "Oral semaglutide 25 mg"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Placebo semaglutide",
+      "description": "Semaglutide placebo-matching tablets orally once daily for 64 weeks.",
+      "arm_group_labels": [
+        "Oral semaglutide placebo"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Percentage Change in Body Weight",
+      "description": "Percentage change in body weight from baseline (week 0) to end of treatment (week 64) is presented.",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Number of Participants Who Achieved Body Weight Reduction Greater Than or Equal to (\u2265) 5% (Yes/No)",
+      "description": "Number of participants who achieved \u22655% body weight reduction at the end of treatment (week 64) from baseline (week 0) is presented. In the reported data, 'Yes' infers the number of participants who have achieved greater than or equal to 5% weight reduction, whereas 'No' infers the number of participants who have not achieved greater than or equal to 5% weight reduction.",
+      "time_frame": "At end of treatment (week 64)"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Number of Participants Who Achieved Body Weight Reduction \u2265 10% (Yes/No)",
+      "description": "Number of participants who achieved \u2265 10% weight reduction at end of treatment (week 64) from baseline (week 0) is presented. In the reported data, 'Yes' infers the number of participants who have achieved greater than or equal to 10% weight reduction, whereas 'No' infers the number of participants who have not achieved greater than or equal to 10% weight reduction.",
+      "time_frame": "At end of treatment (week 64)"
+    },
+    {
+      "measure": "Number of Participants Who Achieved Body Weight Reduction \u2265 15% (Yes/No)",
+      "description": "Number of participants who achieved \u2265 15% weight reduction at end of treatment (week 64) from baseline (week 0) is presented. In the reported data, 'Yes' infers the number of participants who have achieved greater than or equal to 15% weight reduction, whereas 'No' infers the number of participants who have not achieved greater than or equal to 15% weight reduction.",
+      "time_frame": "At end of treatment (week 64)"
+    },
+    {
+      "measure": "Number of Participants Who Achieved Body Weight Reduction \u2265 20% (Yes/No)",
+      "description": "Number of participants who achieved \u2265 20% weight reduction at end of treatment (week 64) from baseline (week 0) is presented. In the reported data, 'Yes' infers the number of participants who have achieved greater than or equal to 20% weight reduction, whereas 'No' infers the number of participants who have not achieved greater than or equal to 20% weight reduction.",
+      "time_frame": "At end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Physical Function Domain (5-items) Score Impact of Weight on Quality of Life-Lite for Clinical Trials (IWQOL-Lite for CT)",
+      "description": "Change in physical function domain score IWQOL-Lite-CT from baseline (week 0) to the end of treatment (week 64) is presented. IWQOL-Lite-CT is a 20-item obesity-specific PRO measures used to assess the impact of body weight changes on patient's physical (7 items, where 5 of the items comprise the physical functioning sub-domain) and psychosocial functioning (13 items) in 3 composite scores (Physical Function, Physical and Psychosocial) and a Total score, all ranging from 0 to 100 with higher scores reflecting better levels of functioning. This outcome measure shows results for 'physical function domain'.",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Number of Participants Who Achieved \u226514.6 IWQOL-Lite-CT Physical Function Domain (PFD) Score (Yes/No)",
+      "description": "Number of participants who achieved \u226514.6 in IWQOL-Lite-CT PFD score (Yes/No) from baseline to end of treatment (week 64) is presented. IWQOL-Lite-CT is a 20-item obesity-specific PRO measures used to assess the impact of body weight changes on patient's physical (7 items, where 5 of the items comprise the physical functioning sub-domain) and psychosocial functioning (13 items) in 3 composite scores (Physical Function, Physical and Psychosocial) and a Total score, all ranging from 0 to 100 with higher scores reflecting better levels of functioning.",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Body Weight - Kilogram (kg)",
+      "description": "Change in body weight from baseline (week 0) to end of treatment (week 64) is presented.",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Body Mass Index (BMI)",
+      "description": "Change in BMI from baseline (week 0) to end of treatment (week 64) is presented.",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Waist Circumference",
+      "description": "Change in waist circumference from baseline (week 0) to end of treatment (week 64) is presented.",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Systolic Blood Pressure",
+      "description": "Change in systolic blood pressure from baseline (week 0) to end of treatment (week 64) is presented.",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Diastolic Blood Pressure",
+      "description": "Change in diastolic blood pressure from randomisation (week 0) to end of treatment (week 64) is presented.",
+      "time_frame": "Randomisation (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Glycosylated Haemoglobin (HbA1c)",
+      "description": "Change in HbA1c from baseline (week 0) to end of treatment (week 64) is presented.",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Total Cholesterol - Ratio to Baseline",
+      "description": "Change in total cholesterol (measured in millimoles per liter \\[mmol/L\\]) from baseline (week 0) to end of treatment (week 64) is presented as ratio to baseline (week 0).",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in High Density Lipoprotein (HDL) Cholesterol - Ratio to Baseline",
+      "description": "Change in high density lipoprotein (HDL) cholesterol (measured in mmol/L) from baseline (week 0) to end of treatment (week 64) is presented as ratio to baseline (week 0).",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Low Density Lipoprotein (LDL) Cholesterol - Ratio to Baseline",
+      "description": "Change in low density lipoprotein (LDL) cholesterol (measured in mmol/L) from baseline (week 0) to end of treatment (week 64) is presented as ratio to baseline (week 0).",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Very Low-Density Lipoproteins (VLDL) Cholesterol - Ratio to Baseline",
+      "description": "Change in VLDL cholesterol (measured in mmol/L) from baseline (week 0) to end of treatment (week 64) is presented as ratio to baseline (week 0).",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Triglycerides - Ratio to Baseline",
+      "description": "Change in triglycerides (measured in mmol/L) from baseline (week 0) to end of treatment (week 64) is presented as ratio to baseline (week 0).",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Free Fatty Acids - Ratio to Baseline",
+      "description": "Change in free fatty acids (measured in mmol/L) from baseline (week 0) to end of treatment (week 64) is presented as ratio to baseline (week 0).",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in High Sensitivity C-Reactive Protein (hsCRP) - Ratio to Baseline",
+      "description": "Change in high sensitivity C-Reactive Protein (hsCRP) (milligram per litre \\[mg/L\\]) from baseline (week 0) to end of treatment (week 64) is presented as ratio to baseline (week 0).",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Fasting Plasma Glucose (FPG)",
+      "description": "Change in FPG measured in milligrams per deciliter (mg/dL) from baseline (week 0) to end of treatment (week 64) is presented.",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Change in Fasting Serum Insulin - Ratio to Baseline",
+      "description": "Change in fasting serum insulin measured in picomoles per liter (pmol/L) from baseline (week 0) to end of treatment (week 64) is presented as ratio to baseline (week 0).",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Number of Participants With Body Mass Index (BMI) Less Than (<) 30 at Week 64 (Yes/no)",
+      "description": "Number of participants with BMI \\<30 at the end of treatment (week 64) from baseline (week 0) is presented. The outcome measure is applicable for participants with BMI \u2265 30 at baseline (week 0). In the reported data, 'Yes' infers the number of participants who have achieved BMI less than 30, whereas 'No' infers the number of participants who have not achieved BMI less than 30 at week 64.",
+      "time_frame": "From baseline (week 0) to end of treatment (week 64)"
+    },
+    {
+      "measure": "Number of Participants With Change in Glycaemic Status",
+      "description": "Number of participants with change in glycaemic status from baseline (week 0) to the end of treatment (week 64) is presented. These categories were set as per the following criteria: 1) Normo-glycaemia: glycated haemoglobin (HbA1c) \\<5.7%; 2) Pre-diabetes: 5.7% \\<= HbA1c \\< 6.5% 3) Type 2 diabetes: HbA1c \\>=6.5%.",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    },
+    {
+      "measure": "Number of Treatment Emergent Adverse Events (TEAEs)",
+      "description": "Number of treatment emergent adverse events from baseline (week 0) to end of study (week 71) is presented. An adverse event (AE) is defined as any untoward medical occurrence in a clinical study participant that is temporally associated with the use of investigational medicinal product (IMP), whether or not considered related to the IMP.",
+      "time_frame": "From baseline (week 0) to end of study (week 71)"
+    },
+    {
+      "measure": "Number of Serious Treatment Emergent Adverse Events",
+      "description": "Number of treatment emergent serious adverse events from baseline (week 0) to end of study (week 71) is presented. A serious adverse event (SAE) is any untoward medical occurrence that fulfils at least one of following criteria: results in death; is life-threatening; requires inpatient or prolongation of existing hospitalization; results in persistent or significant disability/incapacity; is congenital anomaly/birth defect; important medical event.",
+      "time_frame": "From baseline (week 0) to end of study (week 71)"
+    },
+    {
+      "measure": "Change in Pulse",
+      "description": "Change in pulse from baseline (week 0) to end of treatment (week 64) is presented.",
+      "time_frame": "Baseline (week 0), end of treatment (week 64)"
+    }
+  ]
+}

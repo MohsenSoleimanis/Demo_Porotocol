@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Parsed documents — FMLS{% endblock %}
+{% block content %}
+<h1>Parsed documents <span class="muted">({{ n }})</span></h1>
+{% if not items %}
+  <p class="muted">No results yet. Run <code>scripts/run_corpus.py</code> to populate <code>corpus/results/</code>.</p>
+{% else %}
+<table class="grid">
+  <thead>
+    <tr>
+      <th>NCT / stem</th>
+      <th>Stratum</th>
+      <th>Title</th>
+      <th>Pages</th>
+      <th>Routes</th>
+      <th>Total time</th>
+      <th>Triage</th>
+      <th>MinerU</th>
+      <th>JSON</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for it in items %}
+    <tr>
+      <td><a href="/docs/{{ it.stem }}">{{ it.stem }}</a></td>
+      <td>{{ it.stratum }}</td>
+      <td class="title">{{ it.title }}</td>
+      <td class="num">{{ it.total_pages }}</td>
+      <td class="routes">
+        {% for r, c in it.routes.items() %}<span class="route route-{{ r }}">{{ r }}:{{ c }}</span>{% endfor %}
+      </td>
+      <td class="num">{{ '%.1f s'|format((it.stage_timings_ms.get('total_ms', 0) or 0) / 1000) }}</td>
+      <td class="num">{{ '%.0f ms'|format(it.stage_timings_ms.get('triage_ms', 0) or 0) }}</td>
+      <td class="num">{{ '%.0f ms'|format(it.stage_timings_ms.get('mineru_bulk_ms', 0) or 0) }}</td>
+      <td><a href="/docs/{{ it.stem }}/raw">raw</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,119 @@
+{
+  "nct_id": "NCT04944784",
+  "brief_title": "A Study to Evaluate the Efficacy and Safety of Reldesemtiv in Patients With Amyotrophic Lateral Sclerosis (ALS)",
+  "official_title": "A Phase 3, Multi-Center, Double-Blind, Randomized, Placebo-Controlled Trial to Evaluate the Efficacy and Safety of Reldesemtiv in Patients With Amyotrophic Lateral Sclerosis (ALS)",
+  "lead_sponsor": "Cytokinetics",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "overall_status": "TERMINATED",
+  "start_date": "2021-08-16",
+  "completion_date": "2023-07-18",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 489,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Amyotrophic Lateral Sclerosis"
+  ],
+  "keywords": [
+    "Amyotrophic Lateral Sclerosis",
+    "ALS",
+    "CK-2127107",
+    "Reldesemtiv",
+    "COURAGE-ALS"
+  ],
+  "eligibility_criteria": "Key Inclusion Criteria:\n\n* Males or Females between the ages of 18 and 80 years of age, inclusive\n* Diagnosis of familial or sporadic ALS (defined as meeting the laboratory-supported probable, probable, or definite criteria for ALS according to the World Federation of Neurology El Escorial criteria). Patients who meet the possible criteria are eligible if they have lower motor neuron findings; those who have purely upper motor neuron findings are ineligible.\n* First symptom of ALS \u2264 24 months prior to screening. The qualifying first symptoms of ALS are limited to manifestations of weakness in extremity, bulbar, or respiratory muscles.\n* ALSFRS-R total score \u2264 44 at screening. Patients with a total score of 45 or higher may be rescreened 60\u00b17 days following the original screening date.\n* Upright FVC \u2265 65.0% of predicted for age, height, sex and ethnicity at screening according to Global Lung Initiative equation\n* Must be either on riluzole for \u2265 30 days prior to screening or have not taken it for at least 30 days prior to screening\n* Must have completed at least 2 cycles of edaravone at the time of screening or have not received it for at least 30 days prior to screening\n* Able to swallow whole tablets\n\nExclusion Criteria:\n\n* eGFRCysC \\< 45.0 mL/min/1.73 m2 at screening\n* Urine protein/creatinine ratio \\> 1 mg/mg (113 mg/mmol) at screening\n* Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \u2265 3-times the upper limit of normal (ULN)\n* Total bilirubin (TBL), direct or indirect bilirubin above the ULN.\n* Cognitive impairment, related to ALS or otherwise that impairs the patient's ability to understand and/or comply with study procedures and provide informed consent\n* Other medically significant neurological conditions that could interfere with the assessment of ALS symptoms, signs or progression.\n* Has a tracheostomy",
+  "sex": "ALL",
+  "min_age": "18 Years",
+  "max_age": "80 Years",
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "Reldesemtiv Group, Double-Blind Period",
+      "type": "EXPERIMENTAL",
+      "description": "Participants in this arm take 2 reldesemtiv 150 mg oral tablets twice a day for a 600 mg total daily dose from Day 1 until Week 24.",
+      "intervention_names": [
+        "Drug: Reldesemtiv"
+      ]
+    },
+    {
+      "label": "Placebo Group, Double-Blind Period",
+      "type": "PLACEBO_COMPARATOR",
+      "description": "Participants in this arm take 2 placebo oral tablets twice a day from Day 1 until Week 24.",
+      "intervention_names": [
+        "Drug: Placebo"
+      ]
+    },
+    {
+      "label": "Delayed Start Group, Active Drug Period",
+      "type": "EXPERIMENTAL",
+      "description": "Participants in this arm were those who received placebo in the double-blind period and reldesemtiv in the active drug period. Participants take 2 reldesemtiv 150 mg oral tablets twice a day for a 600 mg total daily dose from Week 24 until Week 48. Patients who were down-titrated for any reason during the 24 weeks of blinded dosing take 1 reldesemtiv 150 mg oral tablet twice a day for a 300 mg total daily dose from Week 24 until Week 48.",
+      "intervention_names": [
+        "Drug: Reldesemtiv"
+      ]
+    },
+    {
+      "label": "Early Start Group, Active Drug Period",
+      "type": "EXPERIMENTAL",
+      "description": "Participants in this arm were those who received reldesemtiv in the double-blind and active drug periods. Participants take 2 reldesemtiv 150 mg oral tablets twice a day for a 600 mg total daily dose from Week 24 until Week 48. Patients who were down-titrated for any reason during the 24 weeks of blinded dosing take 1 reldesemtiv 150 mg oral tablet twice a day for a 300 mg total daily dose from Week 24 until Week 48.",
+      "intervention_names": [
+        "Drug: Reldesemtiv"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Reldesemtiv",
+      "description": "Reldesemtiv Oral Tablet",
+      "arm_group_labels": [
+        "Delayed Start Group, Active Drug Period",
+        "Early Start Group, Active Drug Period",
+        "Reldesemtiv Group, Double-Blind Period"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Placebo",
+      "description": "Placebo Oral Tablet",
+      "arm_group_labels": [
+        "Placebo Group, Double-Blind Period"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Effect of Reldesemtiv Versus Placebo on Functional Outcomes in Amyotrophic Lateral Sclerosis (ALS)",
+      "description": "Change from baseline to Week 24 in Amyotrophic Lateral Sclerosis Functional Rating Scale-Revised (ALSFRS-R) total score using MMRM without multiple imputation; rating scale 0 to 48; higher scores indicate better functional status",
+      "time_frame": "Baseline to Week 24"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Effect of Reldesemtiv Versus Placebo on Combined Functional and Survival Outcomes in Amyotrophic Lateral Sclerosis (ALS)",
+      "description": "Composite Assessment of Function and Survival (CAFS) compares ranked outcomes based on change from baseline in ALS Functional Rating Scale-Revised (ALSFRS-R) score (0-48; higher scores indicate better function), time in months to dependence on assisted ventilation (DOAV) and time in months to death. Deceased participants are ranked by time-to-death; earliest deaths ranked the lowest. DOAV survivors are ranked more favorably than those who have died but lower than those alive and not DOAV. Non-DOAV survivors are ranked based on change in ALSFRS-R (largest decline in ALSFRS-R ranked lower than less decline or improvement in ALSFRS-R). Unitless ranked scores range from 1-482 (Full Analysis Set) with larger rank scores associated with a better outcome. Ranks were analyzed using stratified Wilcoxon test comparing the ranked scores between reldesemtiv and placebo, adjusting for baseline riluzole and edaravone use. The win probability and the ratio (reldesemtiv vs placebo) are presented.",
+      "time_frame": "Baseline to Week 24"
+    },
+    {
+      "measure": "Effect of Reldesemtiv Versus Placebo on Ventilatory Function",
+      "description": "Change from baseline in percent predicted forced vital capacity (FVC) using an in-clinic spirometer; a negative number for change from baseline indicates respiratory function decline relative to baseline",
+      "time_frame": "Baseline to Week 24"
+    },
+    {
+      "measure": "Effect of Reldesemtiv Versus Placebo on Quality of Life",
+      "description": "Change from baseline in ALSAQ-40 total score. ALSAQ-40 = Amyotrophic Lateral Sclerosis Assessment Questionnaire; summary scores range from 0 (best health status) to 100 (worst health status); ALSAQ-40 total score is calculated as the sum of the summary scores from the 5 domains; lower score corresponds to better health-related quality of life.",
+      "time_frame": "Baseline to Week 24"
+    },
+    {
+      "measure": "Effect of Reldesemtiv Versus Placebo on Handgrip Strength",
+      "description": "Change from baseline in maximum handgrip strength (average of both hands) measured bilaterally by an electronic hand dynamometer",
+      "time_frame": "Baseline to Week 24"
+    }
+  ]
+}

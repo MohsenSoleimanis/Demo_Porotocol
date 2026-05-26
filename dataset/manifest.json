@@ -1,0 +1,282 @@
+[
+  {
+    "nct_id": "NCT04194944",
+    "stratum": "oncology",
+    "condition": "lung cancer",
+    "title": "A Study of Selpercatinib (LY3527723) in Participants With Advanced or Metastatic RET Fusion-Positive Non-Small Cell Lung Cancer",
+    "sponsor": "Eli Lilly and Company",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2020,
+    "n_pages": 128,
+    "redaction_area_fraction": 0.0,
+    "size_kb": 1316
+  },
+  {
+    "nct_id": "NCT05415215",
+    "stratum": "oncology",
+    "condition": "breast cancer",
+    "title": "A Study to Evaluate Patient Preference for Home Administration of Fixed-Dose Combination of Pertuzumab and Trastuzumab for Subcutaneous Administration in Participants With Early or Locally Advanced/In",
+    "sponsor": "Hoffmann-La Roche",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2022,
+    "n_pages": 217,
+    "redaction_area_fraction": 0.0,
+    "size_kb": 4453
+  },
+  {
+    "nct_id": "NCT04889118",
+    "stratum": "oncology",
+    "condition": "melanoma",
+    "title": "Safety and Efficacy Study of Pembrolizumab (MK-3475) Combined With Lenvatinib (MK-7902/E7080) as First-line Intervention in Adults With Advanced Melanoma (MK-7902-003/E7080-G000-312/LEAP-003)-China Ex",
+    "sponsor": "Merck Sharp & Dohme LLC",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2020,
+    "n_pages": 190,
+    "redaction_area_fraction": 0.054,
+    "size_kb": 3533
+  },
+  {
+    "nct_id": "NCT04666038",
+    "stratum": "oncology",
+    "condition": "leukemia",
+    "title": "Study of LOXO-305 (Pirtobrutinib) Versus Investigator's Choice (Idelalisib Plus Rituximab or Bendamustine Plus Rituximab) in Patients With Previously Treated Chronic Lymphocytic Leukemia (CLL)/Small L",
+    "sponsor": "Loxo Oncology, Inc.",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2021,
+    "n_pages": 183,
+    "redaction_area_fraction": 0.013,
+    "size_kb": 1673
+  },
+  {
+    "nct_id": "NCT04236141",
+    "stratum": "oncology",
+    "condition": "lymphoma",
+    "title": "A Study to Evaluate the Efficacy and Safety of Polatuzumab Vedotin in Combination With Bendamustine and Rituximab Compared With Bendamustine and Rituximab Alone in Chinese Patients With Relapsed or Re",
+    "sponsor": "Hoffmann-La Roche",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2020,
+    "n_pages": 135,
+    "redaction_area_fraction": 0.0,
+    "size_kb": 1284
+  },
+  {
+    "nct_id": "NCT05219253",
+    "stratum": "vaccine",
+    "condition": "vaccine",
+    "title": "A Study on the Immune Response and Safety of a Vaccine Against Herpes Zoster in Adults Aged 50 Years and Older in India",
+    "sponsor": "GlaxoSmithKline",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2022,
+    "n_pages": 92,
+    "redaction_area_fraction": 0.0,
+    "size_kb": 1028
+  },
+  {
+    "nct_id": "NCT04870606",
+    "stratum": "infectious",
+    "condition": "covid-19",
+    "title": "Proxalutamide (GT0918) Treatment for Outpatients With Mild or Moderate COVID-19 Illness",
+    "sponsor": "Suzhou Kintor Pharmaceutical Inc,",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2021,
+    "n_pages": 104,
+    "redaction_area_fraction": 0.0,
+    "size_kb": 2001
+  },
+  {
+    "nct_id": "NCT04142658",
+    "stratum": "cardio",
+    "condition": "heart failure",
+    "title": "PROACT Xa - A Trial to Determine if Participants With an On-X Aortic Valve Can be Maintained Safely on Apixaban",
+    "sponsor": "Artivion Inc.",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2020,
+    "n_pages": 98,
+    "redaction_area_fraction": 0.001,
+    "size_kb": 1630
+  },
+  {
+    "nct_id": "NCT05643573",
+    "stratum": "cardio",
+    "condition": "atrial fibrillation",
+    "title": "A Study to Learn How Well the Study Treatment Asundexian Works and How Safe it is Compared to Apixaban to Prevent Stroke or Systemic Embolism in People With Irregular and Often Rapid Heartbeat (Atrial",
+    "sponsor": "Bayer",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2022,
+    "n_pages": 138,
+    "redaction_area_fraction": 0.0,
+    "size_kb": 1284
+  },
+  {
+    "nct_id": "NCT05564117",
+    "stratum": "endocrine",
+    "condition": "obesity",
+    "title": "Research Study Looking at How Well Semaglutide Tablets Taken Once Daily Work in People Who Have a Body Weight Above the Healthy Range",
+    "sponsor": "Novo Nordisk A/S",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2022,
+    "n_pages": 100,
+    "redaction_area_fraction": 0.0,
+    "size_kb": 1252
+  },
+  {
+    "nct_id": "NCT04374253",
+    "stratum": "neuro",
+    "condition": "alzheimer disease",
+    "title": "A Study to Evaluate the Safety, Tolerability, and Efficacy of Long-Term Gantenerumab Administration in Participants With Alzheimer's Disease (AD)",
+    "sponsor": "Hoffmann-La Roche",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2021,
+    "n_pages": 142,
+    "redaction_area_fraction": 0.0,
+    "size_kb": 2695
+  },
+  {
+    "nct_id": "NCT04944784",
+    "stratum": "neuro",
+    "condition": "multiple sclerosis",
+    "title": "A Study to Evaluate the Efficacy and Safety of Reldesemtiv in Patients With Amyotrophic Lateral Sclerosis (ALS)",
+    "sponsor": "Cytokinetics",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2021,
+    "n_pages": 81,
+    "redaction_area_fraction": 0.0,
+    "size_kb": 945
+  },
+  {
+    "nct_id": "NCT04882241",
+    "stratum": "neuro",
+    "condition": "parkinson",
+    "title": "Study of Pembrolizumab (MK-3475) Plus Chemotherapy Versus Placebo Plus Chemotherapy in Participants With Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma (MK-3475-585/KEYNOTE-585)-China Exten",
+    "sponsor": "Merck Sharp & Dohme LLC",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2020,
+    "n_pages": 198,
+    "redaction_area_fraction": 0.037,
+    "size_kb": 3500
+  },
+  {
+    "nct_id": "NCT05014919",
+    "stratum": "psych",
+    "condition": "depression",
+    "title": "Vortioxetine to Prevent Return of Symptoms in Children With Depression",
+    "sponsor": "H. Lundbeck A/S",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2021,
+    "n_pages": 86,
+    "redaction_area_fraction": 0.001,
+    "size_kb": 836
+  },
+  {
+    "nct_id": "NCT04846868",
+    "stratum": "psych",
+    "condition": "schizophrenia",
+    "title": "Clinical Trial of Iclepertin Effect on Cognition and Functional Capacity in Schizophrenia (CONNEX-1)",
+    "sponsor": "Boehringer Ingelheim",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2021,
+    "n_pages": 132,
+    "redaction_area_fraction": 0.011,
+    "size_kb": 1007
+  },
+  {
+    "nct_id": "NCT04706793",
+    "stratum": "immuno",
+    "condition": "ulcerative colitis",
+    "title": "Oral Etrasimod Versus Placebo for the Treatment of Moderately to Severely Active Ulcerative Colitis in Adult Japanese Participants (ELEVATE UC 40 JAPAN)",
+    "sponsor": "Pfizer",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2020,
+    "n_pages": 84,
+    "redaction_area_fraction": 0.019,
+    "size_kb": 1492
+  },
+  {
+    "nct_id": "NCT05489224",
+    "stratum": "immuno",
+    "condition": "rheumatoid arthritis",
+    "title": "A Study to Compare Efficacy and Safety of CT-P47 and RoActemra in Patients With Rheumatoid Arthritis",
+    "sponsor": "Celltrion",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2022,
+    "n_pages": 106,
+    "redaction_area_fraction": 0.0,
+    "size_kb": 1983
+  },
+  {
+    "nct_id": "NCT04673786",
+    "stratum": "immuno",
+    "condition": "psoriasis",
+    "title": "A Study to Compare the Efficacy and Safety of CT-P43 to Stelara in Patients With Plaque Psoriasis",
+    "sponsor": "Celltrion",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2021,
+    "n_pages": 103,
+    "redaction_area_fraction": 0.003,
+    "size_kb": 1137
+  },
+  {
+    "nct_id": "NCT05755906",
+    "stratum": "respiratory",
+    "condition": "asthma",
+    "title": "A 12-week Study to Assess the Efficacy and Safety of Budesonide and Formoterol Fumarate Metered Dose Inhaler Relative to Budesonide Metered Dose Inhaler in Participants With Inadequately Controlled As",
+    "sponsor": "AstraZeneca",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2023,
+    "n_pages": 122,
+    "redaction_area_fraction": 0.0,
+    "size_kb": 13147
+  },
+  {
+    "nct_id": "NCT06460493",
+    "stratum": "respiratory",
+    "condition": "copd",
+    "title": "Effect of Ensifentrine Treatment on CAT Score",
+    "sponsor": "Verona Pharma, Inc., a subsidiary of Merck & Co., Inc. (Rahway, New Jersey USA",
+    "phases": [
+      "PHASE3"
+    ],
+    "start_year": 2024,
+    "n_pages": 77,
+    "redaction_area_fraction": 0.077,
+    "size_kb": 1308
+  }
+]

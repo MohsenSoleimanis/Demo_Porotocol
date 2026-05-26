@@ -1,0 +1,155 @@
+{
+  "nct_id": "NCT04374253",
+  "brief_title": "A Study to Evaluate the Safety, Tolerability, and Efficacy of Long-Term Gantenerumab Administration in Participants With Alzheimer's Disease (AD)",
+  "official_title": "An Open-Label, Multicenter, Rollover Study to Evaluate the Safety, Tolerability, and Efficacy of Long-Term Gantenerumab Administration in Participants With Alzheimer's Disease",
+  "lead_sponsor": "Hoffmann-La Roche",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "overall_status": "TERMINATED",
+  "start_date": "2021-01-26",
+  "completion_date": "2023-03-06",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "NON_RANDOMIZED",
+  "intervention_model": "SINGLE_GROUP",
+  "masking": "NONE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 1382,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Alzheimer Disease"
+  ],
+  "keywords": [],
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Completed Study WN29922 or WN39658, either its double-blind part or OLE part, and did not discontinue study drug early\n* The participant should be capable of completing assessments either alone or with the help of the caregiver\n* Availability of a person (referred to as the \"caregiver\")\n* For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraception methods with a failure rate of \\<1% per year (bilateral tubal ligation, male sterilization, hormonal contraceptives that inhibit ovulation, hormone-releasing intrauterine devices, and copper intrauterine devices) during the treatment period and for at least 16 weeks after the final dose of gantenerumab\n* Agreement not to donate blood or blood products for transfusion for the duration of the study and for 1 year after final dose of study drug\n\nExclusion Criteria:\n\n* Pregnant or breastfeeding, or intending to become pregnant during the study or within at least 16 weeks after the final dose of study drug\n* Prematurely discontinued from Study WN29922 or WN39658\n* Any medical condition that may jeopardize the participant's safety if he or she continues to receive study treatment\n* Received any investigational treatment other than gantenerumab during or since completion of Study WN29922 or WN39658, either its double-blind or OLE part\n* Evidence of disseminated leptomeningeal hemosiderosis\n* Evidence of intracerebral macrohemorrhage\n* Use of prohibited medication\n* Evidence of ARIA-E on the last MRI scan report in Study WN29922 or WN39658, either its double-blind or OLE part",
+  "sex": "ALL",
+  "min_age": null,
+  "max_age": null,
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "Group 1",
+      "type": "EXPERIMENTAL",
+      "description": "Participants, who completed the double-blind part and did not enter the OLE part of Study WN29922 or WN39658, will be enrolled and receive open-label gantenerumab approximately 2 weeks after the Week 116 visit of Study WN29922 or WN39658. This will be considered the OLE baseline visit (OLE Day 1).",
+      "intervention_names": [
+        "Drug: Gantenerumab"
+      ]
+    },
+    {
+      "label": "Group 2",
+      "type": "EXPERIMENTAL",
+      "description": "Participants, who completed the double-blind part and the OLE part of Study WN29922 or WN39658, will be enrolled and receive open-label gantenerumab approximately 2 weeks after the OLE Week 34 visit or the final dose visit in the Study WN29922 or WN39658 OLE.",
+      "intervention_names": [
+        "Drug: Gantenerumab"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Gantenerumab",
+      "description": "Group 1 participants who were in the active arm in the double blind part in the parent study (WN29922 or WN39658), will continue to receive open-label gantenerumab 510 mg SC, Q2W. Participants who are naive to gantenerumab treatment will be required to undergo the 3 step uptitration scheme before receiving target dose of open label gantenerumab, 510 mg SC, Q2W.",
+      "arm_group_labels": [
+        "Group 1"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Gantenerumab",
+      "description": "Group 2 participants who have completed OLE part in the parent study (WN29922 or WN39658), will continue to receive open-label gantenerumab 510 mg SC, Q2W",
+      "arm_group_labels": [
+        "Group 2"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Number of Participants With at Least One Adverse Event (AE) and Serious Adverse Event (SAE)",
+      "description": "An AE is any untoward medical occurrence in a clinical investigation participant administered a pharmaceutical product, regardless of casual attribution. A SAE is any AE that is fatal, life threatening, requires or prolongs inpatient hospitalization, results in persistent or significant disability/incapacity, is a congenital anomaly/birth defect in a neonate/infant born to a mother exposed to study drug or a significant medical event in the investigator's judgment. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "From Baseline (OLE Day 1) up to 14 weeks after the last dose (up to 134 weeks)"
+    },
+    {
+      "measure": "Number of Participants With Post-baseline Suicidal Ideation or Suicidal Behavior as Measured Using Columbia-Suicide Severity Rating Scale (C-SSRS) Score",
+      "description": "C-SSRS= assesses lifetime suicidality of participant (at baseline) \\& any new instances of suicidality (since last visit). Structured interview prompts recollection of suicidal ideation (intensity of ideation, behavior, \\& attempts with actual/potential lethality). Categories have yes/no responses, include Wish to be Dead; Non-specific Active Suicidal Thoughts; Active Suicidal Ideation with Any Methods (Not Plan) without Intent to Act; Active Suicidal Ideation with Some Intent to Act, without Specific Plan; Active Suicidal Ideation with Specific Plan and Intent, Preparatory Acts and Behavior; Aborted/Interrupted Attempt; Actual Attempt (non-fatal); Completed Suicide. Suicidal ideation/behavior= \"yes\" to any of listed categories. Score of 0= no suicide risk. Score of 1 or higher= suicidal ideation or behavior. Categories with non-zero values are only reported here. First dosing visit in OLE (first dosing in current study or OLE period of parent GRADUATE studies)=baseline (OLE Day 1).",
+      "time_frame": "From Baseline (OLE Day 1) up to 14 weeks after the last dose (up to 134 weeks)"
+    },
+    {
+      "measure": "Number of Participants With at Least One Amyloid-Related Imaging Abnormalities-Edema (ARIA-E) Confirmed by MRI",
+      "description": "ARIA are an identified risk with anti-amyloid antibodies, including gantenerumab. These changes can be identified on brain MRI. In ARIA-E, (E for oedema or effusion), oedema can be seen in different areas of the brain on MRI, representing fluid leakage into the brain parenchyma or sulcal spaces. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "From Baseline (OLE Day 1) up to 14 weeks after the last dose (up to 134 weeks)"
+    },
+    {
+      "measure": "Number of Participants With at Least One Amyloid-Related Imaging Abnormalities-Haemosiderin Deposition (ARIA-H) Confirmed by MRI",
+      "description": "ARIA are an identified risk with anti-amyloid antibodies, including gantenerumab. These changes can be identified on brain MRI. ARIA-H (H for hemosiderosis) are small foci of signal loss observed on MRI sequences sensitive for paramagnetic tissue properties and comprise cerebral microbleeds (small foci of bleeding in the brain parenchyma) and leptomeningeal hemosiderosis (small foci of bleeding on the surface of the brain). These changes also occur sporadically in AD. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "From Baseline (OLE Day 1) up to 14 weeks after the last dose (up to 134 weeks)"
+    },
+    {
+      "measure": "Number of Participants With Injection-Site Reactions (ISRs)",
+      "description": "An AE is any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a pharmaceutical product, regardless of casual attribution. Local injection reactions (or injection site reactions) are defined as AEs related to the injection site that occur during or within 24 hours after study drug administration that are judged to be related to the study drug injection. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "From Baseline (OLE Day 1) up to 14 weeks after the last dose (up to 134 weeks)"
+    },
+    {
+      "measure": "Number of Participants Who Discontinued the Study Due an AE",
+      "description": "An AE is any untoward medical occurrence in a clinical investigation participant administered a pharmaceutical product, regardless of casual attribution. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "From Baseline (OLE Day 1) up to 14 weeks after the last dose (up to 134 weeks)"
+    },
+    {
+      "measure": "Number of Participants With at Least One Adverse Event of Special Interest (AESI)",
+      "description": "An AE is any untoward medical occurrence in a clinical investigation participant administered a pharmaceutical product, regardless of casual attribution. AEs that were considered to be of special interest for this study included cases of potential drug-induced liver injury that include an elevated ALT or AST in combination with either an elevated bilirubin or clinical jaundice, as defined by Hy's Law and suspected transmission of an infectious agent by the study drug. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "From Baseline (OLE Day 1) up to 14 weeks after the last dose (up to 134 weeks)"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Change From Baseline Over Time in Clinical Dementia Rating - Global Score (CDR-GS)",
+      "description": "CDR was derived through semi-structured interview with the participant and an appropriate informant, and it rated impairment across six domains: memory, orientation, judgment, and problem solving, community affairs, home and hobbies, and personal care on a 5-point scale for which 0=normal, 0.5=very mild dementia, 1=mild dementia, 2=moderate dementia, and 3= severe dementia. The score range for the CDR-GS is from 0 to 3 and a high score on the CDR-GS would indicate a high disease severity. A negative change from baseline indicates improvement. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "Baseline (OLE Day 1), Weeks 24, 36, 52, 76 and 104"
+    },
+    {
+      "measure": "Change From Baseline Over Time in Clinical Dementia Rating (CDR) - Sum of Boxes (SB)",
+      "description": "CDR was derived through semi-structured interview with the participant and an appropriate informant, and it rated impairment across six domains: memory, orientation, judgment, and problem solving, community affairs, home and hobbies, and personal care on a 5-point scale for which 0=no impairment, 0.5=questionable impairment, and 1, 2, and 3=mild, moderate, and severe impairment, respectively. The CDR-SB is based on summing each of the domain box scores with total score ranging from 0-18 with higher scores reflecting greater cognitive and functional impairment. A negative change from baseline indicates improvement. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "Baseline (OLE Day 1), Weeks 24, 36, 52, 76 and 104"
+    },
+    {
+      "measure": "Change From Baseline Over Time in Mini-Mental State Examination (MMSE) Score",
+      "description": "MMSE is a rater-administered performance-based outcome (PerfO) that includes a set of standardized questions used to evaluate possible cognitive impairment and help stage the severity level of this impairment. The questions target six areas: orientation, registration, attention, short-term recall, language, and constructional praxis/visuospatial abilities. Total score ranges from 0-30, with lower scores indicating greater impairment. A positive change from baseline indicates improvement. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "Baseline (OLE Day 1), Weeks 24, 36, 52, 76 and 104"
+    },
+    {
+      "measure": "Change From Baseline Over Time in Alzheimer Disease Assessment Scale-Cognition, Subscale 11 (ADAS-Cog11) Score",
+      "description": "ADAS-Cog11 was designed to measure cognitive symptom change in participants with Alzheimer's Disease (AD) and consisted of 11 tasks. The standard 11 items (and corresponding score range) were: word recall (0-10), commands (0-5), constructional praxis (0-5), naming objects and fingers (0-5), ideational praxis (0-5), orientation (0-8), word recognition (0-12), spoken language ability (0-5), comprehension of spoken language (0-5), word-finding difficulty (0-5), and remembering test instructions (0-5). The test included 7 performance items and 4 clinician-rated items. The ADAS-Cog11 total score was the sum of all 11 individual items, with a total score ranging from 0 (no impairment) to 70 (severe impairment). Higher scores indicated more severe cognitive impairment. A negative change from baseline indicates improvement. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "Baseline (OLE Day 1), Weeks 24, 36, 52, 76 and 104"
+    },
+    {
+      "measure": "Change From Baseline Over Time in Alzheimer Disease Assessment Scale-Cognition, Subscale 13 (ADAS-Cog13) Score",
+      "description": "The ADAS-Cog13 total score includes all of the items in the ADAS-Cog11 in addition to delayed word recall and the number cancellation. For the ADAS-cog 13 the range is 0-85 (score range for Delayed Word Recall \\[DWR\\] score is 0-10 and for Number Cancellation \\[NC\\] is 0-5, thus the score is ADAS-cog 11\\[0-70\\] plus the scores for DWR and NC). A higher score indicates worse performance. A negative change from baseline indicates improvement in cognitive function. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "Baseline (OLE Day 1), Weeks 24, 36, 52, 76 and 104"
+    },
+    {
+      "measure": "Change From Baseline Over Time in Verbal Fluency Task Score",
+      "description": "VFT is a rater administered PerfO that measures speed and flexibility of verbal thought with a total score that ranges from 0-99 (lower scores indicating lower performance). A positive change from baseline indicates improvement. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "Baseline (OLE Day 1), Weeks 24, 36, 52, 76 and 104"
+    },
+    {
+      "measure": "Change From Baseline Over Time in Coding (Digit Symbol Substitution Test [DSST]) Subset",
+      "description": "Coding, also called DSST is a rater administered PerfO that measures speed of processing and associative memory with a total score that ranges from 0-135 (lower scores indicating lower performance). The DSST was adapted from the Wechsler Adult Intelligence Scale. The 120-second version of the test was used in this study. Positive change from baseline indicates improvement. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "Baseline (OLE Day 1), Weeks 24, 36, 52, 76 and 104"
+    },
+    {
+      "measure": "Change in Functional Activities Questionnaire (FAQ) Score",
+      "description": "FAQ is a rater-administered observer-reported outcome (ObsRO) (informant-based measure) that measures a participant's functional ability to perform complex higher-order activities. The observer provides performance ratings of the target person on ten complex higher-order activities. Total score that ranges from 0-30, with higher scores reflecting greater functional impairment. A negative change from baseline indicates improvement. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "Baseline (OLE Day 1), Weeks 24, 36, 52, 76 and 104"
+    },
+    {
+      "measure": "Change in Alzheimer Disease Cooperative Study Group-Activities of Daily Living (ADCS-ADL) Score",
+      "description": "ADCS-ADL is a 23-item rater-administered, ObsRO that captures a participant's ability to perform basic activities of daily living (e.g., eating and toileting) and more complex ADL or instrumental activities of daily living (iADL, e.g., using the telephone, managing finances, preparing a meal). Total score ranges from 0-78, with higher scores reflecting better functioning. A positive change from baseline indicates improvement. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "Baseline (OLE Day 1), Weeks 24, 36, 52, 76 and 104"
+    },
+    {
+      "measure": "Number of Participants With Anti-drug Antibody (ADA) to Gantenerumab",
+      "description": "The number of participants with positive results for ADA against gantenerumab at any of the post-baseline assessment time-points were reported. Evaluable participant during OLE was participant with an ADA assay result from at least one sample during OLE. Treatment Emergent ADA = A participant with a negative or missing baseline ADA result(s) and at least one positive post-baseline ADA result. The first dosing visit in the OLE (first dosing in current study or first dosing in the OLE period of the parent GRADUATE studies) was considered as baseline (OLE Day 1).",
+      "time_frame": "From Baseline (OLE Day 1) up to 14 weeks after the last dose (up to 134 weeks)"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "nct_id": "NCT04706793",
+  "brief_title": "Oral Etrasimod Versus Placebo for the Treatment of Moderately to Severely Active Ulcerative Colitis in Adult Japanese Participants (ELEVATE UC 40 JAPAN)",
+  "official_title": "A Phase 3, Double-Blind, Placebo-Controlled, 40-Week Extension Study to Assess the Efficacy and Safety of Etrasimod in Japanese Subjects With Moderately to Severely Active Ulcerative Colitis",
+  "lead_sponsor": "Pfizer",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [
+    "Arena is a wholly owned subsidiary of Pfizer"
+  ],
+  "overall_status": "COMPLETED",
+  "start_date": "2020-12-25",
+  "completion_date": "2022-08-03",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 42,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Ulcerative Colitis"
+  ],
+  "keywords": [
+    "Ulcerative Colitis",
+    "Etrasimod",
+    "APD334",
+    "UC"
+  ],
+  "eligibility_criteria": "Inclusion Criteria:\n\nParticipants with moderately to severely active ulcerative colitis (UC) are eligible to enroll into this study if they fulfill all of the following:\n\n* Must have completed the Week 12 visit of Study APD334-302\n* Ability to provide written informed consent or assent (parent or legal guardian must provide consent for a participant \\< 20 years of age or as required per local regulations who has assented to participate in the study) and to be compliant with the schedule of protocol assessments. Enrollment of participants \\< 20 years should be conducted only if acceptable according to local laws and regulations.\n* Both men and women subjects agree to use a highly effective method of birth control if the possibility of conception exists\n\nExclusion Criteria:\n\nParticipants who meet any of the following exclusion criteria will not be eligible for enrollment into the study:\n\n* If the Investigator considers the participant to be unsuitable for any reason to participate in the study\n* Participants requiring partial or total colectomy during the APD334-302 study\n* Participants requiring treatment with prohibited concomitant medications",
+  "sex": "ALL",
+  "min_age": "16 Years",
+  "max_age": "80 Years",
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "Etrasimod 2 mg",
+      "type": "EXPERIMENTAL",
+      "description": null,
+      "intervention_names": [
+        "Drug: Etrasimod"
+      ]
+    },
+    {
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR",
+      "description": null,
+      "intervention_names": [
+        "Drug: Placebo"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Etrasimod",
+      "description": "Etrasimod 2 mg tablet by mouth, once daily up to 52 weeks",
+      "arm_group_labels": [
+        "Etrasimod 2 mg"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Placebo",
+      "description": "Etrasimod matching placebo tablet by mouth, once daily up to 52 weeks",
+      "arm_group_labels": [
+        "Placebo"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Percentage of Participants Achieving Clinical Remission at Week 40 of Study APD334-308",
+      "description": "Clinical remission was based on the modified Mayo score (MMS). The MMS is a composite score of 3 assessments consisting of participant-reported symptoms using daily electronic (e)-diary and centrally read endoscopy: stool frequency (SF), rectal bleeding (RB) and endoscopic score (ES). Clinical remission was defined as SF sub-score = 0 (or = 1 with a greater than or equal to \\[\\>=\\] 1-point decrease from Baseline), RB sub-score = 0, and ES less than or equal to (\\<=) 1 (excluding friability). Each component sub-score ranged from 0 to 3 and total score range of the MMS was from 0 to 9, with higher scores indicating more severe disease.",
+      "time_frame": "Week 40 of APD334-308"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Percentage of Participants Achieving Endoscopic Improvement at Week 40 of Study APD334-308",
+      "description": "Endoscopic improvement was defined as an ES \\<=1 (excluding friability) at Week 40 of APD334-308 compared with Week 12 of APD334-302. The ES ranged from 0 to 3 (where 0 = normal/inactive disease and 3 = severe disease); higher score indicated more severe disease.",
+      "time_frame": "Week 40 of APD334-308"
+    },
+    {
+      "measure": "Percentage of Participants Achieving Symptomatic Remission at Week 40 of Study APD334-308",
+      "description": "Symptomatic remission was defined as an SF sub-score = 0 (or = 1 with a \\>= 1 point decrease from Baseline) and RB sub-score = 0. The SF sub-score ranged from 0 to 3 (where 0 = normal number of stools and 3 = at least 5 stools more than normal) and RB sub-score ranged from 0 to 3 (where 0 = no blood and 3 = blood alone passes). Higher scores indicated more severe disease.",
+      "time_frame": "Week 40 of APD334-308"
+    },
+    {
+      "measure": "Percentage of Participants With Mucosal Healing at Week 40 of Study APD334-308",
+      "description": "Mucosal healing was defined as an ES \\<= 1 (excluding friability) with histologic remission measured by a Geboes Index score less than \\[\\<\\] 2.0). The ES ranged from 0 to 3 (where 0 = normal/inactive disease and 3 = severe disease). The Geboes score grading system, was a validated score for evaluating histologic disease activity in UC as follows: grade 0 = structural and architectural changes; grade 1 = chronic inflammatory infiltrate; grade 2 = lamina propria neutrophils and eosinophils; grade 3 = neutrophils in the epithelium; grade 4 = crypt destruction; grade 5 = erosions or ulceration. A higher Geboes score indicated more severe disease.",
+      "time_frame": "Week 40 of APD334-308"
+    },
+    {
+      "measure": "Percentage of Participants, Who Had Not Been Receiving Corticosteroids for \u2265 12 Weeks, Achieving Clinical Remission at Week 40 of Study APD334-308 Among Participants Receiving Corticosteroids at C5041015 (APD334-302) Study Entry",
+      "description": "Clinical remission was based on the modified Mayo score (MMS). The MMS is a composite score of 3 assessments consisting of participant-reported symptoms using daily electronic (e)-diary and centrally read endoscopy: stool frequency (SF), rectal bleeding (RB) and endoscopic score (ES). Clinical remission was defined as SF sub-score = 0 (or = 1 with a greater than or equal to \\[\\>=\\] 1-point decrease from Baseline), RB sub-score = 0, and ES less than or equal to (\\<=) 1 (excluding friability). Each component sub-score ranged from 0 to 3 and total score range of the MMS was from 0 to 9, with higher scores indicating more severe disease.",
+      "time_frame": "Week 40 of APD334-308"
+    },
+    {
+      "measure": "Percentage of Participants Achieving Sustained Clinical Remission",
+      "description": "Clinical remission was based on the modified Mayo score (MMS). The MMS is a composite score of 3 assessments consisting of participant-reported symptoms using daily electronic (e)-diary and centrally read endoscopy: stool frequency (SF), rectal bleeding (RB) and endoscopic score (ES). Clinical remission was defined as SF sub-score = 0 (or = 1 with a greater than or equal to \\[\\>=\\] 1-point decrease from Baseline), RB sub-score = 0, and ES less than or equal to (\\<=) 1 (excluding friability). Each component sub-score ranged from 0 to 3 and total score range of the MMS was from 0 to 9, with higher scores indicating more severe disease. A subject with sustained clinical remission is defined as someone who achieved clinical remission at both Week 12 of APD334-302 and Week 40 of APD334-308.",
+      "time_frame": "Week 40 of APD334-308"
+    }
+  ]
+}

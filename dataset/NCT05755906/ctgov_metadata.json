@@ -1,0 +1,115 @@
+{
+  "nct_id": "NCT05755906",
+  "brief_title": "A 12-week Study to Assess the Efficacy and Safety of Budesonide and Formoterol Fumarate Metered Dose Inhaler Relative to Budesonide Metered Dose Inhaler in Participants With Inadequately Controlled Asthma (LITHOS)",
+  "official_title": "A Randomized, Double-Blind, Parallel Group, Multicenter 12 Week Study to Assess the Efficacy and Safety of Budesonide and Formoterol Fumarate Metered Dose Inhaler Relative to Budesonide Metered Dose Inhaler in Participants With Inadequately Controlled Asthma (LITHOS)",
+  "lead_sponsor": "AstraZeneca",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "overall_status": "COMPLETED",
+  "start_date": "2023-02-27",
+  "completion_date": "2024-11-19",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 374,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Asthma"
+  ],
+  "keywords": [],
+  "eligibility_criteria": "Inclusion Criteria\n\n1. 12 to 80 years of age, male and female, BMI \\<40 kg/m2; females of childbearing potential should be using highly effective birth control.\n2. Participants who have a documented history of physician-diagnosed asthma \u2265 6 months prior to Visit 1, according to GINA guidelines \\[GINA 2021\\]. Healthcare records for one year prior to Visit 1 must be provided for adolescent participants (12 to \\< 18 years of age) to ensure consistent evaluation and follow-up of treatment in those participants.\n3. Participants who have been regularly using a stable daily ICS or an ICS/LABA regimen (including a stable ICS dose), with allowed ICS doses, for at least 8 weeks prior to Visit 1.\n4. ACQ-7 total score \u2265 1.5 at Visits 1 and 4.\n5. A pre-bronchodilator/pre-dose FEV1 \\< 90% predicted normal value at Visits 1, 2, and 3 and a pre-dose FEV1 of 50% to 90% at Visit 4 (pre-randomization).\n6. Reversibility to albuterol, defined as a post-albuterol increase in FEV1 of \u2265 12% and \u2265 200 mL for participants \u2265 18 years of age OR a post-albuterol increase in FEV1 of \u2265 12% for participants 12 to \\< 18 years of age either in the 12 months prior to Visit 1 or at Visit 2 or Visit 3, if repeat testing is necessary.\n7. A pre-bronchodilator/pre-dose FEV1 at Visits 2, 3, and 4 that has not changed 20% or more (increase or decrease) from the pre-bronchodilator/pre-dose FEV1 recorded at the previous visit.\n8. Asthma stability during run-in based on Investigator discretion using the symptom worsening assessment defined in Section 8.1.2.8 as a guideline.\n9. Willing and, in the opinion of the Investigator, able to adjust current asthma therapy, as required by the protocol.\n10. Demonstrate acceptable MDI administration technique.\n11. eDiary compliance \u2265 70% during screening, defined as completing the daily eDiary and answering \"Yes\" to taking 2 puffs of run-in BD MDI for any 10 mornings and 10 evenings in the last 14 days prior to randomization.\n\nExclusion criteria\n\n1. Life-threatening asthma as defined as a history of significant asthma episode(s) requiring intubation associated with hypercapnia, respiratory arrest, hypoxic seizures, or asthma related syncopal episode(s).\n2. Any respiratory infection or asthma exacerbation treated with systemic corticosteroids and/or additional ICS treatment in the 8 weeks prior to Visit 1 and throughout the Screening Period.\n3. Hospitalization for asthma within 8 weeks of Visit 1.\n4. Historical or current evidence of a clinically significant disease including, but not limited to: cardiovascular, hepatic, renal, hematological, neurological, endocrine, gastrointestinal, or pulmonary (eg, active tuberculosis, bronchiectasis, pulmonary eosinophilic syndromes, and COPD). Significant is defined as any disease that, in the opinion of the Investigator, would put the safety of the participant at risk through participation, or that could affect the efficacy or safety analysis.\n5. Known history of drug or alcohol abuse within 12 months of Visit 1.\n6. Unresectable cancer that has not been in complete remission for at least 5 years prior to Visit 1. Note: Squamous cell and basal cell carcinomas of the skin are not exclusionary.\n7. Participation in another clinical study with a study intervention administered in the last 30 days or 5 half-lives, whichever is longer. Any other study intervention that is not identified in this protocol is prohibited for use during study duration.\n8. Previous or current randomization into studies within the AEROSPHERE program including KALOS, LOGOS, VATHOS, LITHOS, or any glycopyrronium studies (PT001).\n9. Use of a nebulizer or a home nebulizer for receiving asthma medications. Note: Acute use of a nebulizer for an asthma exacerbation during hospitalization is allowed as long as there is no occurrence within 8 weeks of Visit 1.\n10. Do not meet the stable dosing period prior to Visit 1 or unable to abstain from protocol-defined prohibited medications during Screening and Treatment Periods.\n11. Receipt of COVID-19 vaccine (regardless of vaccine delivery platform, eg, vector, lipid nanoparticle) \u22647 days prior to Visit 1 (from last vaccination or booster dose).\n12. Participants with known hypersensitivity to beta2-agonists, corticosteroids, or any component of the MDI.\n13. Any clinically relevant abnormal findings in physical examination, clinical chemistry, hematology, vital signs, or ECG, which in the opinion of the Investigator, may put the participant at risk because of his/her participation in the study.\n14. Current smokers, former smokers with \\> 10 pack-years history, or former smokers who stopped smoking \\< 6 months prior to Visit 1 (including all forms of tobacco, e-cigarettes or other vaping devices, and marijuana).\n15. Planned hospitalization during the study.\n16. Involvement in the planning and/or conduct of the study (applies to both AstraZeneca staff and/or staff at the study site).\n17. Study Investigators, sub-Investigators, coordinators, and their employees or immediate family members.\n18. Judgment by the Investigator that the participant is unlikely to comply with study procedures, restrictions and requirements.\n19. For women only - currently pregnant (confirmed with positive highly sensitive urine pregnancy test), breast-feeding, or planned pregnancy during the study or not using acceptable contraception measures, as judged by the Investigator.",
+  "sex": "ALL",
+  "min_age": "12 Years",
+  "max_age": "80 Years",
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "BFF MDI 160/9.6 \u03bcg BID (320/19.2\u03bcg/day)",
+      "type": "EXPERIMENTAL",
+      "description": "Budesonide/ Formoterol Fumarate (BFF) metered-dose inhaler (MDI), BDI (320/19.2\u03bcg/day)",
+      "intervention_names": [
+        "Drug: BFF MDI 160/9.6 \u03bcg BID (320/19.2\u03bcg/day)"
+      ]
+    },
+    {
+      "label": "BD MDI 160 \u03bcg BID (320 \u03bcg/day)",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "Budesonide (BD) metered-dose inhaler (MDI), 160 \u03bcg BID (320 \u03bcg/day)",
+      "intervention_names": [
+        "Drug: BD MDI 160 \u03bcg BID (320 \u03bcg/day)"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "BFF MDI 160/9.6 \u03bcg BID (320/19.2\u03bcg/day)",
+      "description": "Budesonide/ Formoterol Fumarate (BFF) metered-dose inhaler (MDI), 160/9.6 \u03bcg BID (320/19.2\u03bcg/day)",
+      "arm_group_labels": [
+        "BFF MDI 160/9.6 \u03bcg BID (320/19.2\u03bcg/day)"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "BD MDI 160 \u03bcg BID (320 \u03bcg/day)",
+      "description": "Budesonide (BD) metered-dose inhaler (MDI), 160 \u03bcg BID (320 \u03bcg/day)",
+      "arm_group_labels": [
+        "BD MDI 160 \u03bcg BID (320 \u03bcg/day)"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Change From Baseline in Forced Expiratory Volume in 1 Second (FEV1) Area Under the Curve 0 to 3 Hours (AUC0-3) at Week 12",
+      "description": "Change from baseline in forced expiratory volume in 1 second (FEV1) area under the curve 0 to 3 hours (AUC0-3) at Week 12. FEV1 AUC0-3 is calculated from 0-3 hours post-dose using the trapezoidal rule, divided by the observation time to report the result in liters. Treatment policy is implemented to handle all intercurrent events with the exception of initiation of new asthma therapy or administration of prohibited medications thought to impact efficacy in conjunction with premature discontinuation of randomised study intervention, for which the composite strategy is implemented.",
+      "time_frame": "At Week 12"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Change From Baseline in Morning Pre-dose Trough FEV1 at Week 12",
+      "description": "Change from baseline in morning pre-dose trough FEV1 at Week 12. Treatment policy is implemented to handle all intercurrent events with the exception of initiation of new asthma therapy or administration of prohibited medications thought to impact efficacy in conjunction with premature discontinuation of randomised study intervention, for which the composite strategy is implemented.",
+      "time_frame": "At Week 12"
+    },
+    {
+      "measure": "Onset of Action on Day 1: Absolute Change in FEV1 at 5 Minutes on Day 1",
+      "description": "Onset of action on Day 1: Absolute change in FEV1 at 5 minutes on Day 1. Treatment policy is implemented to handle all intercurrent events with the exception of initiation of new asthma therapy or administration of prohibited medications thought to impact efficacy in conjunction with premature discontinuation of randomised study intervention, for which the composite strategy is implemented.",
+      "time_frame": "On Day 1"
+    },
+    {
+      "measure": "Change From Baseline in the Mean Number of Puffs of Rescue Medication Use (Puffs/Day) Over 12 Weeks",
+      "description": "Change from baseline in the mean number of puffs of rescue medication use (puffs/day) over 12 Weeks. Baseline is the average during the last 7 days before randomization. Over 12 weeks is the average from randomization up to week 12. Treatment policy is implemented to handle all intercurrent events with the exception of initiation of new asthma therapy or administration of prohibited medications thought to impact efficacy in conjunction with premature discontinuation of randomised study intervention, for which the composite strategy is implemented.",
+      "time_frame": "Over 12 Weeks"
+    },
+    {
+      "measure": "Percentage of Responders in ACQ-7 (\u2265 0.5 Decrease Equals Response) at Week 12",
+      "description": "Percentage of responders in ACQ-7 at Week 12, where responders are defined as participants with a \u22650.5 decrease in total score from baseline. Treatment policy is implemented to handle all intercurrent events with the exception of initiation of new asthma therapy or administration of prohibited medications thought to impact efficacy in conjunction with premature discontinuation of randomised study intervention, for which the composite strategy is implemented.",
+      "time_frame": "At Week 12"
+    },
+    {
+      "measure": "Percentage of Responders in ACQ-5 (\u2265 0.5 Decrease Equals Response) at Week 12",
+      "description": "Percentage of responders in ACQ-5 at Week 12, where responders are defined as participants with a \u22650.5 decrease in total score from baseline. Treatment policy is implemented to handle all intercurrent events with the exception of initiation of new asthma therapy or administration of prohibited medications thought to impact efficacy in conjunction with premature discontinuation of randomised study intervention, for which the composite strategy is implemented.",
+      "time_frame": "At Week 12"
+    },
+    {
+      "measure": "Percentage of Responders in the Asthma Quality of Life Questionnaire for 12 Years and Older (AQLQ(s) +12) (\u2265 0.5 Increase Equals Response) at Week 12",
+      "description": "Percentage of responders in the Asthma Quality of Life Questionnaire for 12 years and older (AQLQ(s)+12) at Week 12, where responders are defined as participants with a \u22650.5 increase in total score from baseline. Treatment policy is implemented to handle all intercurrent events with the exception of initiation of new asthma therapy or administration of prohibited medications thought to impact efficacy in conjunction with premature discontinuation of randomised study intervention, for which the composite strategy is implemented.",
+      "time_frame": "At Week 12"
+    },
+    {
+      "measure": "Rate of Severe Asthma Exacerbation (Pooled LITHOS and VATHOS Data) During the Treatment Period (up to 24 Weeks)",
+      "description": "As requested by a Health Authority, data from LITHOS and VATHOS (NCT05202262), two studies originally designed to assess lung function, were pooled to analyze the annualized rate of severe asthma exacerbations. This analysis was prespecified, uses data up to 12 weeks for LITHOS and 24 weeks for VATHOS, and was incorporated into the multiple testing procedure. An exacerbation is considered severe if it results in at least one of the following: a course of systemic corticosteroids (SCS) for \u22653 consecutive days to treat symptoms of asthma worsening, an ER or urgent care visit due to asthma requiring treatment with SCS, an in-patient hospitalization due to asthma, or death related to asthma. Treatment policy is implemented to handle all intercurrent events except for initiation of new asthma therapy or administration of prohibited medications thought to impact efficacy in conjunction with premature discontinuation of randomised study intervention, for which the composite strategy is used.",
+      "time_frame": "24 Weeks"
+    },
+    {
+      "measure": "Rate of Severe Asthma Exacerbation During the Treatment Period (up to 12 Weeks)",
+      "description": "Annualized rate of severe asthma exacerbation during the treatment period (up to 12 Weeks). An asthma exacerbation will be considered severe if it results in at least one of the following: a course of systemic corticosteroids for at least 3 consecutive days to treat symptoms of asthma worsening, an ER or urgent care visit due to asthma that required treatment with systemic corticosteroids, an in-patient hospitalization due to asthma, or death related to asthma. Treatment policy is implemented to handle all intercurrent events with the exception of initiation of new asthma therapy or administration of prohibited medications thought to impact efficacy in conjunction with premature discontinuation of randomised study intervention, for which the composite strategy is implemented.",
+      "time_frame": "12 Weeks"
+    }
+  ]
+}

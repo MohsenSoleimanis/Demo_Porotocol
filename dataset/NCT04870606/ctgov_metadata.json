@@ -1,0 +1,90 @@
+{
+  "nct_id": "NCT04870606",
+  "brief_title": "Proxalutamide (GT0918) Treatment for Outpatients With Mild or Moderate COVID-19 Illness",
+  "official_title": "A Randomized, Double-blind, Placebo-Controlled, Phase 3 Study to Evaluate the Efficacy and Safety of Proxalutamide (GT0918) in Outpatients With Mild to Moderate COVID-19 Illness",
+  "lead_sponsor": "Suzhou Kintor Pharmaceutical Inc,",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "overall_status": "COMPLETED",
+  "start_date": "2021-03-05",
+  "completion_date": "2022-04-06",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 733,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Efficacy and Safety"
+  ],
+  "keywords": [],
+  "eligibility_criteria": "Inclusion Criteria:\n\n1. The subject or legally authorized representative give signed informed consent which includes compliance with the requirements and restrictions listed in the ICF and in this protocol.\n2. Understand and agree to comply with planned study procedures.\n3. Male subjects with age \u226518 years of age at the time of randomization.\n4. Are currently not hospitalized.\n5. Have one or more mild or moderate symptom(s) COVID-19-related symptoms within 5 days of onset of symptoms onset\n6. Must have first positive SARS-CoV-2 viral infection determination (has laboratory-confirmed SARS-CoV-2 infection as determined by PCR, or other commercial or public health assay in any specimen) \u22643 days prior to start of the first dose.\n7. Regardless of their fertility status, male subjects must agree to either remain abstinent (if this is their preferred and usual lifestyle) or use condoms as well as one additional highly effective method of contraception (less than 1% failure rate) or effective method of contraception with nonpregnant women of childbearing potential partners for the duration of the study and until 90 days after the last dose.\n\n   Use an acceptable method of contraception such as:\n   * Highly effective methods of contraception (less than 1% failure rate) comprise, but are not limited to\n\n     * combination oral contraceptives\n     * implanted contraceptives, or\n     * intrauterine devices.\n   * Effective methods of contraception comprise but are not limited to\n\n     * diaphragms with spermicide or cervical sponges.\n     * men and their partners may choose to use a double-barrier method of contraception that must include use of a spermicide.\n8. Agree to the collection of nasopharyngeal swabs and venous blood.\n\nExclusion Criteria:\n\n1. Have SpO2 \u2264 93% on room air at sea level or PaO2/FiO2 \\< 300, respiratory rate \u226530 per minute, heart rate \u2265125 per minute\n2. Estimated glomerular filtration rate (eGFR) \\< 30 ml/min\n3. Serum total bilirubin \\> 1.5 x ULN (upper limit of normal) and AST and ALT \\>3x ULN\n4. Subjects with significant cardiovascular disease as following:\n\n   i. heart failure NYHA class \u22653 ii. left ventricular ejection fraction \\<50% iii. those with a history of cardiac arrhythmias, including long QT syndrome.\n5. Has been admitted to a hospital prior to randomization, or is hospitalized (inpatient) at randomization, due to COVID-19 or requires treatment with supplemental oxygen.\n6. Have known allergies to any of the components used in the formulation of the interventions.\n7. Have hemodynamic instability requiring use of vasopressors within 24 hours of randomization.\n8. Suspected or proven serious, active bacterial, fungal, viral, or other infection (except COVID-19) that in the opinion of the investigator could constitute a risk when taking intervention (i.e. known history of human immunodeficiency virus \\[HIV\\]).\n9. Have any co-morbidity requiring surgery within \\<7 days, or that is considered life-threatening within 30 days.\n10. Have any serious concomitant systemic disease, condition, or disorder that, in the opinion of the investigator, should preclude participation in this study.",
+  "sex": "ALL",
+  "min_age": "18 Years",
+  "max_age": null,
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "GT0918+ standard of care",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "Proxalutamide 200mg, oral, QD, for continuous 14 days, plus standard of care(n=334)",
+      "intervention_names": [
+        "Drug: Proxalutamide (GT0918)"
+      ]
+    },
+    {
+      "label": "placebo+ standard of care",
+      "type": "PLACEBO_COMPARATOR",
+      "description": "Placebo 200mg, oral, QD, for continuous 14 days, plus standard of care(n=334)",
+      "intervention_names": [
+        "Drug: Placebo"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Proxalutamide (GT0918)",
+      "description": "Proxalutamide (GT0918)+Standard of care determined by PI and local regulatory",
+      "arm_group_labels": [
+        "GT0918+ standard of care"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Placebo",
+      "description": "Placebo+Standard of care determined by PI and local regulatory",
+      "arm_group_labels": [
+        "placebo+ standard of care"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Efficacy in Terms of Clinical Status Following Treatment With Pruxelutamide (GT0918) Compared to Placebo",
+      "description": "In mITT (administrated at least one dose)\uff0cpercentage of subjects who do not experience any of the following events due to all causes by Day 28:\n\n* Hospitalization for \u2265 24 hours, or\n* Supplemental oxygen for \u226524 hours in response to SpO2 \u226493%, or\n* Death",
+      "time_frame": "28 days"
+    },
+    {
+      "measure": "Sensitivity Analysis to Evaluate Efficacy in Terms of Clinical Status Following Treatment With Pruxelutamide (GT0918) Compared to Placebo",
+      "description": "In mITT (treatment period \\>7 days) , percentage of subjects who do not experience any of the following events due to all causes by Day 28:\n\n* Hospitalization for \u2265 24 hours, or\n* Supplemental oxygen for \u226524 hours in response to SpO2 \u226493%, or\n* Death",
+      "time_frame": "28 days"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Proportion of Subjects With Hospitalization by Day 28",
+      "description": "Percentage of subjects who do experience any of the following events due to all causes by Day 28:\n\n* Hospitalization for \u2265 24 hours, or\n* Supplemental oxygen for \u226524 hours in response to SpO2 \u226493%, or\n* Death",
+      "time_frame": "28 days"
+    },
+    {
+      "measure": "Viral Load",
+      "description": "Changes from baseline in SARS-CoV-2 viral load at days 3, 7, 14, and 28.",
+      "time_frame": "at day 3,7,14,28"
+    }
+  ]
+}

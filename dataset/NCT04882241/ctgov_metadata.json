@@ -1,0 +1,212 @@
+{
+  "nct_id": "NCT04882241",
+  "brief_title": "Study of Pembrolizumab (MK-3475) Plus Chemotherapy Versus Placebo Plus Chemotherapy in Participants With Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma (MK-3475-585/KEYNOTE-585)-China Extension",
+  "official_title": "A Phase III, Randomized, Double-Blind, Clinical Trial of Pembrolizumab (MK-3475) Plus Chemotherapy (XP or FP) Versus Placebo Plus Chemotherapy (XP or FP) as Neoadjuvant/Adjuvant Treatment for Subjects With Gastric and Gastroesophageal Junction (GEJ) Adenocarcinoma (KEYNOTE-585)",
+  "lead_sponsor": "Merck Sharp & Dohme LLC",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "overall_status": "COMPLETED",
+  "start_date": "2020-07-29",
+  "completion_date": "2025-04-23",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 120,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Gastric Cancer",
+    "Gastroesophageal Junction Cancer"
+  ],
+  "keywords": [
+    "Programmed Cell Death-1 (PD1, PD-1)",
+    "Programmed Death-Ligand 1 (PDL1, PD-L1)"
+  ],
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Has previously untreated localized gastric or gastroesophageal junction (GEJ) adenocarcinoma as defined by T3 or greater primary lesion or the presence of any positive nodes - N+ (clinical nodes) without evidence of metastatic disease.\n* Plans to proceed to surgery following pre-operative chemotherapy based on standard staging studies per local practice.\n* Is willing to provide tissue from a tumor lesion at baseline and at time of surgery.\n* Has an Eastern Cooperative Oncology Group (ECOG) performance status score of 0 to 1 within 3 days prior to the first dose of study treatment.\n* Has adequate organ function.\n* Male participants of childbearing potential must agree to use an adequate method of contraception for the course of the study through 180 days after the last dose of chemotherapy.\n* Female participants of childbearing potential must be willing to use an adequate method of contraception for the course of the study through 180 days after the last dose of chemotherapy or through 120 days after the last dose of pembrolizumab, whichever is greater.\n* Has life expectancy of greater than 6 months.\n\nExclusion Criteria:\n\n* Has a history of (non-infectious) pneumonitis that required steroids or has current pneumonitis.\n* Has an active infection requiring systemic therapy.\n* Is currently participating in or has participated in a trial of an investigational agent or has used an investigational device within 4 weeks prior to the first dose of study treatment.\n* Has received prior therapy with an anti-programmed cell death protein-1 (anti-PD-1), anti-programmed cell death-ligand 1 (anti-PD-L1), or anti-PD-L2 agent or with an agent directed to another stimulatory or co-inhibitory T-cell receptor (i.e., cytotoxic T-lymphocyte-associated protein 4 \\[CTLA-4\\], tumor necrosis factor receptor superfamily member 4 \\[OX-40\\], necrosis factor receptor superfamily member 9 \\[CD137\\]) or has previously participated in a MSD pembrolizumab (MK-3475) clinical study.\n* Has received prior systemic anti-cancer therapy including investigational agents for the current malignancy.\n* Has a diagnosis of immunodeficiency or is receiving chronic systemic steroid therapy (in dosing exceeding 10 mg daily of prednisone equivalent) or any other form of immunosuppressive therapy within 14 days prior the first dose of study treatment.\n* Has a known additional malignancy that is progressing or has required active treatment within the past 5 years. Note: Participants with basal cell carcinoma of the skin, squamous cell carcinoma of the skin, or carcinoma in situ that have undergone potentially curative therapy are not excluded.\n* Has a known severe hypersensitivity (\u2265 Grade 3) to pembrolizumab, its active substance and/or any of its excipients, or to any of the study chemotherapy agents and/or to any of their excipients.\n* Has an active autoimmune disease that has required systemic treatment in past 2 years.\n* Has a known history of human immunodeficiency virus (HIV) infection.\n* Has a known history of Hepatitis B or known active Hepatitis C virus infection.\n* Has a known history of active tuberculosis (TB).\n* Female participants who are pregnant or breastfeeding or expecting to conceive children within the projected duration of the study, starting with the screening visit through180 days after the last dose of chemotherapy or through 120 days after the last dose of pembrolizumab, whichever is greater.\n* Male participants who are expecting to father children within the projected duration of the study, starting with the screening visit through 180 days after the last dose of chemotherapy.\n* Has had an allogenic tissue/solid organ transplant.\n* Has received a live vaccine within 30 days prior to the first dose of study treatment.",
+  "sex": "ALL",
+  "min_age": "18 Years",
+  "max_age": null,
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "Pembrolizumab+XP/FP",
+      "type": "EXPERIMENTAL",
+      "description": "XP=cisplatin+capecitabine and FP=cisplatin+5-fluorouracil. Neoadjuvant: Prior to surgery, participants receive 3 cycles of pembrolizumab 200 mg via intravenous (IV) infusion on Day 1 of each 3-week cycle (Q3W) PLUS cisplatin 80 mg/m\\^2 via IV infusion on Day 1 Q3W and capecitabine 1000 mg/m\\^2 via oral tablets twice each day (BID) on Days 1 to 14 of each 3-week cycle OR cisplatin 80 mg/m\\^2 via IV infusion on Day 1 Q3W and 5-fluorouracil (5FU) via continuous IV infusion on Days 1 to 5 of each 3-week cycle.\n\nAdjuvant: 4 to 10 weeks post-surgery, participants receive pembrolizumab 200 mg via IV infusion on Day 1 Q3W PLUS cisplatin 80 mg/m\\^2 via IV infusion on Day 1 Q3W and capecitabine 1000 mg/m\\^2 via oral tablets BID on Days 1 to 14 of each 3-week cycle OR cisplatin 80 mg/m\\^2 via IV infusion on Day 1 Q3W and 5FU via continuous IV infusion on Days 1 to 5 of each 3-week cycle for up to 3 cycles.",
+      "intervention_names": [
+        "Biological: Pembrolizumab",
+        "Drug: Cisplatin",
+        "Drug: Capecitabine",
+        "Drug: 5-fluorouracil"
+      ]
+    },
+    {
+      "label": "Placebo+XP/FP",
+      "type": "PLACEBO_COMPARATOR",
+      "description": "Neoadjuvant: Prior to surgery, participants receive 3 cycles of placebo (normal saline solution) via IV infusion on Day 1 Q3W PLUS cisplatin 80 mg/m\\^2 via IV infusion on Day 1 Q3W and capecitabine 1000 mg/m\\^2 via oral tablets BID on Days 1 to 14 of each 3-week cycle OR cisplatin 80 mg/m\\^2 via IV infusion on Day 1 Q3W and 5FU via continuous IV infusion on Days 1 to 5 of each 3-week cycle.\n\nAdjuvant: 4 to 10 weeks post-surgery, participants receive placebo via IV infusion on Day 1 Q3W PLUS cisplatin 80 mg/m\\^2 via IV infusion on Day 1 Q3W and capecitabine 1000 mg/m\\^2 via oral tablets BID on Days 1 to 14 of each 3-week cycle OR cisplatin 80 mg/m\\^2 via IV infusion on Day 1 Q3W and 5FU via continuous IV infusion on Days 1 to 5 of each 3-week cycle for up to 3 cycles.",
+      "intervention_names": [
+        "Drug: Placebo",
+        "Drug: Cisplatin",
+        "Drug: Capecitabine",
+        "Drug: 5-fluorouracil"
+      ]
+    },
+    {
+      "label": "Pembrolizumab+FLOT Cohort",
+      "type": "EXPERIMENTAL",
+      "description": "FLOT=docetaxel+oxaliplatin+5FU+leucovorin (calcium folinate). Neoadjuvant: Prior to surgery, participants receive 3 cycles of pembrolizumab 200 mg via IV infusion on Day 1 Q3W PLUS docetaxel 50 mg/m\\^2 via IV infusion, oxaliplatin 85 mg/m\\^2 via IV infusion, 5FU 2600 mg/m\\^2 via IV infusion, and leucovorin (calcium folinate) 200 mg/m\\^2 via IV infusion Q2W (on Days 1 and 15 of Cycle 1; Day 8 of Cycle 2, and Day 1 of Cycle 3) for 4 administrations.\n\nAdjuvant: 4 to 10 weeks postsurgery, participants receive pembrolizumab 200 mg via IV infusion Day 1 Q3W for up to 11 cycles PLUS docetaxel 50 mg/m\\^2, oxaliplatin 85 mg/m\\^2, 5FU 2600 mg/m\\^2, and leucovorin 200 mg/m\\^2 Q2W (on Days 1 and 15 of Cycle 1; Day 8 of Cycle 2, and Day 1 of Cycle 3) for 4 administrations.",
+      "intervention_names": [
+        "Biological: Pembrolizumab",
+        "Drug: 5-fluorouracil",
+        "Drug: Docetaxel",
+        "Drug: Oxaliplatin",
+        "Drug: Leucovorin"
+      ]
+    },
+    {
+      "label": "Placebo+FLOT Cohort",
+      "type": "PLACEBO_COMPARATOR",
+      "description": "Neoadjuvant: Prior to surgery, participants receive 3 cycles of placebo (normal saline solution) via IV infusion on Day 1 Q3W PLUS docetaxel 50 mg/m\\^2 via IV infusion, oxaliplatin 85 mg/m\\^2 via IV infusion, 5FU 2600 mg/m\\^2 via IV infusion, and leucovorin 200 mg/m\\^2 via IV infusion Q2W (on Days 1 and 15 of Cycle 1; Day 8 of Cycle 2, and Day 1 of Cycle 3) for 4 administrations.\n\nAdjuvant: 4 to 10 weeks postsurgery, participants receive placebo via IV infusion on Day 1 Q3W PLUS docetaxel 50 mg/m\\^2 via IV infusion, oxaliplatin 85 mg/m\\^2 via IV infusion, 5FU 2600 mg/m\\^2 via IV infusion, and leucovorin 200 mg/m\\^2 via IV infusion Q2W (on Days 1 and 15 of Cycle 1; Day 8 of Cycle 2, and Day 1 of Cycle 3) for 4 administrations.",
+      "intervention_names": [
+        "Drug: Placebo",
+        "Drug: 5-fluorouracil",
+        "Drug: Docetaxel",
+        "Drug: Oxaliplatin",
+        "Drug: Leucovorin"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "BIOLOGICAL",
+      "name": "Pembrolizumab",
+      "description": "IV infusion",
+      "arm_group_labels": [
+        "Pembrolizumab+FLOT Cohort",
+        "Pembrolizumab+XP/FP"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Placebo",
+      "description": "IV infusion",
+      "arm_group_labels": [
+        "Placebo+FLOT Cohort",
+        "Placebo+XP/FP"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Cisplatin",
+      "description": "IV infusion",
+      "arm_group_labels": [
+        "Pembrolizumab+XP/FP",
+        "Placebo+XP/FP"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Capecitabine",
+      "description": "Oral tablets",
+      "arm_group_labels": [
+        "Pembrolizumab+XP/FP",
+        "Placebo+XP/FP"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "5-fluorouracil",
+      "description": "IV infusion",
+      "arm_group_labels": [
+        "Pembrolizumab+FLOT Cohort",
+        "Pembrolizumab+XP/FP",
+        "Placebo+FLOT Cohort",
+        "Placebo+XP/FP"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Docetaxel",
+      "description": "IV infusion",
+      "arm_group_labels": [
+        "Pembrolizumab+FLOT Cohort",
+        "Placebo+FLOT Cohort"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Oxaliplatin",
+      "description": "IV infusion",
+      "arm_group_labels": [
+        "Pembrolizumab+FLOT Cohort",
+        "Placebo+FLOT Cohort"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Leucovorin",
+      "description": "IV infusion",
+      "arm_group_labels": [
+        "Pembrolizumab+FLOT Cohort",
+        "Placebo+FLOT Cohort"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Event-free Survival (EFS) Per Response Criteria in Solid Tumors Version 1.1 (RECIST 1.1) - Pembrolizumab+XP/FP and Placebo+XP/FP Treatment Arms",
+      "description": "EFS is based on RECIST 1.1 as assessed by the investigator and is defined as the time from randomization to the first of the following events: radiographic disease progression per RECIST 1.1; local or distant recurrence as assessed by computer tomography (CT) scan or biopsy if indicated (for participants who are disease free after surgery); clinical progression as evidenced by peritoneal carcinomatosis confirmed by preoperative laparoscopy or laparotomy (for participants who are confirmed to be free of peritoneal involvement by laparoscopy at screening); or death due to any cause. A second primary malignancy, or radiographic progressive disease (PD) during the neoadjuvant phase that does not preclude successful surgery (i.e., disease free after surgery), are not considered EFS events.",
+      "time_frame": "Up to approximately 42 months"
+    },
+    {
+      "measure": "Pathological Complete Response (pathCR) Rate - Pembrolizumab+XP/FP and Placebo+XP/FP Treatment Arms",
+      "description": "PathCR rate is defined as the percentage of participants having a pathCR. pathCR is defined as no invasive disease within an entirely submitted and evaluated gross lesion, and histologically negative nodes.",
+      "time_frame": "Up to approximately 9 weeks following completion of neoadjuvant treatment (up to Study Week 18)"
+    },
+    {
+      "measure": "Overall Survival (OS) - Pembrolizumab+XP/FP and Placebo+XP/FP Treatment Arms",
+      "description": "OS is defined as the time from randomization to death due to any cause. OS is presented for the Pembrolizumab+XP/FP and Placebo+XP/FP treatment arms.",
+      "time_frame": "Up to approximately 42 months"
+    },
+    {
+      "measure": "Number of Participants Who Experience One or More Adverse Events (AEs) - Pembrolizumab+FLOT and Placebo+FLOT Cohorts",
+      "description": "An AE is defined as any untoward medical occurrence in a participant, temporally associated with the use of study treatment, whether or not considered related to the study treatment. The FLOT cohort was not enrolled in China per specifications in the protocol Supplemental Statistical Analysis Plan (sSAP) amendment and no data were collected for the FLOT cohort in China.",
+      "time_frame": "Up to approximately 42 months"
+    },
+    {
+      "measure": "Number of Participants Who Discontinue Study Treatment Due to an Adverse Event (AE) - Pembrolizumab+FLOT and Placebo+FLOT Cohorts",
+      "description": "An AE is defined as any untoward medical occurrence in a participant, temporally associated with the use of study treatment, whether or not considered related to the study treatment. The FLOT cohort was not enrolled in China per specifications in the protocol sSAP amendment and no data were collected for the FLOT cohort in China.",
+      "time_frame": "Up to approximately 17 months"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Number of Participants Who Experience One or More Adverse Events (AEs) - Pembrolizumab+XP/FP and Placebo+XP/FP Treatment Arms Separately and in Combination With the Pembrolizumab+FLOT and Placebo+FLOT Cohorts",
+      "description": "An AE is defined as any untoward medical occurrence in a participant, temporally associated with the use of study treatment, whether or not considered related to the study treatment. The number of participants who experience at least one AE is presented for Pembrolizumab+XP/FP and Placebo+XP/FP treatment arms. The FLOT cohort was not enrolled in China per specifications in the protocol Supplemental Statistical Analysis Plan (sSAP) amendment and no data were collected for the FLOT cohort in China. There is no FLOT cohort in China to combine with XP/FP arms.",
+      "time_frame": "Up to approximately 42 months"
+    },
+    {
+      "measure": "Number of Participants Who Discontinue Study Treatment Due to an Adverse Event (AE) - Pembrolizumab+XP/FP and Placebo+XP/FP Treatment Arms Separately and in Combination With the Pembrolizumab+FLOT and Placebo+FLOT Cohorts",
+      "description": "An AE is defined as any untoward medical occurrence in a participant, temporally associated with the use of study treatment, whether or not considered related to the study treatment. The number of participants who discontinue study treatment due to an AE will be presented for Pembrolizumab+XP/FP and Placebo+XP/FP treatment arms. The FLOT cohort was not enrolled in China per specifications in the protocol sSAP amendment and no data were collected for the FLOT cohort in China. There is no FLOT cohort in China to combine with XP/FP arms.",
+      "time_frame": "Up to approximately 23 months"
+    },
+    {
+      "measure": "Disease-free Survival (DFS) Per Response Criteria in Solid Tumors Version 1.1 (RECIST 1.1) - Pembrolizumab+XP/FP and Placebo+XP/FP Treatment Arms",
+      "description": "DFS is defined as the time from post-surgery baseline scan until the first occurrence of local/distant recurrence or death from any cause and is based on RECIST 1.1 as assessed by the investigator.",
+      "time_frame": "Up to approximately 42 months"
+    },
+    {
+      "measure": "Overall Survival (OS) - Pembrolizumab+XP/FP and Placebo+XP/FP Treatment Arms in Combination With the Pembrolizumab+FLOT and Placebo+FLOT Cohorts",
+      "description": "OS is defined as the time from randomization to death due to any cause. The FLOT cohort was not enrolled in China per specifications in the protocol sSAP amendment and no data were collected for the FLOT cohort in China. There is no FLOT cohort in China to combine with XP/FP arms.",
+      "time_frame": "Up to approximately 42 months"
+    },
+    {
+      "measure": "Event-free Survival (EFS) Per Response Criteria in Solid Tumors Version 1.1 (RECIST 1.1) - Pembrolizumab+XP/FP and Placebo+XP/FP Treatment Arms in Combination With the Pembrolizumab+FLOT and Placebo+FLOT Cohorts",
+      "description": "EFS is based on RECIST 1.1 as assessed by the investigator and is defined as the time from randomization to the first of the following events: radiographic disease progression per RECIST 1.1; local or distant recurrence as assessed by CT scan or biopsy if indicated (for participants who are disease free after surgery); clinical progression as evidenced by peritoneal carcinomatosis confirmed by preoperative laparoscopy or laparotomy (for participants who are confirmed to be free of peritoneal involvement by laparoscopy at screening); or death due to any cause. A second primary malignancy, or radiographic progressive disease (PD) during the neoadjuvant phase that does not preclude successful surgery (i.e., disease free after surgery), are not considered EFS events. The FLOT cohort was not enrolled in China per specifications in the protocol sSAP amendment and no data were collected for the FLOT cohort in China. There is no FLOT cohort in China to combine with XP/FP arms.",
+      "time_frame": "Up to approximately 42 months"
+    }
+  ]
+}

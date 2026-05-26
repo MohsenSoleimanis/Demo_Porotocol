@@ -1,0 +1,105 @@
+{
+  "nct_id": "NCT04846868",
+  "brief_title": "Clinical Trial of Iclepertin Effect on Cognition and Functional Capacity in Schizophrenia (CONNEX-1)",
+  "official_title": "A Phase III Randomized, Double-blind, Placebo-controlled Parallel Group Trial to Examine the Efficacy and Safety of Iclepertin Once Daily Over 26 Week Treatment Period in Patients With Schizophrenia (CONNEX-1)",
+  "lead_sponsor": "Boehringer Ingelheim",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "overall_status": "COMPLETED",
+  "start_date": "2021-09-08",
+  "completion_date": "2024-10-01",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 620,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Schizophrenia"
+  ],
+  "keywords": [],
+  "eligibility_criteria": "Inclusion criteria\n\n1. Patients must be capable of providing signed and dated written informed consent by date of Visit 1 in accordance with ICH Harmonized Tripartite Guideline for Good Clinical Practice (ICH-GCP) and the local legislation prior to the admission to the trial.\n2. Male or female patients who are 18-50 years (inclusive) of age at time of consent.\n3. Diagnosis of schizophrenia utilizing Diagnostic and Statistical Manual of Mental Disorders 5th Edition (DSM-5) with the following clinical features:\n\n   * Outpatient, clinically stable and in the residual (non-acute) phase of their illness.\n   * No hospitalization or increase in level of psychiatric care due to worsening of schizophrenia within 12 weeks prior to randomization.\n   * Positive and Negative Syndrome Scale (PANSS) score: items P1, P3-P6 \u2264 5 and item P2 and P7 \u2264 4 at Visit 1, and confirmed at Visit 2.\n4. Patients should have functional impairment in day-to-day activities such as difficulties following conversation or expressing themselves, difficulties to stay focused, difficulties to remember instructions, what to say or how to get to places, per investigator judgement.\n5. Patients maintained on current antipsychotic treatment (minimum 1 and maximum 2 antipsychotics, but clozapine is not allowed) for at least 12 weeks and on current dose for at least 35 days prior to randomization.\n\n   \\-- For patients on two antipsychotics, at least one antipsychotic must be within the approved label dose range. The second antipsychotic must not exceed the maximum daily dose per local label.\n\n   Note: If the total dose is stable, different dosage forms of the same antipsychotic treatment will be considered as one antipsychotic.\n6. Patients with any other concomitant psychoactive medications (except for anticholinergics) need to be maintained on same drug for at least 12 weeks and on current dose/ regimen for at least 35 days prior to randomization.\n\n   * Maximum daily benzodiazepine load of up to 1 mg lorazepam-equivalent.\n   * For any other psychoactive medications, doses cannot exceed the maximum daily dose per local label.\n7. Women of childbearing potential (WOCBP) must be ready and able to use highly effective methods of birth control per Non-Clinical Safety Studies for the Conduct of Human Clinical Trials and Marketing Authorization for Pharmaceuticals (ICH M3 (R2)) that result in a low failure rate of less than 1% per year when used consistently and correctly. A list of contraception methods meeting these criteria is provided in the protocol. Such methods should be used throughout the trial, and for a period of at least 35 days after last trial drug intake, and the patient must agree to periodic pregnancy testing during participation in the trial.\n8. Have a study partner, defined as any person either private or professional who knows the patient well, has been capable of interacting with the patient on regular basis, and preferably consistent throughout the study.\n\n   * The study partner must interact with the subject a minimum 1 hour per week and, preferably, at least 2 times a week. At least one interaction per week should be in person.\n   * The study partner must have educational achievement of minimum 8th grade.\n   * Professional study partners (e.g. study nurse, social worker etc.) are allowed if not involved in administration of any of the protocol assessments.\n\nFurther inclusion criteria apply.\n\nExclusion criteria\n\n1. Participant with current DSM-5 diagnosis other than Schizophrenia, including but not limited to bipolar, schizoaffective, major depressive disorder etc. Mini International Neuropsychiatric Interview (M.I.N.I.) for Psychotic disorders should be used for guidance.\n2. Cognitive impairment due to developmental, neurological (e.g., epilepsy, stroke) or other disorders including head trauma, or patients with dementia or epilepsy.\n3. Severe movement disorders\n\n   * Leading to cognitive impairment (e.g. Parkinson dementia), or\n   * Interfering with the efficacy assessments, or\n   * Due to antipsychotic treatment that cannot be controlled with low dose anticholinergic treatment (equal to maximum 1 mg benztropine twice daily).\n4. Any suicidal behavior in the past 1-year prior to screening and during the screening period.\n5. Suicidal ideation of type 5 in the Columbia Suicide Severity Rating Scale (C-SSRS) (i.e. active suicidal thought with plan and intent) in the past 3 months prior to screening and up to and including Visit 2.\n\n   \\-- Patients with Suicidal Ideation type 4 in the C-SSRS (i.e. active suicidal thought with intent but without specific plan), within 3 months prior to screening and up to and including Visit 2, can be randomized in the study, if assessed and documented by a licensed mental health professional that there is no immediate risk of suicide.\n6. History of moderate or severe substance use disorder (other than caffeine and nicotine), as defined in DSM-5 within the last 12 months prior to informed consent.\n7. Positive urine drug screen at Visit 1 based on central lab test.\n8. Patients who were treated with any of the following within 6 months prior to randomization:\n\n   * Clozapine\n   * Stimulants (e.g. methylphenidate, dextroamphetamine, modafinil)\n   * Ketamine or esketamine\n   * Electroconvulsive therapy (ECT) or Modified ECT Further exclusion criteria apply.",
+  "sex": "ALL",
+  "min_age": "18 Years",
+  "max_age": "50 Years",
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "Iclepertin 10 mg",
+      "type": "EXPERIMENTAL",
+      "description": "Patients with schizophrenia took orally once a day one 10 milligram (mg) tablet of iclepertin.",
+      "intervention_names": [
+        "Drug: Iclepertin"
+      ]
+    },
+    {
+      "label": "Placebo-matching Iclepertin 10 mg",
+      "type": "PLACEBO_COMPARATOR",
+      "description": "Patients with schizophrenia took orally once a day one tablet of placebo-matching iclepertin.",
+      "intervention_names": [
+        "Drug: Placebo"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Iclepertin",
+      "description": "One 10 milligram (mg) tablet once a day.",
+      "arm_group_labels": [
+        "Iclepertin 10 mg"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Placebo",
+      "description": "One tablet once a day.",
+      "arm_group_labels": [
+        "Placebo-matching Iclepertin 10 mg"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Change From Baseline in Overall Composite T-score of the Measurement and Treatment Research to Improve Cognition in Schizophrenia (MATRICS) Consensus Cognitive Battery (MCCB) After 26 Weeks of Treatment",
+      "description": "MCCB comprises 10 tests, which assess 7 cognitive domains, including speed of processing, attention vigilance, working memory, verbal learning, visual learning, reasoning and problem solving, and social cognition. The larger the MCCB overall composite T-score, the better patient cognition. A mean T-score of 50 and a standard deviation of 10 reflects the general population.\n\nThe estimated treatment effect included the effect of any concomitant therapies for all randomized patients on on-treatment periods. On-treatment is defined as the period of first drug administration/first resumed dose after interruption until last drug administration + REP (residual effect period).\n\nThe change from baseline was analyzed with a MMRM (mixed-effects model for repeated measures) with the fixed effects: treatment at each visit, stratification factor using the screening MCCB overall composite T-score, and baseline MCCB overall composite T-score at each visit. Visit was the repeated measure.",
+      "time_frame": "MMRM included measurements at baseline, Week 12, and Week 26. Change from baseline values at Week 26 is reported."
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Key Secondary Endpoint: Change From Baseline in the Schizophrenia Cognition Rating Scale (SCoRS) Interviewer Total Score After 26 Weeks of Treatment",
+      "description": "The SCoRS is an interview based- assessment tool to evaluate the cognitive function of individuals with schizophrenia that incorporates the input of the patient, the caregiver and the interviewer. It is composed of 20 items on a 7-point Likert scale, ranging from 20 to 140 points, where a higher score indicates a greater cognitive impairment.\n\nThe estimated treatment effect included the effect of any concomitant therapies and partner change in SCoR assessment for all randomized patients on-treatment. On-treatment is defined as the period of 1st drug administration/1st resumed dose after interruption until last drug administration + REP.\n\nThe change from baseline was analyzed with mixed-effects model for repeated measures (MMRM) with the fixed effects: treatment at each visit, stratification factor using the screening MCCB overall composite T-score, and baseline MCCB overall composite T-score at each visit. Visit was treated as the repeated measure.",
+      "time_frame": "MMRM included measurements at baseline, Week 12, and Week 26. Change from baseline values at Week 26 is reported."
+    },
+    {
+      "measure": "Key Secondary Endpoint: Change From Baseline to Week 26 in the Adjusted Total Time T-score in the Virtual Reality Functional Capacity Assessment Tool (VRFCAT)",
+      "description": "The VRFCAT is a computerized assessment measuring the functional capacity of an individual to perform everyday tasks. It generates a composite score based on the amount of time taken to complete the tasks. The lower the VRFCAT T-score, the better patient's functional capacity. A mean T-score of 50 and a standard deviation of 10 reflects the T-score in a general population.\n\nThe estimated treatment effect included the effect of any concomitant therapies for all randomized patients on-treatment. On-treatment is defined as the period of 1st drug administration/1st resumed dose after interruption until last drug administration + REP.\n\nThe change from baseline was analyzed with MMRM with the fixed effects: treatment at each visit, stratification factor using the screening MCCB overall composite T-score, and baseline MCCB overall composite T-score at each visit. Visit was treated as the repeated measure.",
+      "time_frame": "MMRM included measurements at baseline, Week 12, and Week 26. Change from baseline values at Week 26 is reported."
+    },
+    {
+      "measure": "Change From Screening Visit 1a in Patient Reported Experience of Cognitive Impairment in Schizophrenia (PRECIS) Total Score at Week 24",
+      "description": "The Patient Reported Experience of Cognitive Impairment in Schizophrenia (PRECIS) score evaluates how cognitive difficulties impact the daily life of individuals with schizophrenia. It is composed of 28 items on a 5-category Likert scale (1=not at all/not at all hard, 5=very much/very hard), and the total score was derived by calculating the average score of the first 26 items, where higher scores mean a worse patient experience.\n\nThe estimated treatment effect included the effect of any concomitant therapies for all randomized patients on-treatment. On-treatment is defined as the period of 1st drug administration/1st resumed dose after interruption until last drug administration + REP.\n\nThe change from baseline was analyzed with MMRM with the fixed effects: treatment at each visit, stratification factor using the screening MCCB overall composite T-score, and baseline MCCB overall composite T-score at each visit. Visit was treated as the repeated measure.",
+      "time_frame": "MMRM included measurements at Visit 1a (Week -2/Week -1), Week 15, and Week 24. Change from Visit 1a values at Week 24 is reported."
+    },
+    {
+      "measure": "Change From Baseline in the T-score of the Number of Correct Responses on Tower of London at Week 26",
+      "description": "The Tower of London (ToL) evaluates executive functioning, reasoning, problem-solving, and goal-directed behavior. It measures the number of correct responses in solving an exercise that consists on moving colored balls to match a target configuration. The higher the ToL T-score, the better patient's cognitive function. A mean T-score of 50 and a standard deviation of 10 reflects the T-score in a general population.\n\nThe estimated treatment effect included the effect of any concomitant therapies for all randomized patients on-treatment. On-treatment is defined as the period of 1st drug administration/1st resumed dose after interruption until last drug administration + REP.\n\nThe change from baseline comparing the groups was analyzed using analysis of covariance (ANCOVA) model including treatment, stratification factor of screening MCCB overall composite T-score, and baseline number of correct responses on Tower of London T-score.",
+      "time_frame": "At baseline and at Week 26."
+    },
+    {
+      "measure": "Ocular Safety Sub-study: Humphrey Visual Field 24-2 Swedish Interactive Thresholding Algorithm (SITA) Standard",
+      "description": "The Humphrey Visual Field 24-2 SITA Standard is a diagnostic test to measure visual fields, or perimetry. The Humphrey visual field test measures the entire area of peripheral vision that can be seen while the eye is focused on a central point. During this test, lights of varying intensities appear in different parts of the visual field while the patient's eye is focused on a central spot. The perception of these lights is charted and then compared to results of a healthy eye at the same age of the patient to determine if any damage has occurred. The tests ranks from 0 to 100%, where 0 means no vision and 100 means perfect vision.",
+      "time_frame": "At baseline and at Week 24."
+    },
+    {
+      "measure": "Ocular Safety Sub-study: Central Retinal Thickness as Measured by Spectral Domain Optical Coherence Tomography (SD-OCT)",
+      "description": "The central retinal thickness for both eyes was measured by high-definition optical coherence tomography (spectral domain OCT), which evaluates the retinal and sub-retinal structures of both eyes.",
+      "time_frame": "At baseline and at Week 24."
+    }
+  ]
+}

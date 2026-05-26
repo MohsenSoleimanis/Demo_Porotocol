@@ -1,0 +1,102 @@
+{
+  "nct_id": "NCT04673786",
+  "brief_title": "A Study to Compare the Efficacy and Safety of CT-P43 to Stelara in Patients With Plaque Psoriasis",
+  "official_title": "A Randomized, Active-Controlled, Double-Blind, Phase 3 Study to Compare the Efficacy and Safety of CT-P43 to Stelara in Patients With Moderate to Severe Plaque Psoriasis",
+  "lead_sponsor": "Celltrion",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "overall_status": "COMPLETED",
+  "start_date": "2021-01-11",
+  "completion_date": "2022-05-12",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 509,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Psoriasis"
+  ],
+  "keywords": [],
+  "eligibility_criteria": "Inclusion Criteria:\n\n\\- Patient has had diagnosis of plaque-type psoriasis for at least 24 weeks.\n\nExclusion Criteria:\n\n* Patients diagnosed with forms of psoriasis other than plaque-type.\n* Patients previously received ustekinumab or a biosimilar of ustekinumab.\n* Patient who has allergies to the active substance or any of the excipients of ustekinumab or study drug, or patients with a hypersensitivity to immunoglobulin products or natural rubber and latex.",
+  "sex": "ALL",
+  "min_age": "18 Years",
+  "max_age": "80 Years",
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "CT-P43",
+      "type": "EXPERIMENTAL",
+      "description": "All patients who were initially randomized to the CT-P43 group on Day 1 (Week 0) will continue their treatment with CT-P43 until Week 40.",
+      "intervention_names": [
+        "Biological: CT-P43"
+      ]
+    },
+    {
+      "label": "Stelara",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "Patients who were initially randomized to Stelara group on Day 1 (Week 0) will be randomized again in a ratio of 1:1 to either continue Stelara or undergo transition to CT-P43 prior to dosing at Week 16. Thereafter, patients will continue their treatment until Week 40.",
+      "intervention_names": [
+        "Biological: CT-P43",
+        "Biological: Stelara"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "BIOLOGICAL",
+      "name": "CT-P43",
+      "description": "45mg or 90mg dose subcutaneous administration",
+      "arm_group_labels": [
+        "CT-P43",
+        "Stelara"
+      ]
+    },
+    {
+      "type": "BIOLOGICAL",
+      "name": "Stelara",
+      "description": "45mg or 90mg dose subcutaneous administration",
+      "arm_group_labels": [
+        "Stelara"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "The Mean Percent Improvement From Baseline in PASI Score at Week 12",
+      "description": "The percent improvement from baseline in Psoriasis Area and Severity Index (PASI) score at Week 12. PASI score can range from 0 (no psoriasis) to 72 (severe psoriasis).",
+      "time_frame": "From baseline to Week 12"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "The PASI Scores at Week 12",
+      "description": "The Psoriasis Area and Severity Index (PASI) score at Week 12. PASI score can range from 0 (no psoriasis) to 72 (severe psoriasis).",
+      "time_frame": "Week 12"
+    },
+    {
+      "measure": "The Mean Percent Improvement From Baseline in PASI Score Through Week 52",
+      "description": "The percent improvement from baseline in Psoriasis Area and Severity Index (PASI) score through Week 52. PASI score can range from 0 (no psoriasis) to 72 (severe psoriasis).",
+      "time_frame": "Through Week 52"
+    },
+    {
+      "measure": "The Number of Patients Achieving PASI 50, PASI 75, PASI 90, and PASI 100 Responses at Week 12",
+      "description": "The number of participants achieving at least 50%/75%/90%/100% improvement from baseline in Psoriasis Area and Severity Index (PASI) at Week 12. PASI score can range from 0 (no psoriasis) to 72 (severe psoriasis).",
+      "time_frame": "Week 12"
+    },
+    {
+      "measure": "The Number of Patients With sPGA Score of Clear (0) or Almost Clear (1) at Week 12",
+      "description": "The sPGA is a 5-point score ranging from 0 to 4, based on the physician's assessment of the erythema, average thickness, and scaling of all psoriatic lesions at a given time point. The sum of the 3 scales will be divided by 3 to obtain a final sPGA score.",
+      "time_frame": "Week 12"
+    },
+    {
+      "measure": "The Change From Baseline in Dermatology Life Quality Index (DLQI) Through Week 52",
+      "description": "This DLQI is a 10-item patient-reported outcome questionnaire that, in addition to evaluating overall QoL, can be used to assess 6 different aspects that may affect QoL: symptoms and feelings, daily activities, leisure, work or school performance, personal relationships, and treatment. Total scores range from 0 to 30 (less to more impairment).",
+      "time_frame": "Through Week 52"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "nct_id": "NCT05014919",
+  "brief_title": "Vortioxetine to Prevent Return of Symptoms in Children With Depression",
+  "official_title": "A Double-blind, Randomized, Placebo-controlled, Multicentre, Relapse-prevention Study of Vortioxetine in Paediatric Patients Aged 7 to 11 Years With Major Depressive Disorder",
+  "lead_sponsor": "H. Lundbeck A/S",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "overall_status": "TERMINATED",
+  "start_date": "2021-08-10",
+  "completion_date": "2022-04-28",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 35,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Depression"
+  ],
+  "keywords": [],
+  "eligibility_criteria": "Inclusion Criteria:\n\nDe novo participants\n\n* The participant has a primary diagnosis of MDD according to DSM-5\u2122 although co-morbid anxiety disorders will be permitted (except Post Traumatic Stress Disorder (PTSD) and Obsessive Compulsive Disorder (OCD)).\n* The participant has a CDRS-R total score \u226545 at the Screening and Baseline Visits.\n* The participant has a Clinical Global Impression - Severity of Illness (CGI-S) \u22654 at the Screening and Baseline Visit\n\nExclusion Criteria:\n\n* The participant receives ongoing current psychotherapy that is planned to be intensified. Interpersonal psychotherapy (IPT) or cognitive behavioural therapy (CBT) are not allowed.\n* The participant presents with, or has a history of, an Axis I (DSM-5TM) diagnosis of Bipolar Disorder, PTSD, OCD, Autism, Pervasive Developmental Disorder (PDD), or Schizophrenia or Schizoaffective Disorder.\n* The participant has a diagnosis of attention-deficit/hyperactivity disorder (ADHD) and is not maintained on a stable dose of a methylphenidate or amphetamine for a minimum of 4 weeks prior to the study treatment.\n* The participant has attempted suicide or is at significant risk of suicide\n\nOther inclusion and exclusion criteria may apply.",
+  "sex": "ALL",
+  "min_age": "7 Years",
+  "max_age": "11 Years",
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "Vortioxetine -open label treatment period",
+      "type": "EXPERIMENTAL",
+      "description": "Vortioxetine - 5, 10, 15, and 20 mg/day, film-coated tablets, orally once daily.\n\nPatients will receive a targeted dose of 10 mg/day vortioxetine, however the investigator has the possibility to adjust the dose in case of unsatisfactory response or in case of dose-limiting adverse events.",
+      "intervention_names": [
+        "Drug: Vortioxetine"
+      ]
+    },
+    {
+      "label": "Vortioxetine -double-blind relapse prevention period",
+      "type": "EXPERIMENTAL",
+      "description": "Vortioxetine - 5, 10, 15, and 20 mg/day, encapsulated film-coated tables, orally once daily.\n\nIn the double-blind period, the patients will continue on the same fixed dose as during the end of the open label period",
+      "intervention_names": [
+        "Drug: Vortioxetine"
+      ]
+    },
+    {
+      "label": "Placebo -double-blind relapse prevention period",
+      "type": "PLACEBO_COMPARATOR",
+      "description": "Placebo - encapsulated tablets, orally once daily.",
+      "intervention_names": [
+        "Drug: Placebo"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Vortioxetine",
+      "description": "Tablets",
+      "arm_group_labels": [
+        "Vortioxetine -double-blind relapse prevention period",
+        "Vortioxetine -open label treatment period"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Placebo",
+      "description": "Tablets",
+      "arm_group_labels": [
+        "Placebo -double-blind relapse prevention period"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Time to Relapse in the Double-blind Period",
+      "description": "Relapse was defined as either a total score \u226540 on the Children Depression Rating Scale Revised Version (CDRS-R) with a history of 2 weeks of clinical deterioration, or clinical deterioration as judged by the clinician. The CDRS-R is rated by a clinician following interviews with the child and parent and consists of 17 items out of which 3 items rate nonverbal observations (listless speech, hypoactivity, and depressed affect). Fourteen items are rated on a 7-point scale from 1 to 7, and 3 items (sleep disturbance, appetite disturbance, and listless speech) are scored on a 5-point scale from 1 to 5. A rating of 1 indicates normal functioning and a higher number indicates a greater degree of depression. The total score ranges from 17 (normal) to 113 (severe depression).",
+      "time_frame": "From randomization to Week 26 in the double-blind treatment period"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Relapse Rate in the Double-blind Period: Percentage of Participants With Relapse",
+      "description": "Relapse was defined as either a total score \u226540 on the CDRS-R with a history of 2 weeks of clinical deterioration, or clinical deterioration as judged by the clinician. The CDRS-R is rated by a clinician following interviews with the child and parent and consists of 17 items out of which 3 items rate nonverbal observations (listless speech, hypoactivity, and depressed affect). Fourteen items are rated on a 7-point scale from 1 to 7, and 3 items (sleep disturbance, appetite disturbance, and listless speech) are scored on a 5-point scale from 1 to 5. A rating of 1 indicates normal functioning and a higher number indicates a greater degree of depression. The total score ranges from 17 (normal) to 113 (severe depression).",
+      "time_frame": "From randomization to Week 26 in the double-blind treatment period"
+    },
+    {
+      "measure": "Change From Baseline in Children's Depression Rating Scale - Revised Version (CDRS-R) Total Score at Week 26",
+      "description": "The CDRS-R is a clinician-rated scale to measure the severity of depression in children and adolescents. The CDRS-R is rated by a clinician following interviews with the child and parent and consists of 17 items out of which 3 items rate nonverbal observations (listless speech, hypoactivity, and depressed affect). Fourteen items are rated on a 7-point scale from 1 to 7, and 3 items (sleep disturbance, appetite disturbance, and listless speech) are scored on a 5-point scale from 1 to 5. A rating of 1 indicates normal functioning and a higher number indicates a greater degree of depression. The total score ranges from 17 (normal) to 113 (severe depression).",
+      "time_frame": "Baseline, Week 26"
+    },
+    {
+      "measure": "Change From Baseline in Clinical Global Impression - Severity of Illness (CGI-S) Score at Week 26",
+      "description": "The CGI-S provides the clinician's impression of the participant's current state of mental illness. The clinician uses his or her clinical experience of this participant population to rate the severity of the participant's current mental illness on a 7-point scale ranging from 1 (normal - not at all ill) to 7 (among the most extremely ill participants).",
+      "time_frame": "Baseline, Week 26"
+    },
+    {
+      "measure": "Clinical Global Impression - Global Improvement (CGI-I) Score at Week 26",
+      "description": "The CGI-I provides the clinician's impression of the participant's improvement (or worsening). The clinician assesses the participant's condition relative to a baseline on a 7-point scale ranging from 1 (very much improved) to 7 (very much worse).",
+      "time_frame": "Week 26"
+    },
+    {
+      "measure": "Change From Baseline in Paediatric Quality of Life Enjoyment and Satisfaction Questionnaire (PQ-LES-Q) Total Score (Items 1 to 14) at Week 26",
+      "description": "The PQ-LES-Q is a participant-rated scale designed to assess satisfaction with life. It is an adaptation of the Quality of Life Enjoyment and Satisfaction Questionnaire, which is used to measure quality of life in adults. The PQ-LES-Q consist of 15 items, item 1 to 14 assess the degree of satisfaction experienced by participants in various areas of daily functioning, and item 15 allows participants to summarise their experience in a global rating. Each item is rated on a 5-point scale from 1 (very poor) to 5 (very good). The total score range of item 1 to 14 is 14 to 70, with higher scores indicating greater satisfaction.",
+      "time_frame": "Baseline, Week 26"
+    },
+    {
+      "measure": "Plasma Concentration of Vortioxetine",
+      "description": null,
+      "time_frame": "From randomization to Week 26 in the double-blind treatment period"
+    }
+  ]
+}

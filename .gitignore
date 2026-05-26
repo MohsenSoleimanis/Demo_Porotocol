@@ -1,0 +1,25 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.streamlit/secrets.toml
+*.log
+*.tmp
+.cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# PDF source files — large; track separately, sync via scp
+dataset/**/*.pdf

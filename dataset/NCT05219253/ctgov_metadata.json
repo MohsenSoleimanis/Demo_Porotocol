@@ -1,0 +1,137 @@
+{
+  "nct_id": "NCT05219253",
+  "brief_title": "A Study on the Immune Response and Safety of a Vaccine Against Herpes Zoster in Adults Aged 50 Years and Older in India",
+  "official_title": "A Phase 3, Randomised, Observer-blind, Placebo-controlled, Multi-centre Study to Evaluate the Immune Response and Safety of the Herpes Zoster Subunit Vaccine When Administered Intramuscularly on a 2-dose Schedule in Adults Aged 50 Years and Older in India",
+  "lead_sponsor": "GlaxoSmithKline",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "overall_status": "COMPLETED",
+  "start_date": "2022-02-02",
+  "completion_date": "2022-12-12",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "primary_purpose": "PREVENTION",
+  "enrollment_count": 288,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Herpes Zoster"
+  ],
+  "keywords": [
+    "Shingles",
+    "Herpes Zoster subunit vaccine",
+    "Immunogenicity",
+    "Safety",
+    "Adults aged 50 years and older",
+    "India"
+  ],
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Participants and/or participant's legally acceptable representative(s) (LAR) who in the opinion of the investigator, can and will comply with the requirements of the protocol.\n* Written or witnessed/thumb printed informed consent obtained from the participant and/or participant's LAR(s) after the study has been explained according to local regulatory requirements and prior to performance of any study-specific procedure.\n* A male or female aged 50 YOA or older at the time of the first study intervention.\n* Healthy participants or medically stable patients as established by medical history and clinical examination before entering into the study.\n* Female participants of non-childbearing potential may be enrolled in the study.\n* Female participants of childbearing potential may be enrolled in the study, if the participant:\n\n  * has practiced adequate contraception for 1 month prior to study intervention administration, and\n  * has a negative pregnancy test on the day of study intervention administration, and\n  * has agreed to continue adequate contraception during the entire treatment period and for 2 months after completion of the study intervention administration series.\n\nExclusion Criteria:\n\nMedical conditions\n\n* Any other clinical condition that, in the opinion of the investigator, might pose additional risk to the participant due to participation in the study.\n* History of any reaction or hypersensitivity likely to be exacerbated by any component of the study intervention(s) vaccine or study materials or equipment.\n* Acute or chronic clinically significant pulmonary, cardiovascular, hepatic or renal functional abnormality, as determined by physical examination or laboratory screening tests.\n* Any confirmed or suspected immunosuppressive or immunodeficient condition, based on medical history and physical examination (no laboratory testing required).\n* History of HZ.\n* Significant underlying illness that in the opinion of the investigator would be expected to prevent completion of the study.\n\nPrior/Concomitant therapy\n\n\u2022 Planned administration/administration of a vaccine not foreseen by the study protocol in the period starting 30 days before first dose and ending 30 days after the last dose of study intervention administration with the exception of licensed pneumococcal vaccines and non-replicating vaccines may be administered up until 8 days prior to Dose 1 and/or Dose 2 and/or at least 14 days after any dose of study intervention.\n\n\\[In case an emergency mass vaccination for an unforeseen public health threat (e.g. a pandemic) is recommended and/or organised by the public health authorities, outside the routine immunisation programme, the time period described above can be reduced if necessary for that vaccine provided it is used according to local governmental recommendations and that the Sponsor is notified accordingly.\\]\n\n* Planned administration of long-acting immune-modifying drugs at any time during the study period.\n* Administration of immunoglobulins and/or any blood products or plasma derivatives during the period starting 3 months before the first dose of study intervention up to 1 month post-dose 2 (Month 3) or planned administration during the study period.\n* Chronic administration (defined as more than 14 days in total) of immunosuppressants or other immune-modifying drugs during the period starting 3 months prior to the first vaccine. For corticosteroids, this will mean prednisone equivalent \u2265 20 mg/day or equivalent is not allowed. Inhaled, intra-articular and topical steroids are allowed.\n* Previous vaccination against varicella or HZ.\n\nPrior/Concurrent clinical study experience Concurrently participating in another clinical study, at any time during the study period, in which the participant has been or will be exposed to an investigational or a non-investigational intervention (drug/ invasive medical device).\n\nOther exclusions\n\n* Pregnant or lactating female.\n* Female planning to become pregnant or planning to discontinue contraceptive precautions within 2 months of last study intervention administration.\n* Indications of drug abuse or excess alcohol use as deemed by investigator to potentially confound safety assessments or render participant unable or unlikely to adhere to protocol requirements.",
+  "sex": "ALL",
+  "min_age": "50 Years",
+  "max_age": null,
+  "healthy_volunteers": true,
+  "arms": [
+    {
+      "label": "HZ/su Group",
+      "type": "EXPERIMENTAL",
+      "description": "Participants randomized to the HZ/su group received two doses of HZ/su vaccine, administered at Day 1 and Month 2.",
+      "intervention_names": [
+        "Biological: HZ/su"
+      ]
+    },
+    {
+      "label": "Placebo Group",
+      "type": "PLACEBO_COMPARATOR",
+      "description": "Participants randomized to the Placebo group received two doses of Placebo, administered at Day 1 and Month 2.",
+      "intervention_names": [
+        "Drug: Placebo"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "BIOLOGICAL",
+      "name": "HZ/su",
+      "description": "Two doses of the HZ/su vaccine administered intramuscularly, one each at Day 1 and Month 2.",
+      "arm_group_labels": [
+        "HZ/su Group"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Placebo",
+      "description": "Two doses of Placebo (lyophilised sucrose reconstituted with saline \\[NaCl\\] solution) administered intramuscularly, one each at Day 1 and Month 2.",
+      "arm_group_labels": [
+        "Placebo Group"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Percentage of Participants Showing a Vaccine Response for Anti-glycoprotein E (gE)",
+      "description": "A participant with vaccine response for anti-gE was defined as a participant with:\n\n* at least a 4-fold greater post-last vaccination anti-gE antibody (Ab) concentration as compared to the pre-vaccination anti-gE Ab concentration, for participants who were seropositive at baseline, or\n* at least a 4-fold greater post-last vaccination anti-gE Ab concentration as compared to the anti-gE Ab cut-off value for seropositivity, for participants who were seronegative at baseline.",
+      "time_frame": "At 1 month post-Dose 2 of study intervention administration (Month 3)"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Anti-gE Antibody Concentrations Expressed as Geometric Mean Concentrations (GMCs) and Between-group GMC Ratios",
+      "description": "Anti-gE antibody concentrations were determined by enzyme-linked immunosorbent assay (ELISA) and expressed as GMCs in milli-international units per milliliter (mIU/mL).",
+      "time_frame": "At 1 month post-Dose 2 of study intervention administration (Month 3)"
+    },
+    {
+      "measure": "Percentage of Participants Reporting Solicited Administration Site Events",
+      "description": "The assessed solicited administration site events included injection site erythema, pain, pruritus and swelling.",
+      "time_frame": "Within 7 days after each study intervention dose and across doses (vaccine/placebo administered at Day 1 and Month 2)"
+    },
+    {
+      "measure": "Percentage of Participants Reporting Solicited Systemic Events",
+      "description": "The assessed solicited systemic events included fatigue, fever, gastrointestinal symptoms (nausea, vomiting, diarrhoea and/or abdominal pain), headache, myalgia and shivering.",
+      "time_frame": "Within 7 days after each study intervention dose and across doses (vaccine/placebo administered at Day 1 and Month 2)"
+    },
+    {
+      "measure": "Percentage of Participants Reporting Unsolicited Adverse Events (AEs)",
+      "description": "An unsolicited AE was defined as an AE that was not included in a list of solicited events using a participant diary. Unsolicited events must have been spontaneously communicated by a participant who had signed the informed consent. Also, any 'solicited' symptom with onset outside the specified period of follow-up for solicited symptoms was reported as an unsolicited AE.",
+      "time_frame": "Within 30 days after any study intervention dose administration (vaccine/placebo administered at Day 1 and Month 2)"
+    },
+    {
+      "measure": "Percentage of Participants Reporting Serious Adverse Events (SAEs)",
+      "description": "An SAE was defined as any untoward medical occurrence that resulted in death, was life-threatening, required hospitalization or prolongation of existing hospitalization, resulted in disability/incapacity, was a congenital anomaly/birth defect in the offspring of a study participant or an abnormal pregnancy outcome, or an important medical event that may not have been life-threatening or resulted in death or hospitalization, but may have jeopardized the participant or required medical or surgical intervention to prevent one of the aforementioned outcomes.",
+      "time_frame": "From Dose 1 (Day 1) up to 30 days post-last study intervention dose"
+    },
+    {
+      "measure": "Percentage of Participants Reporting Potential Immune-mediated Diseases (pIMDs)",
+      "description": "pIMDs were defined as a subset of AEs of special interest that included autoimmune diseases and other inflammatory and/or neurologic disorders of interest which may or may not have had an autoimmune etiology.",
+      "time_frame": "From Dose 1 (Day 1) up to 30 days post-last study intervention dose"
+    },
+    {
+      "measure": "Percentage of Participants Reporting SAEs",
+      "description": "An SAE was defined as any untoward medical occurrence that resulted in death, was life-threatening, required hospitalization or prolongation of existing hospitalization, resulted in disability/incapacity, was a congenital anomaly/birth defect in the offspring of a study participant or an abnormal pregnancy outcome, or an important medical event that may not have been life-threatening or resulted in death or hospitalization, but may have jeopardized the participant or required medical or surgical intervention to prevent one of the aforementioned outcomes.",
+      "time_frame": "From Dose 1 (Day 1) up to study end (Month 8)"
+    },
+    {
+      "measure": "Percentage of Participants Reporting pIMDs",
+      "description": "pIMDs were defined as a subset of AEs of special interest that included autoimmune diseases and other inflammatory and/or neurologic disorders of interest which may or may not have had an autoimmune etiology.",
+      "time_frame": "From Dose 1 (Day 1) up to study end (Month 8)"
+    },
+    {
+      "measure": "Anti-gE Antibody Concentrations Expressed as GMCs",
+      "description": "Anti-gE antibody concentrations were determined by ELISA and expressed as GMCs in mIU/mL.",
+      "time_frame": "At pre-study intervention administration (Day 1) and at 1 month post-Dose 2 of study intervention administration (Month 3)"
+    },
+    {
+      "measure": "Percentage of Participants Seropositive for Anti-gE Antibodies",
+      "description": "A participant seropositive for anti-gE antibodies was defined as a participant whose antibody concentration was greater than or equal to (\\>=) the assay cut-off value (97 mIU/mL).",
+      "time_frame": "At pre-study intervention administration (Day 1) and at 1 month post-Dose 2 of study intervention administration (Month 3)"
+    },
+    {
+      "measure": "Mean Geometric Increase (MGI) of Anti-gE Antibody Concentrations",
+      "description": "MGI was defined as the geometric mean of the within participant ratios of anti-gE antibody concentration at 1 month post-Dose 2 (Month 3) compared to pre-study intervention administration (Day 1) anti-gE antibody concentration.",
+      "time_frame": "At 1 month post-Dose 2 of study intervention administration (Month 3) compared to pre-study intervention administration (Day 1)"
+    }
+  ]
+}

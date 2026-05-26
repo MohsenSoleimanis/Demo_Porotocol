@@ -1,0 +1,92 @@
+{
+  "nct_id": "NCT05489224",
+  "brief_title": "A Study to Compare Efficacy and Safety of CT-P47 and RoActemra in Patients With Rheumatoid Arthritis",
+  "official_title": "A Randomized, Active-Controlled, Double-Blind, Phase 3 Study to Compare Efficacy and Safety of Two Intravenous Infusion Formulations of Tocilizumab (CT-P47 and RoActemra) When Co-administered With Methotrexate in Patients With Rheumatoid Arthritis",
+  "lead_sponsor": "Celltrion",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "overall_status": "COMPLETED",
+  "start_date": "2022-09-14",
+  "completion_date": "2023-11-23",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 471,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Rheumatoid Arthritis"
+  ],
+  "keywords": [],
+  "eligibility_criteria": "Inclusion Criteria:\n\n1. Patient is male or female aged 18 to 75 years old, both inclusive.\n2. Patient has had a diagnosis of RA according to the 2010 ACR/EULAR classification criteria for at least 24 weeks prior to the first administration of the study drug.\n\nExclusion Criteria:\n\n1. Patient who has previously received investigational or licensed product; targeted synthetic DMARD(s) (e.g., tofacitinib, baricitinib) for the treatment of RA and/or an interleukin-6 (IL-6) inhibitor for any purposes.\n2. Patient who has previously received more than 1 biologic agents approved for the treatment of RA.\n3. Patient who has allergies to any of the excipients of study drug or any other murine and human proteins, or patient with a hypersensitivity to immunoglobulin products.",
+  "sex": "ALL",
+  "min_age": "18 Years",
+  "max_age": "75 Years",
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "CT-P47",
+      "type": "EXPERIMENTAL",
+      "description": "CT-P47(Tocilizumab)",
+      "intervention_names": [
+        "Biological: CT-P47"
+      ]
+    },
+    {
+      "label": "EU-approved RoActemra",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "EU-approved RoActemra(Tocilizumab)",
+      "intervention_names": [
+        "Biological: CT-P47",
+        "Biological: EU-approved RoActemra"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "BIOLOGICAL",
+      "name": "CT-P47",
+      "description": "CT-P47, 8 mg/kg (not exceeding 800 mg/dose) by intravenous (IV) infusion every 4 weeks (Q4W)",
+      "arm_group_labels": [
+        "CT-P47",
+        "EU-approved RoActemra"
+      ]
+    },
+    {
+      "type": "BIOLOGICAL",
+      "name": "EU-approved RoActemra",
+      "description": "EU-approved RoActemra, 8 mg/kg (not exceeding 800 mg/dose) by IV infusion Q4W",
+      "arm_group_labels": [
+        "EU-approved RoActemra"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Mean Change From Baseline in Disease Activity Score 28 (DAS28) Using Erythrocyte Sedimentation Rate (ESR) at Week 24",
+      "description": "The DAS28(ESR) score was derived using the following formulae:\n\nDAS28 (ESR)=(0.56 \u00d7\u221aTJC28)+(0.28 \u00d7 \u221aSJC28)+(0.70 \u00d7 ln\\[ESR\\])+(0.014 \u00d7GH)\n\nWhere:\n\n* TJC28 = number of tender joints (0-28): tender joint count (TJC)\n* SJC28 = number of swollen joints (0-28): swollen joint count (SJC)\n* ESR = ESR measurement (mm/hour)\n* GH = patient's global disease activity measured on VAS (mm: 0-100)\n\nDAS28 (ESR) values could be ranged from 0 to 10 while higher values mean a higher disease activity.",
+      "time_frame": "Week 24"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Mean Change From Baseline in DAS28 (ESR) at Week 32",
+      "description": "The DAS28(ESR) score was derived using the following formulae:\n\nDAS28 (ESR)=(0.56 \u00d7\u221aTJC28)+(0.28 \u00d7 \u221aSJC28)+(0.70 \u00d7 ln\\[ESR\\])+(0.014 \u00d7GH)\n\nWhere:\n\n* TJC28 = number of tender joints (0-28): tender joint count (TJC)\n* SJC28 = number of swollen joints (0-28): swollen joint count (SJC)\n* ESR = ESR measurement (mm/hour)\n* GH = patient's global disease activity measured on VAS (mm: 0-100)\n\nDAS28 (ESR) values could be ranged from 0 to 10 while higher values mean a higher disease activity.",
+      "time_frame": "Week 32"
+    },
+    {
+      "measure": "ACR20, ACR50, and ACR70 Response Rate at Week 24",
+      "description": "ACR20 is defined as both improvement of 20% in the number of tender and number of swollen joints, and a 20% improvement in the three of the following five criteria: 1) patient global assessment of disease activity, 2) physician global assessment of disease activity, 3) functional ability measure using Health Assessment Questionnaire (HAQ), 4) visual analog pain scale, and 5) erythrocyte sedimentation rate (ESR) or C-reactive protein (CRP). ACR50 and ACR70 are the same instruments with improvement levels defined as 50% and 70% respectively versus 20% for ACR20.",
+      "time_frame": "Week 24"
+    },
+    {
+      "measure": "ACR20, ACR50, and ACR70 Response Rate at Week 32",
+      "description": "ACR20 is defined as both improvement of 20% in the number of tender and number of swollen joints, and a 20% improvement in the three of the following five criteria: 1) patient global assessment of disease activity, 2) physician global assessment of disease activity, 3) functional ability measure using Health Assessment Questionnaire (HAQ), 4) visual analog pain scale, and 5) erythrocyte sedimentation rate (ESR) or C-reactive protein (CRP). ACR50 and ACR70 are the same instruments with improvement levels defined as 50% and 70% respectively versus 20% for ACR20.",
+      "time_frame": "Week 32"
+    }
+  ]
+}

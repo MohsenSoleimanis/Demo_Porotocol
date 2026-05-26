@@ -1,0 +1,141 @@
+{
+  "nct_id": "NCT04666038",
+  "brief_title": "Study of LOXO-305 (Pirtobrutinib) Versus Investigator's Choice (Idelalisib Plus Rituximab or Bendamustine Plus Rituximab) in Patients With Previously Treated Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lymphoma (SLL)",
+  "official_title": "A Phase 3 Open-Label, Randomized Study of LOXO-305 Versus Investigator's Choice of Idelalisib Plus Rituximab or Bendamustine Plus Rituximab in BTK Inhibitor Pretreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BRUIN CLL-321)",
+  "lead_sponsor": "Loxo Oncology, Inc.",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [
+    "Eli Lilly and Company"
+  ],
+  "overall_status": "ACTIVE_NOT_RECRUITING",
+  "start_date": "2021-03-09",
+  "completion_date": "2027-05",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "NONE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 238,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Chronic Lymphocytic Leukemia",
+    "Small Lymphocytic Lymphoma"
+  ],
+  "keywords": [
+    "Hematologic Disease",
+    "Lymphoma, non-Hodgkin's",
+    "Lymphoma, B-cell",
+    "Lymphoma",
+    "Bruton's tyrosine kinase inhibitor",
+    "Ibrutinib",
+    "Acalabrutinib",
+    "Zanubrutinib",
+    "Pirtobrutinib"
+  ],
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of CLL/SLL requiring therapy as defined by iwCLL 2018 criteria.\n* Previously treated with a covalent BTK inhibitor.\n* Eastern Cooperative Oncology Group (ECOG) 0-2.\n* Absolute neutrophil count \u2265 0.75 \u00d7 10\\^9/L without granulocyte-colony-stimulating factor support, or \u2265 0.50 \u00d7 10\\^9/L in patients with documented bone marrow involvement considered to impair hematopoiesis. Granulocyte-colony-stimulating factor support is permitted in patients with documented bone marrow involvement.\n* Hemoglobin \u2265 8 g/dL or \u2265 6 g/dL in patients with documented bone marrow involvement considered to impair hematopoiesis. Transfusion support is permitted in patients with bone marrow involvement.\n* Platelets \u2265 50 \u00d7 10\\^9/L. If an investigator has chosen bendamustine/rituximab as the Arm B treatment, platelets must be \u2265 75 \u00d7 10\\^9/L. Patients may enroll below these thresholds if the Investigator determines the cytopenia is related to bone marrow involvement considered to impair hematopoiesis. Patients with a platelet count \\< 30 x 10\\^9/L are excluded.\n* AST and ALT \u2264 3.0 x upper limit of normal (ULN).\n* Total bilirubin \u2264 1.5 x ULN.\n* Estimated creatinine clearance of \u2265 30 mL/min.\n\nExclusion Criteria:\n\n* Known or suspected Richter's transformation at any time preceding enrollment.\n* Known or suspected history of central nervous system (CNS) involvement by CLL/SLL.\n* Ongoing drug-induced liver injury.\n* Active uncontrolled auto-immune cytopenia.\n* Significant cardiovascular disease.\n* History of allogeneic or stem cell transplantation (SCT) or chimeric antigen receptor-modified T cells (CAR-T) therapy within the past 60 days.\n* Active hepatitis B or hepatitis C.\n* Known active cytomegalovirus (CMV) infection.\n* Active uncontrolled systemic bacterial, viral, fungal or parasitic infection.\n* Known Human Immunodeficiency Virus (HIV) infection, regardless of CD4 count.\n* Clinically significant active malabsorption syndrome or inflammatory bowel disease\n* Prior exposure to non-covalent (reversible) BTK inhibitor.\n* Patients requiring therapeutic anticoagulation with warfarin or another Vitamin K antagonist.\n* Current treatment with strong cytochrome P450 (CYP) 3A4 (CYP3A4) inhibitors or inducers.\n* Vaccination with a live vaccine within 28 days prior to randomization.\n* Patients with the following hypersensitivity:\n\n  1. Known hypersensitivity, including anaphylaxis, to any component or excipient of LOXO-305. For patients planned to receive idelalisib, known hypersensitivity, including anaphylaxis, to any component or excipient of idelalisib. For patients planned to receive bendamustine, known hypersensitivity, including anaphylaxis, to any component or excipient of bendamustine.\n  2. Prior significant hypersensitivity to rituximab.",
+  "sex": "ALL",
+  "min_age": "18 Years",
+  "max_age": null,
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "Arm A - Pirtobrutinib",
+      "type": "EXPERIMENTAL",
+      "description": "Participants received 200 milligrams (mg) of pirtobrutinib administered orally once daily (QD) on Days 1 through 28 of a 28-day cycle. The treatment was continued until progressive disease, a discontinuation criterion, or unacceptable toxicity.",
+      "intervention_names": [
+        "Drug: Pirtobrutinib"
+      ]
+    },
+    {
+      "label": "Arm B - Idelalisib plus Rituximab or Bendamustine plus Rituximab",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "Participants received either 150 mg of idelalisib administered twice-daily (BID) orally on Days 1 through 28 of a 28-day cycle in combination with 375 milligram per square meter (mg/m\\^2) of rituximab by intravenous (IV) infusion on day 1 of cycle 1, then 4 IV infusions of rituximab 500 mg/m\\^2 every 2 weeks (Q2W) and 3 IV infusions of rituximab 500 mg/m\\^2 every 4 weeks (Q4W) or 70 mg/m\\^2 of bendamustine administered IV on day 1 and 2 of each 28-day cycle from cycles 1 to 6 in combination with 375 mg/m\\^2 of rituximab IV on day 1 of cycle 1, then 500 mg/m\\^2 of rituximab on day 1 of each 28-day cycle from cycles 2 to 6.",
+      "intervention_names": [
+        "Drug: Idelalisib",
+        "Drug: Bendamustine",
+        "Drug: Rituximab"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Pirtobrutinib",
+      "description": "Oral Pirtobrutinib",
+      "arm_group_labels": [
+        "Arm A - Pirtobrutinib"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Idelalisib",
+      "description": "Oral",
+      "arm_group_labels": [
+        "Arm B - Idelalisib plus Rituximab or Bendamustine plus Rituximab"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Bendamustine",
+      "description": "IV",
+      "arm_group_labels": [
+        "Arm B - Idelalisib plus Rituximab or Bendamustine plus Rituximab"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Rituximab",
+      "description": "IV",
+      "arm_group_labels": [
+        "Arm B - Idelalisib plus Rituximab or Bendamustine plus Rituximab"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Progression-free Survival (PFS) Assessed by Independent Review Committee (IRC)",
+      "description": "PFS is defined as the time from the date of randomization to the date of first documentation of progressive disease (PD) or death from any cause, as evaluated by an IRC according to International Workshop on Chronic Lymphocytic Leukemia (iwCLL) 2018.",
+      "time_frame": "Randomization to Disease Progression or Death Due to Any Cause (Up to 29 Months)"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "PFS Assessed by Investigator",
+      "description": "PFS is defined as time from the date of randomization to the date of first documentation of PD or death from any cause, as evaluated by an investigator according to iwCLL 2018.",
+      "time_frame": "Randomization to Disease Progression or Death Due to Any Cause (Up to 36 Months)"
+    },
+    {
+      "measure": "Overall Survival (OS)",
+      "description": "OS was defined as time from randomization to death due to any cause.",
+      "time_frame": "Randomization to Death from Any Cause (Up to 36 months)"
+    },
+    {
+      "measure": "Time to Next Treatment (TTNT)",
+      "description": "TTNT was defined as time from the date of randomization to the date of initiation of the subsequent anticancer therapy for chronic lymphocytic leukemia (CLL)/small lymphocytic lymphoma (SLL), therapy of pirtobrutinib for Arm B patients, or death due to any cause, whichever occurs first.",
+      "time_frame": "Randomization to Subsequent Anticancer Therapy, Therapy of Pirtobrutinib or Death Due to Any Cause (Up to 36 Months)"
+    },
+    {
+      "measure": "Event Free Survival (EFS)",
+      "description": "EFS is defined as the time from randomization to the first occurrence of:\n\n* Documented disease progression per iwCLL 2018 criteria as assessed by Investigator; or\n* Initiation of subsequent anticancer therapy for CLL/SLL; or\n* Unacceptable toxicity leading to treatment discontinuation as assessed by the Investigator; or\n* Death (due to any cause).",
+      "time_frame": "Randomization to Disease Progression, Subsequent Anticancer Therapy, Unacceptable Toxicity Leading to Treatment Discontinuation, or Death Due to Any Cause (Up to 36 Months)"
+    },
+    {
+      "measure": "Percentage of Participants With Overall Response Rate (ORR) Assessed by Investigator",
+      "description": "ORR according to investigator-assessed best overall response (BOR) based on iwCLL 2018 is defined as the number of participants who achieve a BOR of complete response (CR), complete response with incomplete bone marrow recovery (CRi), nodular partial response (nPR) or partial response (PR) at or before the initiation of subsequent anticancer therapy divided by the total number of participants randomized to each treatment arm.",
+      "time_frame": "Randomization to Subsequent Anticancer Therapy, Disease Progression or Death Due to Any Cause (Up to 36 Months)"
+    },
+    {
+      "measure": "Time to Worsening (TTW) of CLL/SLL Related Symptoms",
+      "description": "TTW was defined as a change in score greater than the meaningful within-person change for worsening in score. Scores were furthermore required to be sustained. To meet the requirement for sustained change, the assessment following the first observation of a meaningful worsening of the score (event date) was also required to show a meaningful worsening compared to baseline. The event date was defined as the first of these consecutive events. The European Organization for Research and Treatment of Cancer Item Library 87 was used, which is scored from 0-100, with higher scores reflecting more symptoms.\n\nThe time to sustained patient-reported outcome (PRO) deterioration was calculated using all on-treatment assessment time points up to the Week 25 (Arm A \\& Arm B - Idelalisib plus Rituximab) and up to Week 21 + Safety follow-up of up to 5 weeks (Arm B - Bendamustine plus Rituximab) assessment time point prior to disease progression.",
+      "time_frame": "Baseline up to Week 25 (Arm A and Arm B - Idelalisib plus Rituximab) & Baseline up to Week 21 + Safety Follow-Up of up to 5 Weeks (Arm B - Bendamustine plus Rituximab)"
+    },
+    {
+      "measure": "Time to Worsening (TTW) of Physical Function",
+      "description": "Time of worsening was defined as a change in score greater than the meaningful within-person change for worsening in score. Scores were furthermore required to be sustained. To meet the requirement for sustained change, the assessment following the first observation of a meaningful worsening of the score (event date) was also required to show a meaningful worsening compared to baseline. The event date was defined as the first of these consecutive events. The European Organization for Research and Treatment of Cancer Item Library 87 was used, which is scored from 0-100, with higher scores reflecting more symptoms.\n\nThe time to sustained PRO deterioration was calculated using all on-treatment assessment time points up to the Week 25 (Arm A and IdelaR) and up to Week 21 + Safety follow-up (BR) assessment time point prior to disease progression.",
+      "time_frame": "Baseline up to Week 25 (Arm A and Arm B - Idelalisib plus Rituximab) & Baseline up to Week 21 + Safety Follow-Up of up to 5 Weeks (Arm B - Bendamustine plus Rituximab)"
+    }
+  ]
+}

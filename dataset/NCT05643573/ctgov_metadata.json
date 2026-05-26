@@ -1,0 +1,169 @@
+{
+  "nct_id": "NCT05643573",
+  "brief_title": "A Study to Learn How Well the Study Treatment Asundexian Works and How Safe it is Compared to Apixaban to Prevent Stroke or Systemic Embolism in People With Irregular and Often Rapid Heartbeat (Atrial Fibrillation), and at Risk for Stroke",
+  "official_title": "A Multicenter, International, Randomized, Active Comparator-controlled, Double-blind, Double-dummy, Parallel-group, 2-arm, Phase 3 Study to Compare the Efficacy and Safety of the Oral FXIa Inhibitor Asundexian (BAY 2433334) With Apixaban for the Prevention of Stroke or Systemic Embolism in Male and Female Participants Aged 18 Years and Older With Atrial Fibrillation at Risk for Stroke",
+  "lead_sponsor": "Bayer",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "overall_status": "TERMINATED",
+  "start_date": "2022-12-05",
+  "completion_date": "2024-01-31",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 14830,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Prevention of Stroke or Systemic Embolism",
+    "Atrial Fibrillation"
+  ],
+  "keywords": [],
+  "eligibility_criteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* The patient willing and able to understand the Patient information Sheet and provide written informed consent\n* Atrial fibrillation with an indication for indefinite treatment with an oral anticoagulant\n* CHA2DS2-VASc score \u2265 3 if male or \u2265 4 if female, OR CHA2DS2-VASc score of 2 if male or 3 if female and at least one of the following enrichment criteria:\n\n  * age \u2265 70\n  * previous stroke, transient ischemic attack, or systemic embolism\n  * renal dysfunction with eGFR \\< 50 ml/min within 14 days prior to randomization\n  * prior episode of non-traumatic major bleeding\n  * current single agent antiplatelet therapy planned to continue for at least 6 months after randomization\n  * \u2264 6 consecutive weeks of treatment with oral anticoagulant prior to randomization.\n\nExclusion Criteria:\n\n* Mechanical heart valve prosthesis\n* Moderate-to-severe mitral stenosis at the time of study inclusion.\n* Atrial fibrillation only due to reversible cause.\n* Participants after successful ablation therapy without documented recurrent AF or participants after left atrial appendage occlusion / exclusion or plan for ablation or Left atrial appendage (LAA) occlusion / exclusion within the next 6 months.\n* Recent ischemic stroke (within 7 days prior to randomization).\n* Active non-trivial bleeding; known chronic bleeding disorder ; history of non-traumatic intracranial hemorrhage.\n* Known significant liver disease or known hepatic insufficiency classified as Child-Pugh B or C at randomization.\n* Estimated glomerular filtration rate (eGFR) \\< 25 mL/min/1.73 m2 within 14 days prior to randomization or on dialysis or expected to be started on dialysis within the next 12 months starting from randomization.\n* Major surgery during the last 30 days prior to randomization.\n* Known allergy, intolerance or hypersensitivity to either of the study interventions.\n* Any contraindication for the use of an anticoagulant or listed in the local labelling for apixaban.\n* Requirement for chronic anticoagulation for a different indication than AF, e.g. mechanical heart valve or left ventricular cardiac thrombus (atrial thrombus is allowed), or dual antiplatelet therapy (single agent therapy is allowed).\n* Treatment with Vitamin K antagonist (VKA) in the 10 days prior to randomization.\n* Concomitant use of or anticipated need for:\n\n  * daily or near daily (\\> 5 days per week) therapy with nonsteroidal anti-inflammatory drugs (NSAIDs) for more than 4 weeks during the study\n  * herbal or traditional medicine, and / or supplements with known anticoagulant and / or antiplatelet effect\n  * combined P-glycoprotein (P-gp) and strong cytochrome P450 isoenzyme 3A4 (CYP3A4) inhibitors\n  * combined P-gp and strong / moderate CYP3A4 inducers Respective substances (apart from NSAIDs) must be stopped - in case of combined inhibitors / inducers of CYP3A4 and P-gp for at least 14 days before randomization.\n* Previous (within 30 days or 5 half-lives of the investigational drug, whichever is longer) or concomitant participation in another clinical study with investigational medicinal product(s) or device(s). Registries and observational studies are allowed.\n* Known current alcohol and / or illicit drug abuse.\n* Close affiliation with the investigational site.\n* Any other history, condition or therapy, or uncontrolled intercurrent illness which would make the participant unsuitable for the study vulnerable or life expectancy \\< 12 months.",
+  "sex": "ALL",
+  "min_age": "18 Years",
+  "max_age": null,
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "Asundexian",
+      "type": "EXPERIMENTAL",
+      "description": "Participants will receive asundexian and apixaban matching placebo.",
+      "intervention_names": [
+        "Drug: Asundexian (BAY2433334)",
+        "Drug: Apixaban matching placebo"
+      ]
+    },
+    {
+      "label": "Apixaban",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "Participants will receive apixaban and asundexian matching placebo.",
+      "intervention_names": [
+        "Drug: Apixaban",
+        "Drug: Asundexian matching placebo"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Asundexian (BAY2433334)",
+      "description": "Once a day",
+      "arm_group_labels": [
+        "Asundexian"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Apixaban",
+      "description": "5 mg or 2.5 mg, twice a day, according to product label.",
+      "arm_group_labels": [
+        "Apixaban"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Asundexian matching placebo",
+      "description": "Placebo to asundexian, once a day",
+      "arm_group_labels": [
+        "Apixaban"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Apixaban matching placebo",
+      "description": "Placebo to apixaban, twice a day",
+      "arm_group_labels": [
+        "Asundexian"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Number of Participants With Composite of Stroke or Systemic Embolism",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.\n\nStroke was defined as an acute episode of focal or global neurological dysfunction caused by an injury of the brain, spinal cord, or retina as a result of hemorrhage or infarction.\n\nSystemic embolism is defined as abrupt vascular insufficiency associated with clinical or radiological evidence of arterial occlusion in the absence of other likely mechanisms (this does not include myocardial infarction, thromboembolism of the pulmonary vasculature or venous thrombosis, e.g. pulmonary embolism or deep venous thrombosis).",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With International Society on Thrombosis and Hemostasis (ISTH) Major Bleeding",
+      "description": "Assessment based on the (csHR), comparing asundexian with apixaban which is based on time to first event.\n\nISTH Major Bleeding was defined as an event that meets at least one of the below criteria, based on the definition given by the ISTH (Schulman and Kearon 2005):\n\n* Fatal bleeding, and/or\n* Symptomatic bleeding in a critical area or organ (intracranial, intraspinal, intraocular with compromised vision, pericardial, retroperitoneal, intra-articular, or intramuscular with compartment syndrome), and/or\n* Clinically overt\\* bleeding associated with a recent (within 48 hours) decrease in the hemoglobin level of \u2265 2 g/dL (20 g/L; 1.24 mmol/L) compared with the most recent hemoglobin value available before the event, and/or\n* Clinically overt\\* bleeding leading to transfusion of 2 or more units of packed red blood cells or whole blood.\n\n  * Overt bleeding required the identification of the bleeding location and the hemoglobin drop and/or transfusion needed to be related to the bleeding.",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With Composite of Stroke, Systemic Embolism, or ISTH Major Bleeding",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.",
+      "time_frame": "Approximately 12 months"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Number of Participants With Composite of Ischemic Stroke or Systemic Embolism",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.\n\nAn ischemic stroke was defined as the rapid onset (or present on awakening) of a new focal neurological deficit with clinical (\\> 24 hours symptoms / signs) or imaging evidence of infarction that is not attributable to a non-ischemic cause (i.e. not associated with infection, tumor, seizure, severe metabolic disease).",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With All-cause Mortality",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With Ischemic Stroke",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.\n\nAn ischemic stroke was defined as the rapid onset (or present on awakening) of a new focal neurological deficit with clinical (\\> 24 hours symptoms / signs) or imaging evidence of infarction that is not attributable to a non-ischemic cause (i.e. not associated with infection, tumor, seizure, severe metabolic disease).",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With Cardiovascular (CV) Death",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.\n\nCV death included death due to stroke, myocardial infarction, heart failure or cardiogenic shock, sudden death or any other death due to other cardiovascular causes or CV procedures. In addition, death due to non-traumatic cardiovascular hemorrhage will be included, e.g. non-stroke intracranial hemorrhage, non-procedural or non-traumatic vascular rupture (e.g. aortic aneurysm), or hemorrhage causing cardiac tamponade",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With Composite of CV Death, Stroke, or Myocardial Infarction (MI)",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.\n\nThe diagnosis of MI requires the combination of:\n\n* Presence of acute myocardial injury (changes in cardiac biomarkers) and\n* Evidence of acute myocardial ischemia derived from the clinical presentation, electrocardiographic changes, or the results of myocardial or coronary artery imaging, or in case of post mortem pathological findings irrespective of biomarker values.",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With Composite of ISTH Major or Clinically Relevant Non-major Bleeding",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.\n\nClinically relevant non-major bleeding was considered any sign or symptom of acute or sub-acute clinically overt bleeding that does not fit the criteria for the ISTH definition of major bleeding, but does meet at least one of the following criteria (based on criteria published by the EMA) (EMA 2014):\n\n* requiring medical or surgical treatment by a healthcare professional for bleeding\n* leading to hospitalization or increased level of care for bleeding\n* a change in antithrombotic therapy (including study intervention) for bleeding \\*Overt bleeding required the identification of the bleeding location.",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With Clinically Relevant Non-major Bleeding",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With Hemorrhagic Stroke",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.\n\nHemorrhagic stroke was defined as an acute, atraumatic extravasation of blood into the brain parenchyma, intraventricular or subarachnoid space with associated neurological symptoms. This does not include microbleeds or hemorrhagic transformation of an ischemic stroke.",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With Intracranial Hemorrhage",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With Fatal Bleeding",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With Minor Bleeding",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.\n\nAll other overt bleeding episodes not meeting the criteria for ISTH major or clinically relevant non-major bleeding were classified as minor bleeding (for example, bleeding from a minor wound that does not prompt a treatment for the bleeding, for instance with surgical hemostasis, or epistaxis that does not require a medical treatment for bleeding or a change in antithrombotic therapy).",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With Composite of Stroke, Systemic Embolism, ISTH Major Bleeding, or All-cause Mortality",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.",
+      "time_frame": "Approximately 12 months"
+    },
+    {
+      "measure": "Number of Participants With Composite of Disabling Stroke (mRS \u2265 3), Critical Bleeding, or All-cause Mortality",
+      "description": "The assessment was based on the cause-specific hazard ratio (csHR), comparing asundexian with apixaban which is based on time to first event.\n\nCritical bleeding was defined as symptomatic bleeding in either of the following critical locations (intracranial, intraspinal, pericardial, intra-articular, or retroperitoneal) or as intraocular bleeding with compromised vision or intramuscular bleeding with compartment syndrome.",
+      "time_frame": "Approximately 12 months"
+    }
+  ]
+}

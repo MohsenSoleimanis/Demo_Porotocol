@@ -1,0 +1,240 @@
+{% extends "base.html" %}
+{% block title %}page {{ page_idx + 1 }} — {{ stem }}{% endblock %}
+{% block nav %}
+  <a href="/">all docs</a>
+  &middot;
+  <a href="/docs/{{ stem }}">{{ stem }}</a>
+{% endblock %}
+
+{# pre-compute footnote panels + body-block marker references in jinja #}
+{% set footnote_defs = page.blocks | selectattr("block_type", "equalto", "footnote") | list %}
+{% set body_marker_refs = {} %}
+{% for b in page.blocks %}
+  {% if b.metadata and b.metadata.get("footnote_markers") %}
+    {% for m in b.metadata.footnote_markers %}
+      {% set _ = body_marker_refs.setdefault(m, []) %}
+      {% if b.order_index not in body_marker_refs[m] %}{% set _ = body_marker_refs[m].append(b.order_index) %}{% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% block content %}
+<div class="page-nav">
+  {% if prev_idx is not none %}<a href="/docs/{{ stem }}/p/{{ prev_idx }}">◀ {{ prev_idx + 1 }}</a>{% else %}<span class="muted">◀</span>{% endif %}
+  <span class="page-label">page <strong>{{ page_idx + 1 }}</strong> of {{ total_pages }}</span>
+  {% if next_idx is not none %}<a href="/docs/{{ stem }}/p/{{ next_idx }}">{{ next_idx + 1 }} ▶</a>{% else %}<span class="muted">▶</span>{% endif %}
+  &middot;
+  <form method="get" class="goto" onsubmit="event.preventDefault(); window.location.href='/docs/{{ stem }}/p/' + (parseInt(this.p.value)-1)">
+    go to <input type="number" name="p" min="1" max="{{ total_pages }}" value="{{ page_idx + 1 }}" />
+    <button>Go</button>
+  </form>
+</div>
+
+<div class="page-summary">
+  <span class="route route-{{ page.parser_used }}">{{ page.parser_used }}</span>
+  <span class="status status-{{ page.parse_status }}">{{ page.parse_status }}</span>
+  <span class="muted">{{ page.blocks | length }} blocks · {{ '%.0f ms'|format(page.parse_duration_ms) }} parse time</span>
+  {% if page.error %}<span class="status status-error">error: {{ page.error }}</span>{% endif %}
+</div>
+<p class="muted reason"><strong>Triage reason:</strong> {{ page.triage.reason }}</p>
+
+{# ===== Prediction details: triage features + attempts audit ===== #}
+<div class="details-row">
+  <details class="detail-card">
+    <summary>Triage features (raw signals)</summary>
+    <table class="kv">
+      {% for k, v in page.triage.features.items() %}
+        {% if k != "raw_signals" %}
+          <tr><td>{{ k }}</td><td><code>{{ v }}</code></td></tr>
+        {% endif %}
+      {% endfor %}
+      {% if page.triage.features.raw_signals %}
+        <tr><td colspan="2"><em>raw_signals:</em></td></tr>
+        {% for k, v in page.triage.features.raw_signals.items() %}
+          <tr><td class="indent">{{ k }}</td><td><code>{{ v }}</code></td></tr>
+        {% endfor %}
+      {% endif %}
+    </table>
+  </details>
+
+  <details class="detail-card">
+    <summary>Attempts (parser audit trail) — {{ page.attempts | length }} step(s)</summary>
+    {% if page.attempts %}
+      <table class="grid">
+        <thead><tr><th>#</th><th>Route</th><th>Outcome</th><th>Source</th><th>Time</th><th>Blocks</th><th>Detail</th></tr></thead>
+        <tbody>
+        {% for a in page.attempts %}
+          <tr>
+            <td class="num">{{ loop.index }}</td>
+            <td><span class="route route-{{ a.route }}">{{ a.route }}</span></td>
+            <td><span class="status status-{{ 'ok' if a.outcome == 'ok' else ('error' if a.outcome == 'error' else 'skipped') }}">{{ a.outcome }}</span></td>
+            <td>{{ a.get('source', '') }}</td>
+            <td class="num">{% if a.duration_ms is defined %}{{ '%.0f ms'|format(a.duration_ms) }}{% endif %}</td>
+            <td class="num">{% if a.n_blocks is defined %}{{ a.n_blocks }}{% endif %}</td>
+            <td class="muted small">{{ a.get('reason', '') }}{{ a.get('error', '') }}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    {% else %}<p class="muted">No attempts recorded.</p>{% endif %}
+  </details>
+
+  <details class="detail-card">
+    <summary>Bounding-box colour legend</summary>
+    <div class="legend">
+      {% for t, c in block_colors.items() %}
+        <span class="chip chip-{{ t }}">{{ t }}</span>
+      {% endfor %}
+    </div>
+  </details>
+</div>
+
+{# ===== Footnotes ===== #}
+{% if footnote_defs or body_marker_refs %}
+<div class="details-row">
+  {% if footnote_defs %}
+  <details class="detail-card" open>
+    <summary>Footnote definitions on this page ({{ footnote_defs | length }})</summary>
+    <ul class="footnotes">
+      {% for fn in footnote_defs %}
+        <li>
+          {% if fn.metadata and fn.metadata.get("footnote_marker") %}<code class="marker">[{{ fn.metadata.footnote_marker }}]</code>{% endif %}
+          {{ fn.text }}
+        </li>
+      {% endfor %}
+    </ul>
+  </details>
+  {% endif %}
+  {% if body_marker_refs %}
+  <details class="detail-card">
+    <summary>Body-block footnote references ({{ body_marker_refs | length }} distinct markers)</summary>
+    <table class="grid">
+      <thead><tr><th>Marker</th><th>Referenced by block(s)</th></tr></thead>
+      <tbody>
+        {% for marker, indices in body_marker_refs.items() %}
+          <tr><td><code>{{ marker }}</code></td>
+              <td>{% for i in indices %}<a href="#block-{{ i }}">#{{ i }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <p class="muted small">Note: marker → definition linking across pages is a chunking-stage job.</p>
+  </details>
+  {% endif %}
+</div>
+{% endif %}
+
+{# ===== Block-type filter ===== #}
+{% set all_types = (page.blocks | map(attribute='block_type') | list | unique | list) %}
+{% if all_types %}
+<div class="block-filter">
+  <strong>Show:</strong>
+  {% for t in all_types %}
+    <label class="chip chip-{{ t }} filter-chip" data-type="{{ t }}">
+      <input type="checkbox" class="filter-cb" data-type="{{ t }}"
+             {% if t not in ['header','footer'] %}checked{% endif %}>
+      {{ t }}
+    </label>
+  {% endfor %}
+  <span class="muted small" id="visible-count"></span>
+</div>
+{% endif %}
+
+<div class="page-detail">
+  <div class="page-image">
+    {% if image_available %}
+      <img src="/docs/{{ stem }}/image/{{ page_idx }}.png" alt="page {{ page_idx + 1 }}" loading="lazy" />
+      <p class="muted small">bbox overlays color-coded by block type</p>
+    {% else %}
+      <p class="muted">Source PDF not found.</p>
+    {% endif %}
+  </div>
+
+  {# Compute relative-x0 baseline for blocks in the main column.
+     We DON'T include headers/footers/right-aligned chrome (which can sit at
+     x0~488 like "AstraZeneca") so that they don't pull the baseline. #}
+  {% set body_x0s = page.blocks
+        | rejectattr("block_type", "in", ["header","footer","other"])
+        | selectattr("bbox") | map(attribute="bbox.x0") | list %}
+  {% set min_x0 = (body_x0s | min) if body_x0s else 0 %}
+  <div class="page-blocks" id="blocks">
+    {% for b in page.blocks %}
+      {# Indent has two dimensions, combined:
+         (a) physical PDF indent (bbox.x0 - min_x0) — direct list nesting.
+         (b) logical section depth — items under "Age" indent under the heading
+             even though the PDF doesn't physically shift them right. #}
+      {% set is_chrome = b.block_type in ['header','footer','other'] %}
+      {% set x0_indent = ((b.bbox.x0 - min_x0) * 1.0) | round | int if (b.bbox and not is_chrome) else 0 %}
+      {% if x0_indent < 0 %}{% set x0_indent = 0 %}{% endif %}
+      {% set section_indent = (b._section_depth | default(0)) * 18 if not is_chrome else 0 %}
+      {% set total_indent = x0_indent + section_indent %}
+      <div class="block block-{{ b.block_type }}"
+           id="block-{{ b.order_index }}"
+           data-type="{{ b.block_type }}"
+           style="margin-left: {{ total_indent }}px;">
+        <div class="block-head">
+          <span class="chip chip-{{ b.block_type }}">[{{ b.order_index }}] {{ b.block_type }}</span>
+          <span class="muted small">parser {{ b.parser_used }}</span>
+          {% if b.bbox %}<span class="muted small">x0={{ '%.0f'|format(b.bbox.x0) }}</span>{% endif %}
+          {% if b._section_depth %}<span class="muted small">section depth {{ b._section_depth }}</span>{% endif %}
+        </div>
+        {% if b.block_type == 'table' and b.metadata and b.metadata.get('html') %}
+          <div class="table-wrap">{{ b.metadata.html | safe }}</div>
+          <details class="muted small"><summary>raw text / markdown</summary><pre>{{ b.text }}</pre></details>
+        {% elif b.block_type == 'figure' %}
+          {% if image_available and b.bbox %}
+            <img class="figure-crop"
+                 src="/docs/{{ stem }}/crop/{{ page_idx }}/{{ b.order_index }}.png"
+                 alt="figure region"
+                 loading="lazy" />
+          {% else %}
+            <div class="figure-tag">[figure region — page image not available]</div>
+          {% endif %}
+          {% if b.text and b.text != '[figure]' %}<div class="block-text">{{ b.text }}</div>{% endif %}
+        {% else %}
+          <div class="block-text">{{ b.text }}</div>
+        {% endif %}
+        {% if b.metadata and b.metadata.get('footnote_markers') %}
+          <p class="muted small">references footnotes: {% for m in b.metadata.footnote_markers %}<code>{{ m }}</code> {% endfor %}</p>
+        {% endif %}
+        {% if b.metadata %}
+        <details class="muted small block-meta">
+          <summary>metadata ({{ b.metadata.keys() | list | length }} keys)</summary>
+          <table class="kv">
+            {% for k, v in b.metadata.items() %}
+              {% if k not in ['html', 'cells', 'grid'] %}
+                <tr><td>{{ k }}</td><td><code>{{ v }}</code></td></tr>
+              {% endif %}
+            {% endfor %}
+            {% if b.metadata.get('cells') %}<tr><td>cells</td><td class="muted">{{ b.metadata.cells | length }} cells (see HTML view)</td></tr>{% endif %}
+            {% if b.metadata.get('grid') %}<tr><td>grid</td><td class="muted">grid present</td></tr>{% endif %}
+          </table>
+        </details>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  // Block-type filter — toggle visibility client-side without re-fetching.
+  (function() {
+    const cbs = document.querySelectorAll('.filter-cb');
+    const blocks = document.querySelectorAll('.page-blocks .block');
+    const counter = document.getElementById('visible-count');
+    function update() {
+      const enabled = new Set(Array.from(cbs).filter(cb => cb.checked).map(cb => cb.dataset.type));
+      let n = 0;
+      blocks.forEach(b => {
+        const t = b.dataset.type;
+        const on = enabled.has(t);
+        b.style.display = on ? '' : 'none';
+        if (on) n++;
+      });
+      if (counter) counter.textContent = `(${n} of ${blocks.length} visible)`;
+    }
+    cbs.forEach(cb => cb.addEventListener('change', update));
+    update();
+  })();
+</script>
+{% endblock %}

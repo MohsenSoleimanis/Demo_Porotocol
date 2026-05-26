@@ -1,0 +1,197 @@
+{
+  "nct_id": "NCT04236141",
+  "brief_title": "A Study to Evaluate the Efficacy and Safety of Polatuzumab Vedotin in Combination With Bendamustine and Rituximab Compared With Bendamustine and Rituximab Alone in Chinese Patients With Relapsed or Refractory Diffuse Large B-cell Lymphoma (R/R DLBCL).",
+  "official_title": "A Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Polatuzumab Vedotin in Combination With Bendamustine and Rituximab Compared With Bendamustine and Rituximab Alone in Chinese Patients With Relapsed or Refractory Diffuse Large B-cell Lymphoma.",
+  "lead_sponsor": "Hoffmann-La Roche",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [],
+  "overall_status": "TERMINATED",
+  "start_date": "2020-07-10",
+  "completion_date": "2022-02-07",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "RANDOMIZED",
+  "intervention_model": "PARALLEL",
+  "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 42,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "Diffuse, Large B-Cell, Lymphoma"
+  ],
+  "keywords": [],
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Able to comply with the study protocol and procedures, in the investigator's judgement.\n* Transplant ineligible participants with R/R DLBCL.\n* Confirmed DLBCL diagnosis.\n* For participants who have received prior bendamustine, a response duration \\> 1 year (for participants who have relapsed disease after a prior regimen).\n* At least one bi-dimensionally measurable lesion, defined as \\> 1.5 cm in its longest dimension as measured by CT or magnetic resonance imaging (MRI).\n* Availability of archival or freshly collected tumor tissue before study enrolment.\n* Life expectancy of at least 24 weeks.\n* ECOG Performance Status of 0, 1 or 2.\n* Adequate haematologic function.\n* Women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraception, and agreement to refrain from donating eggs.\n* For men who are not surgically sterile: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraception, and agreement to refrain from donating sperm.\n* Residence in the People's Republic of China.\n\nExclusion Criteria:\n\n* History of severe allergic or anaphylactic reactions to humanized or murine monoclonal antibodies (MAbs) or recombinant antibody-related fusion proteins) or known sensitivity or allergy to murine products.\n* Contraindication to bendamustine or rituximab.\n* History of sensitivity to mannitol (mannitol is an excipient in bendamustine).\n* Prior use of any MAb, radioimmunoconjugate, or antibody-drug conjugate (ADC) within 5 half-lives or 4 weeks, whichever is longer, before Cycle 1, Day 1.\n* Treatment with radiotherapy, chemotherapy, immunotherapy, immunosuppressive therapy, or any investigational agent for the purposes of treating cancer within 2 weeks prior to Cycle 1, Day 1.\n* Ongoing corticosteroid use \\> 30 mg/day prednisone or equivalent, for purposes other than lymphoma symptom control.\n* Completion of autologous SCT within 100 days prior to Cycle 1, Day 1.\n* Prior allogeneic Stem Cell Transplantation (SCT).\n* Prior treatment with Chimeric Antigen Receptor (CAR) T-cell therapy.\n* Eligibility for autologous SCT.\n* Grade 3b Follicular Lymphoma (FL).\n* History of transformation of indolent disease to DLBCL.\n* Primary or secondary CNS lymphoma.\n* Current Grade \\> 1 peripheral neuropathy.\n* History of other malignancy that could affect compliance with the protocol or interpretation of results.\n* Evidence of significant, uncontrolled concomitant diseases that could affect compliance with the protocol or interpretation of results, including significant cardiovascular or pulmonary disease.\n* Known active bacterial, viral, fungal, mycobacterial, parasitic, or other infection (excluding fungal infections of nail beds) at study enrollment or any major episode of infection requiring treatment with IV antibiotics or hospitalization (relating to the completion of the course of antibiotics) within 4 weeks prior to Cycle 1, Day 1.\n* Participants with suspected or latent tuberculosis.\n* Positive Chronic Hepatitis B (HBV) infection or Hepatitis C (HCV) infection.\n* Known history of HIV infection.\n* Known infection human T-cell leukemia virus 1 virus.\n* Vaccination with a live vaccine within 28 days prior to treatment.\n* Recent major surgery (within 6 weeks before the start of Cycle 1, Day 1) other than for diagnosis.\n* Pregnant or breastfeeding or intending to become pregnant during the study or within 12 months after the final dose of study treatment.\n* Any other diseases, metabolic dysfunction, physical examination finding, or clinical laboratory finding giving reasonable suspicion of a disease or condition that contraindicates the use of an investigational drug or that may affect the interpretation of the results or renders the patient at high risk from treatment complications.",
+  "sex": "ALL",
+  "min_age": "18 Years",
+  "max_age": null,
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "Polatuzumab Vedotin plus BR",
+      "type": "EXPERIMENTAL",
+      "description": null,
+      "intervention_names": [
+        "Drug: Polatuzumab Vedotin",
+        "Drug: Bendamustine",
+        "Drug: Rituximab"
+      ]
+    },
+    {
+      "label": "Placebo plus BR",
+      "type": "ACTIVE_COMPARATOR",
+      "description": null,
+      "intervention_names": [
+        "Drug: Bendamustine",
+        "Drug: Rituximab",
+        "Drug: Placebo"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Polatuzumab Vedotin",
+      "description": "Participants will receive a total of 6 cycles (a cycle being 21 days) of 1.8mg/kg Polatuzumab Vedotin (IV infusion) on Day 2 of Cycle 1 and Day 1 of Cycles 2-6.",
+      "arm_group_labels": [
+        "Polatuzumab Vedotin plus BR"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Bendamustine",
+      "description": "Participants will receive a total of 6 cycles (a cycle being 21 days) of 90 mg/m2 Bendamustine (IV infusion) on Days 2 and 3 of Cycle 1 and Days 1 and 2 of Cycles 2-6.",
+      "arm_group_labels": [
+        "Placebo plus BR",
+        "Polatuzumab Vedotin plus BR"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Rituximab",
+      "description": "Participants will receive a total of 6 cycles (a cycle being 21 days) of 375 mg/m2 Rituximab (IV infusion) on Day 1 of each cycle.",
+      "arm_group_labels": [
+        "Placebo plus BR",
+        "Polatuzumab Vedotin plus BR"
+      ]
+    },
+    {
+      "type": "DRUG",
+      "name": "Placebo",
+      "description": "Participants will receive a total of 6 cycles (a cycle being 21 days) of Placebo (IV infusion) on Day 2 of Cycle 1 and Day 1 of Cycles 2-6.",
+      "arm_group_labels": [
+        "Placebo plus BR"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "Percentage of Participants With Complete Response (CR) at the End of Treatment (EOT) Assessment Based on Positron Emission Tomography-Computed Tomography (PET-CT) Assessed by Independent Review Committee (IRC)",
+      "description": "CR was determined by IRC according to the Lugano Response Criteria (LRC) for Malignant Lymphoma. Per LRC , CR based on PET-CT was defined as complete metabolic response (MR) in lymph nodes and extralymphatic sites with a score of 1, 2, or 3 with or without residual mass, on 5-point scale (5PS), where, 1= no uptake above background; 2 = uptake \u2264 mediastinum; 3 = uptake \\> mediastinum but \u2264 liver; 4 = uptake moderately \\> liver; 5 = uptake markedly higher than liver and/or new lesions; no new lesions and no evidence of fluorodeoxyglucose (FDG)-avid disease in bone marrow. The analysis was done 6-8 weeks after Cycle 6, Day 1 (1 cycle = 21 days) or after final dose of study treatment.",
+      "time_frame": "Up to approximately 23 weeks"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "Percentage of Participants With CR at the EOT Assessment Based on PET-CT as Assessed by Investigator",
+      "description": "CR was determined by investigator according to the LRC for Malignant Lymphoma. Per LRC, CR based on PET-CT was defined as complete MR in lymph nodes and extralymphatic sites with a score of 1, 2, or 3 with or without residual mass, on 5PS, where, 1= no uptake above background; 2 = uptake \u2264 mediastinum; 3 = uptake \\> mediastinum but \u2264 liver; 4 = uptake moderately \\> liver; 5 = uptake markedly higher than liver and/or new lesions; no new lesions and no evidence of FDG-avid disease in bone marrow. The analysis was done 6-8 weeks after Cycle 6, Day 1 (1 cycle = 21 days) or after final dose of study treatment. Percentages have been rounded off to the first decimal point.",
+      "time_frame": "Up to approximately to 23 weeks"
+    },
+    {
+      "measure": "Percentage of Participants With Objective Response (OR) at EOT Based on PET-CT as Assessed by Investigator",
+      "description": "OR was defined as CR or partial response (PR) at the end of treatment assessment based on PET-CT, as determined by the investigator according to the LRC. CR based on PET-CT was defined as complete MR in lymph nodes and extralymphatic sites with a score of 1, 2, or 3 with or without residual mass on 5PS, where, 1= no uptake above background; 2 = uptake \u2264 mediastinum; 3 = uptake \\> mediastinum but \u2264 liver; 4 = uptake moderately \\> liver; 5 = uptake markedly higher than liver and/or new lesions; no new lesions and no evidence of FDG-avid disease in bone marrow. PR based on PET-CT was defined as partial MR in lymph nodes and extralymphatic sites with a score of 4 or 5 with reduced uptake compared with baseline and residual mass(es) of any size; no new lesions and residual uptake higher than uptake in normal bone marrow but reduced compared with baseline. The analysis was done 6-8 weeks after Cycle 6, Day 1 (1 cycle = 21 days) or after final dose of study treatment.",
+      "time_frame": "Up to approximately 23 weeks"
+    },
+    {
+      "measure": "Percentage of Participants With OR at EOT Based on PET-CT as Assessed by IRC",
+      "description": "OR was defined as CR or PR at the end of treatment assessment based on PET-CT, as determined by the IRC according to the LRC. CR based on PET-CT was defined as complete MR in lymph nodes and extralymphatic sites with a score of 1, 2, or 3 with or without residual mass on 5PS, where, 1= no uptake above background; 2 = uptake \u2264 mediastinum; 3 = uptake \\> mediastinum but \u2264 liver; 4 = uptake moderately \\> liver; 5 = uptake markedly higher than liver and/or new lesions; no new lesions and no evidence of FDG-avid disease in bone marrow. PR per PET-CT was defined as partial MR in lymph nodes and extralymphatic sites with a score of 4 or 5 with reduced uptake compared with baseline and residual mass(es) of any size; no new lesions and residual uptake higher than uptake in normal marrow but reduced compared with baseline. The analysis was done 6-8 weeks after Cycle 6, Day 1(1 cycle= 21 days) or after final dose of study treatment.Percentages have been rounded off to the first decimal point.",
+      "time_frame": "Up to approximately 23 weeks"
+    },
+    {
+      "measure": "Percentage of Participants With CR at EOT Based on Computed Tomography (CT) as Assessed by Investigator",
+      "description": "CR was determined by the investigator according to the LRC. Per LRC, CR based on CT was defined as complete radiologic response in lymph nodes and extralymphatic sites with target nodes/nodal masses regressing to \u2264 1.5 centimeters (cm) in longest transverse diameter (LDi) and no extralymphatic sites of disease; absence of non-measured lesion; organ enlargement regressing to normal; no new lesions; normal bone marrow by morphology, if indeterminate, immunohistochemistry (IHC) negative. The analysis was done 6-8 weeks after Cycle 6, Day 1 (1 cycle = 21 days) or after final dose of study treatment.",
+      "time_frame": "Up to approximately 23 weeks"
+    },
+    {
+      "measure": "Percentage of Participants With CR at EOT Based on CT as Assessed by IRC",
+      "description": "CR was determined by the IRC according to the LRC. Per LRC, CR based on CT was defined as complete radiologic response in lymph nodes and extralymphatic sites with target nodes/nodal masses regressing to \u2264 1.5 cm in LDi and no extralymphatic sites of disease; absence of non-measured lesion; organ enlargement regressing to normal; no new lesions; normal bone marrow by morphology, if indeterminate, IHC negative. The analysis was done 6-8 weeks after Cycle 6, Day 1 (1 cycle = 21 days) or after final dose of study treatment.",
+      "time_frame": "Up to approximately 23 weeks"
+    },
+    {
+      "measure": "Percentage of Participants With OR at EOT Assessment Based on CT as Assessed by Investigator",
+      "description": "OR was defined as CR or PR, at the EOT assessment based on CT only, as determined by the investigator according to the LRC. Per LRC, CR based on CT was defined as complete radiologic response in lymph nodes and extralymphatic sites with target nodes/nodal masses regressing to \u2264 1.5 cm in LDi and no extralymphatic sites of disease; absence of non-measured lesion; organ enlargement regressing to normal; no new lesions; normal bone marrow by morphology, if indeterminate, IHC negative. Per LRC, PR was defined as \u2265 50% decrease in sum of the product of the perpendicular diameters (SPD) of up to 6 target nodes and extranodal sites; non-measured lesion is absent/normal, regressed, but no increase; spleen must have regressed by \\>50 % in length beyond normal; and no new lesions. The analysis was done 6-8 weeks after Cycle 6, Day 1 (1 cycle = 21 days) or after final dose of study treatment. Percentages have been rounded off to the first decimal point.",
+      "time_frame": "Up to approximately 23 weeks"
+    },
+    {
+      "measure": "Percentage of Participants With OR at EOT Assessment Based on CT as Assessed by IRC",
+      "description": "OR was defined as percentage of participants with CR or PR, at EOT assessment based on CT only, as determined by IRC according to the LRC. Per LRC, CR based on CT was defined as complete radiologic response with target nodes/nodal masses regressing to \u2264 1.5 cm in LDi. PR is \u2265 50% decrease in SPD of up to 6 target nodes and extranodal sites. The analysis was done 6-8 weeks after Cycle 6, Day 1 (1 cycle = 21 days) or after final dose of study treatment.",
+      "time_frame": "Up to approximately 23 weeks"
+    },
+    {
+      "measure": "Percentage of Participants With Best Overall Response (BOR) Based on PET-CT or CT Only as Assessed by Investigator",
+      "description": "BOR=CR/PR per PET-CT/CT by investigator per LRC.CR perPET-CT=complete MR in lymph nodes \\& extralymphatic sites(ELS),score=1,2,3 with/without residual mass on5PS,1=no uptake(UT)above background;2=UT\u2264mediastinum;3=UT\\>mediastinum but \u2264liver;4=UT moderately\\>liver;5=UT markedly higher than liver and/or new lesions; no new lesions \\& FDG-avid disease absent in bone marrow.CR perCT=complete radiologic response with target nodes/nodal masses regressedto\u22641.5 cm in LDi\\&no ELS of disease;absence of non-measured lesion;organ enlargement regressed to normal;no new lesions;bone marrow morphology=normal,if indeterminate,IHC negative.PR per PET-CT=partial MR in lymph nodes\\&ELS,score=4or5,reduced UT than baseline(BL)\\&residual masses=any size;no new lesions\\&residual UT \\>UT in normal marrow,reduced than BL.PR per CT by LCR=\u226550% decrease in SPD of up to 6 target nodes \\& extranodal sites;non-measured lesion=absent/normal,regressed,no increase;spleen=regressed by\\>50%in length beyond normal;no new lesions.",
+      "time_frame": "Up to every 6 months after end of treatment assessment until disease progression, study withdrawal, end of study, or death, whichever occurred first (up to approximately 82 weeks)"
+    },
+    {
+      "measure": "Percentage of Participants With Best Overall Response (BOR) Based on PET-CT or CT Only as Assessed by IRC",
+      "description": "BOR=CR/PR per PET-CT/CT by IRC per LRC. CR per PET-CT=complete MR in lymph nodes\\& ELS, score=1, 2,3 with/without residual mass on 5PS, 1=no UT above background; 2=UT\u2264mediastinum; 3=UT\\>mediastinum but \u2264liver; 4=UT moderately\\>liver; 5=UT markedly higher than liver and/or new lesions; no new lesions \\& FDG-avid disease absent in bone marrow.CR per CT=complete radiologic response with target nodes/nodal masses regressed to\u22641.5 cm in LDi and no ELS of disease; absence of non-measured lesion; organ enlargement regressed to normal; no new lesions; bone marrow morphology=normal, if indeterminate, IHC negative. PR per PET-CT=partial MR in lymph nodes \\& ELS, score =4 or 5,reduced UT than baseline(BL)\\&residual masses=any size; no new lesions \\&residual UT \\>UT in normal marrow, reduced than BL.PR per CT by LCR=\u226550% decrease in SPD of up to 6 target nodes\\& extranodal sites; non-measured lesion=absent/normal, regressed, no increase; spleen=regressed by\\>50% in length beyond normal; no new lesions.",
+      "time_frame": "Up to every 6 months after end of treatment assessment until disease progression, study withdrawal, end of study, or death, whichever occurred first (up to approximately 82 weeks)"
+    },
+    {
+      "measure": "Duration Of Response (DOR) Based on PET-CT/CT Only as Assessed by Investigator",
+      "description": "DOR was defined as time from first occurrence of a documented objective response to disease progression, relapse or death from any cause, as determined by the investigator according to the LRC",
+      "time_frame": "Up to every 6 months after end of treatment assessment until disease progression, study withdrawal, end of study, or death, whichever occurred first (up to approximately 82 weeks)"
+    },
+    {
+      "measure": "DOR Based on PET-CT/CT Only as Assessed by IRC",
+      "description": "DOR was defined as time from first occurrence of a documented objective response to disease progression, relapse or death from any cause, as determined by IRC according to the LRC.",
+      "time_frame": "Up to every 6 months after end of treatment assessment until disease progression, study withdrawal, end of study, or death, whichever occurred first (up to approximately 82 weeks)"
+    },
+    {
+      "measure": "Progression-Free Survival (PFS) Based on PET-CT/CT Only as Assessed by Investigator",
+      "description": "PFS was defined as the period from date of randomization until the date of disease progression, relapse, or death from any cause based on PET-CT or CT only, as determined by the investigator according to the LRC.",
+      "time_frame": "Up to approximately 82 weeks"
+    },
+    {
+      "measure": "PFS Based on PET-CT/CT Only as Assessed by IRC",
+      "description": "PFS was defined as the period from date of randomization until the date of disease progression, relapse, or death from any cause based on PET-CT or CT only, as determined by IRC according to the LRC.",
+      "time_frame": "Up to approximately 82 weeks"
+    },
+    {
+      "measure": "Event-Free Survival (EFS) Based on PET-CT or CT Assessed by Investigator",
+      "description": "EFS was defined as the time from date of randomization to any treatment failure including disease progression, relapse, initiation of new anti-lymphoma treatment (NALT), or death based on PET-CT or CT only, as determined by the investigator according to the LRC.",
+      "time_frame": "Up to approximately 82 weeks"
+    },
+    {
+      "measure": "Overall Survival (OS)",
+      "description": "OS was defined as the time from date of randomization until the date of death from any cause.",
+      "time_frame": "Up to approximately 82 weeks"
+    },
+    {
+      "measure": "Percentage of Participants With Adverse Events (AEs)",
+      "description": "An AE is any untoward medical occurrence in a clinical investigation participant administered a pharmaceutical product, regardless of causal attribution. An adverse event can therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product, any new disease or exacerbation of an existing disease (a worsening in the character, frequency, or severity of a known condition), recurrence of an intermittent medical condition not present at baseline, any deterioration in a laboratory value or other clinical test that is associated with symptoms or leads to a change in study treatment or concomitant treatment or discontinuation from study drug or adverse events that are related to a protocol-mandated intervention, including those that occur prior to assignment of study treatment.",
+      "time_frame": "Up to approximately 82 weeks"
+    },
+    {
+      "measure": "Serum Concentration of Total Antibody at Specified Timepoints",
+      "description": "PK of polatuzumab vedodtin-related analyte- total antibody was measured",
+      "time_frame": "Predose & post dose on Day 2 of Cycle 1,& post dose on Days 8 & 15 of Cycles 1& 3; predose & post dose on Day 1 of Cycles 2, 3 & 4; treatment completion/early discontinuation visit; follow-up visits at Months 3 &6 (1 cycle=21 days) up to approx. 46 weeks"
+    },
+    {
+      "measure": "Plasma Concentration of Antibody-Conjugated Monomethyl Auristatin E (acMMAE) at Specified Timepoints",
+      "description": "PK of polatuzumab vedodtin-related analyte- acMMAE was measured.",
+      "time_frame": "Predose and post dose on Day 2 of Cycle 1, and post dose on Days 8 and 15 of Cycles 1 and 3; predose and post dose on Day 1 of Cycles 2, 3 and 4; treatment completion/early discontinuation visit (each cycle = 21 days) up to approximately 19 weeks"
+    },
+    {
+      "measure": "Plasma Concentration of Unconjugated Monomethyl Auristatin E (MMAE) at Specified Timepoints",
+      "description": "PK of polatuzumab vedodtin-related analyte- unconjugated MMAE was measured.",
+      "time_frame": "Predose and post dose on Day 2 of Cycle 1, and post dose on Days 8 and 15 of Cycles 1 and 3; predose and post dose on Day 1 of Cycles 2, 3 and 4; treatment completion/early discontinuation visit (each cycle = 21 days) up to approximately 19 weeks"
+    },
+    {
+      "measure": "Number of Participants With Positive Treatment Emergent Anti-Drug Antibodies (ADA) to Polatuzumab Vedotin",
+      "description": "Treatment Emergent ADA is (a) negative or missing baseline ADA result(s) and at least one positive post-baseline ADA result, OR (b) positive ADA result at baseline and one or more post-baseline titer results that are at least 0.60 titer unit (t.u.) greater than the baseline titer result.",
+      "time_frame": "Baseline up to approximately 39 weeks"
+    }
+  ]
+}

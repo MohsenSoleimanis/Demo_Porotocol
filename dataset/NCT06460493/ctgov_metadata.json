@@ -1,0 +1,111 @@
+{
+  "nct_id": "NCT06460493",
+  "brief_title": "Effect of Ensifentrine Treatment on CAT Score",
+  "official_title": "A Study Assessing the Effect of Ensifentrine on CAT\u2122 Scores Over 12 Weeks in Subjects With Moderate to Severe COPD",
+  "lead_sponsor": "Verona Pharma, Inc., a subsidiary of Merck & Co., Inc. (Rahway, New Jersey USA",
+  "lead_sponsor_class": "INDUSTRY",
+  "collaborators": [
+    "Midwest Chest Consultants"
+  ],
+  "overall_status": "COMPLETED",
+  "start_date": "2024-06-11",
+  "completion_date": "2024-12-03",
+  "phases": [
+    "PHASE3"
+  ],
+  "study_type": "INTERVENTIONAL",
+  "allocation": "NA",
+  "intervention_model": "SINGLE_GROUP",
+  "masking": "NONE",
+  "primary_purpose": "TREATMENT",
+  "enrollment_count": 20,
+  "enrollment_type": "ACTUAL",
+  "conditions": [
+    "COPD"
+  ],
+  "keywords": [],
+  "eligibility_criteria": "Inclusion Criteria:\n\n* Capable of giving informed consent.\n* Current or former cigarette smokers with a history of cigarette smoking \u2265 10 pack years.\n* Established clinical history of moderate to severe COPD.\n* Pre- and post-albuterol FEV1/FVC ratio of \\< 0.70.\n* Post-albuterol FEV1 \u2265 30 % and \u2264 75% of predicted normal.\n* \u22652 on the modified Medical Research Council (mMRC) Dyspnea Scale.\n* \u226510 on the COPD Assessment Test\u2122.\n* Taking stable dual (LAMA+LABA) or triple (LAMA+LABA+ICS) maintenance therapy for at least 8 weeks.\n* Capable of using a standard jet nebulizer and performed spirometry assessment.\n\nExclusion Criteria:\n\n1. Hospitalizations for COPD (or COPD exacerbation), pneumonia, or other serious infection or treatment with oral or parenteral (oral, intravenous, or intramuscular) glucocorticoids within the past 12 weeks.\n2. Lower respiratory tract infection within the past 6 weeks or an active infection.\n3. History of life-threatening COPD, including Intensive Care Unit admission and/or requiring intubation within 1-year.\n4. Major surgery (requiring general anesthesia) within the past 6 weeks, lack of full recovery from surgery, or planned surgery through the end of the study.\n5. Concomitant clinically significant pulmonary disease other than COPD (e.g., asthma, tuberculosis, lung cancer, bronchiectasis, sarcoidosis, lung fibrosis, interstitial lung diseases, sleep apnea (unless controlled with stable continuous positive airway pressure \\[CPAP\\] use), known alpha-1 antitrypsin deficiency, core pulmonale or other non-specific pulmonary disease).\n6. Severe comorbidities including unstable cardiac, (e.g., myocardial infarction within 1 year prior to screening, unstable angina within 6 months, or unstable or life-threatening arrhythmia requiring intervention within 3 months) or any other clinically significant medical conditions including uncontrolled diseases (e.g., endocrine, neurological, hepatic, gastrointestinal, renal, hematological, urological, immunological, psychiatric or ophthalmic diseases) that would, in the opinion of the Investigator, preclude the subject from safely completing the required tests or the study, or is likely to result in disease progression that would require withdrawal of the subject.\n7. HIV infection or other immunodeficiency.\n8. Previous lung resection or lung reduction surgery within 1-year.\n9. Long term oxygen use defined as oxygen therapy prescribed for greater than 12 hours per day.\n10. Pulmonary rehabilitation unless such treatment has been stable for at least 4 weeks and remains stable during the study.\n11. History of or current malignancy of any organ system, treated or untreated within the past 5 years, except for localized basal or squamous cell carcinoma of the skin.\n12. Significant psychiatric disease that would likely result in the subject not being able to complete the study, in the opinion of the Investigator.\n13. Findings on physical examination that an investigator considers to be clinically significant.\n14. Known alanine aminotransferase (ALT) \u2265 2 \u00d7 upper limit of normal (ULN), alkaline phosphatase and/or bilirubin \\> 1.5 \u00d7 ULN (isolated bilirubin \\> 1.5 \u00d7 ULN is acceptable if fractionated bilirubin \\< 35%).\n15. Known diagnosis of severe chronic kidney disease.\n16. Any other known abnormal clinical, cardiac or laboratory (hematology, biochemistry or viral) findings, deemed by an investigator to be clinically significantly abnormal.\n17. Use of prohibited medications, including nebulized medication, within the time intervals.\n18. Current or history of drug or alcohol abuse within the past 5 years.\n19. Women who are breast feeding.\n20. Use of an experimental drug within 30 days or 5 half-lives, whichever is longer, and/or participation in a study treatment-free follow-up phase of a clinical study within 30 days.\n21. Use of an experimental medical device or participation in a follow-up phase of an experimental medical device clinical study within 30 days.\n22. Affiliation with the investigator site, including an Investigator, Sub-Investigator, study coordinator, study nurse, other employee of participating investigator or study site or a family member of the aforementioned.\n23. A disclosed history or one known to the Investigator of significant noncompliance in previous investigational studies or with prescribed medications.\n24. Any other reason that the Investigator considers makes the subject unsuitable to participate.",
+  "sex": "ALL",
+  "min_age": "40 Years",
+  "max_age": "80 Years",
+  "healthy_volunteers": false,
+  "arms": [
+    {
+      "label": "Ensifentrine",
+      "type": "EXPERIMENTAL",
+      "description": "Inhaled ensifentrine twice daily for 12 weeks via standard jet nebulizer in addition to standard dual (LAMA/LABA) or triple (LAMA/LABA/ICS) COPD therapy.",
+      "intervention_names": [
+        "Drug: Ensifentrine 3 mg twice daily"
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "type": "DRUG",
+      "name": "Ensifentrine 3 mg twice daily",
+      "description": "All subjects will receive ensifentrine.",
+      "arm_group_labels": [
+        "Ensifentrine"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "measure": "The Proportion of CAT Score Responders in the Full Analysis Set at Week 12",
+      "description": "Responders are defined as an improvement (decrease) from baseline of \u22652 points. The COPD Assessment Test(tm) (CAT) is a one-page, 8-item questionnaire suitable for completion by patients diagnosed with COPD. When completing the questionnaire, individuals rate their experience on a 6-point scale, ranging from 0 (no impairment) to 5 (maximum impairment) with a scoring range of 0-40. Higher scores indicate greater disease impact. The individual items are: Cough, Mucus, Chest Tight, Breathless, Limited Activities, Confident, Sleep and Energy). CAT was self-completed at baseline, week 6 and week 12.",
+      "time_frame": "12 Weeks"
+    }
+  ],
+  "secondary_outcomes": [
+    {
+      "measure": "The Proportion of CAT Score Responders in the Full Analysis Set at Week 6",
+      "description": "Responders are defined as an improvement (decrease) from baseline of \u22652 points. The COPD Assessment Test (CAT) is a one-page, 8-item questionnaire suitable for completion by patients diagnosed with COPD. When completing the questionnaire, individuals rate their experience on a 6-point scale, ranging from 0 (no impairment) to 5 (maximum impairment) with a scoring range of 0-40. Higher scores indicate greater disease impact. The individual items are: Cough, Mucus, Chest Tight, Breathless, Limited Activities, Confident, Sleep and Energy). CAT was self-completed at baseline, week 6 and week 12.",
+      "time_frame": "6 Weeks"
+    },
+    {
+      "measure": "Mean Change From Baseline - CAT Score in the Full Analysis Set",
+      "description": "The COPD Assessment Test (CAT) is a one-page, 8-item questionnaire suitable for completion by patients diagnosed with COPD. When completing the questionnaire, individuals rate their experience on a 6-point scale, ranging from 0 (no impairment) to 5 (maximum impairment) with a scoring range of 0-40. Higher scores indicate greater disease impact. The individual items are: Cough, Mucus, Chest Tight, Breathless, Limited Activities, Confident, Sleep and Energy). CAT was self-completed at baseline, week 6 and week 12. A decrease from baseline indicates an improvement in COPD symptoms.",
+      "time_frame": "At week 6 and week 12"
+    },
+    {
+      "measure": "Mean Change From Baseline - CAT Individual Item (1, Cough) in the Full Analysis Set",
+      "description": "The COPD Assessment Test (CAT) is a one-page, 8-item questionnaire suitable for completion by patients diagnosed with COPD. When completing the questionnaire, individuals rate their experience on a 6-point scale, ranging from 0 (no impairment) to 5 (maximum impairment) with a scoring range of 0-40. Higher scores indicate greater disease impact.\n\nQuestion 1: (0) I never cough \u2192 (5) I cough all the time. CAT was self-completed at baseline, week 6 and week 12.",
+      "time_frame": "At week 6 and week 12"
+    },
+    {
+      "measure": "Mean Change From Baseline - CAT Individual Item (2, Mucus) in the Full Analysis Set",
+      "description": "The COPD Assessment Test (CAT) is a one-page, 8-item questionnaire suitable for completion by patients diagnosed with COPD. When completing the questionnaire, individuals rate their experience on a 6-point scale, ranging from 0 (no impairment) to 5 (maximum impairment) with a scoring range of 0-40. Higher scores indicate greater disease impact.\n\nQuestion 2: (0) I have no phlegm (mucus) in my chest at all \u2192 (5) My chest is completely full of phlegm (mucus) CAT was self-completed at baseline, week 6 and week 12.",
+      "time_frame": "At week 6 and week 12"
+    },
+    {
+      "measure": "Mean Change From Baseline - CAT Individual Item (3, Chest Tight) in the Full Analysis Set",
+      "description": "The COPD Assessment Test (CAT) is a one-page, 8-item questionnaire suitable for completion by patients diagnosed with COPD. When completing the questionnaire, individuals rate their experience on a 6-point scale, ranging from 0 (no impairment) to 5 (maximum impairment) with a scoring range of 0-40. Higher scores indicate greater disease impact.\n\nQuestion 3: (0) My chest does not feel tight at all \u2192 (5) My chest feels very tight CAT was self-completed at baseline, week 6 and week 12.",
+      "time_frame": "At week 6 and week 12"
+    },
+    {
+      "measure": "Mean Change From Baseline - CAT Individual Item (4, Breathless) in the Full Analysis Set",
+      "description": "The COPD Assessment Test (CAT) is a one-page, 8-item questionnaire suitable for completion by patients diagnosed with COPD. When completing the questionnaire, individuals rate their experience on a 6-point scale, ranging from 0 (no impairment) to 5 (maximum impairment) with a scoring range of 0-40. Higher scores indicate greater disease impact.\n\nQuestion 4: (0) When I walk up a hill or one flight of stairs I am not breathless \u2192 (5) When I walk up a hill or one flight of stairs I am very breathless CAT was self-completed at baseline, week 6 and week 12.",
+      "time_frame": "At week 6 and week 12"
+    },
+    {
+      "measure": "Mean Change From Baseline - CAT Individual Item (5, Activities) in the Full Analysis Set",
+      "description": "The COPD Assessment Test (CAT) is a one-page, 8-item questionnaire suitable for completion by patients diagnosed with COPD. When completing the questionnaire, individuals rate their experience on a 6-point scale, ranging from 0 (no impairment) to 5 (maximum impairment) with a scoring range of 0-40. Higher scores indicate greater disease impact.\n\nQuestion 5: (0) I am not limited doing any activities at home \u2192 (5) I am very limited doing activities at home CAT was self-completed at baseline, week 6 and week 12.",
+      "time_frame": "At week 6 and week 12"
+    },
+    {
+      "measure": "Mean Change From Baseline - CAT Individual Item (6, Confidence) in the Full Analysis Set",
+      "description": "The COPD Assessment Test (CAT) is a one-page, 8-item questionnaire suitable for completion by patients diagnosed with COPD. When completing the questionnaire, individuals rate their experience on a 6-point scale, ranging from 0 (no impairment) to 5 (maximum impairment) with a scoring range of 0-40. Higher scores indicate greater disease impact.\n\nQuestion 6: (0) I am confident leaving my home despite my lung condition \u2192 (5) I am not at all confident leaving my home because of my lung condition CAT was self-completed at baseline, week 6 and week 12.",
+      "time_frame": "At week 6 and week 12"
+    },
+    {
+      "measure": "Mean Change From Baseline - CAT Individual Item (7, Sleep) in the Full Analysis Set",
+      "description": "The COPD Assessment Test (CAT) is a one-page, 8-item questionnaire suitable for completion by patients diagnosed with COPD. When completing the questionnaire, individuals rate their experience on a 6-point scale, ranging from 0 (no impairment) to 5 (maximum impairment) with a scoring range of 0-40. Higher scores indicate greater disease impact.\n\nQuestion 7: (0) I sleep soundly \u2192 (5) I don't sleep soundly because of my lung condition CAT was self-completed at baseline, week 6 and week 12.",
+      "time_frame": "At week 6 and week 12"
+    },
+    {
+      "measure": "Mean Change From Baseline - CAT Individual Item (8, Energy) in the Full Analysis Set",
+      "description": "The COPD Assessment Test (CAT) is a one-page, 8-item questionnaire suitable for completion by patients diagnosed with COPD. When completing the questionnaire, individuals rate their experience on a 6-point scale, ranging from 0 (no impairment) to 5 (maximum impairment) with a scoring range of 0-40. Higher scores indicate greater disease impact.\n\nQuestion 8: (0) I have lots of energy \u2192 (5) I have no energy at all CAT was self-completed at baseline, week 6 and week 12.",
+      "time_frame": "At week 6 and week 12"
+    }
+  ]
+}
