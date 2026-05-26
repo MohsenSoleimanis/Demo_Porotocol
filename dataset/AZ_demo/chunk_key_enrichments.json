@@ -1,0 +1,2343 @@
+{
+  "schema_version": "fmls-pipeline-v3",
+  "n_chunks": 86,
+  "enrichments": {
+    "AZ_demo_p38_b4": {
+      "semantic_role": "section_header",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": false,
+      "confidence": 0.95
+    },
+    "AZ_demo_p38_b6": {
+      "semantic_role": "section_header",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": false,
+      "confidence": 0.95
+    },
+    "AZ_demo_p39_b0": {
+      "semantic_role": "header_footer",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 0.9
+    },
+    "AZ_demo_p39_b1": {
+      "semantic_role": "header_footer",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 0.9
+    },
+    "AZ_demo_p39_b2": {
+      "semantic_role": "header_footer",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 0.9
+    },
+    "AZ_demo_p39_b3": {
+      "semantic_role": "page_number",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 1.0
+    },
+    "AZ_demo_p39_b11": {
+      "semantic_role": "skip",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": false,
+      "confidence": 1.0
+    },
+    "AZ_demo_p39_b13": {
+      "semantic_role": "footnote_body",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": false,
+      "confidence": 1.0
+    },
+    "AZ_demo_p39_b14": {
+      "semantic_role": "footnote_body",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": false,
+      "confidence": 1.0
+    },
+    "AZ_demo_p39_b15": {
+      "semantic_role": "footnote_body",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": false,
+      "confidence": 1.0
+    },
+    "AZ_demo_p40_b0": {
+      "semantic_role": "header_footer",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b1": {
+      "semantic_role": "header_footer",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b2": {
+      "semantic_role": "header_footer",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b3": {
+      "semantic_role": "page_number",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 1.0
+    },
+    "AZ_demo_p40_b4": {
+      "semantic_role": "section_header",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": false,
+      "confidence": 0.95
+    },
+    "AZ_demo_p41_b0": {
+      "semantic_role": "header_footer",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b1": {
+      "semantic_role": "header_footer",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b2": {
+      "semantic_role": "header_footer",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b3": {
+      "semantic_role": "page_number",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 1.0
+    },
+    "AZ_demo_p41_b14": {
+      "semantic_role": "section_header",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": false,
+      "confidence": 0.95
+    },
+    "AZ_demo_p41_b18": {
+      "semantic_role": "section_header",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": false,
+      "confidence": 0.95
+    },
+    "AZ_demo_p42_b0": {
+      "semantic_role": "header_footer",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 0.9
+    },
+    "AZ_demo_p42_b1": {
+      "semantic_role": "header_footer",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 0.9
+    },
+    "AZ_demo_p42_b2": {
+      "semantic_role": "header_footer",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 0.9
+    },
+    "AZ_demo_p42_b3": {
+      "semantic_role": "page_number",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": null,
+      "summary": null,
+      "keywords": [],
+      "typed_entities": [],
+      "hypothetical_questions": [],
+      "semantic_key": null,
+      "is_boilerplate": true,
+      "confidence": 1.0
+    },
+    "AZ_demo_p38_b5": {
+      "semantic_role": "primary_item",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Protocol Deviations Approval Policy",
+      "summary": "The protocol prohibits any prospective approval of protocol deviations regarding recruitment and enrollment criteria, which includes protocol waivers or exemptions.",
+      "keywords": [
+        "protocol deviations",
+        "approval",
+        "recruitment",
+        "enrollment",
+        "waivers",
+        "exemptions"
+      ],
+      "typed_entities": [
+        {
+          "type": "OTHER",
+          "surface": "protocol deviations"
+        },
+        {
+          "type": "OTHER",
+          "surface": "protocol waivers"
+        },
+        {
+          "type": "OTHER",
+          "surface": "exemptions"
+        }
+      ],
+      "hypothetical_questions": [
+        "What is the policy on protocol deviations?",
+        "Are protocol waivers allowed for recruitment criteria?",
+        "Can exemptions be made for enrollment criteria?"
+      ],
+      "semantic_key": "Protocol deviations approval policy",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b7": {
+      "semantic_role": "section_intro",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Eligibility Criteria for Participants",
+      "summary": "This statement indicates that participants can only join the study if they meet specific criteria. It serves as an introduction to the inclusion criteria for the study population.",
+      "keywords": [
+        "participants",
+        "eligible",
+        "criteria",
+        "study",
+        "inclusion"
+      ],
+      "typed_entities": [],
+      "hypothetical_questions": [
+        "What are the eligibility criteria for participants in the study?",
+        "Who can participate in the study?",
+        "What conditions must be met for inclusion in the study?"
+      ],
+      "semantic_key": "Eligibility criteria for study participation",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b8": {
+      "semantic_role": "category_header",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Eligibility Age Criterion",
+      "summary": "This section specifies the age eligibility criterion for participants in the study, indicating that only individuals of a certain age are included.",
+      "keywords": [
+        "age",
+        "criteria",
+        "study",
+        "participants",
+        "inclusion"
+      ],
+      "typed_entities": [
+        {
+          "type": "QUANTITY",
+          "surface": "18 years"
+        }
+      ],
+      "hypothetical_questions": [
+        "What is the minimum age requirement for participants?",
+        "What age range qualifies participants for the study?",
+        "Are there any age restrictions for inclusion in the study?"
+      ],
+      "semantic_key": "Age eligibility criterion",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b9": {
+      "semantic_role": "sub_bullet",
+      "marker": "1",
+      "parent_role_chunk_id": null,
+      "category_label": "Age",
+      "title": "Age Inclusion Criterion",
+      "summary": "Individuals must be adults, aged 18 years or older, at the time of consent.",
+      "keywords": [
+        "adult",
+        "18 years",
+        "age",
+        "inclusion criteria",
+        "consent"
+      ],
+      "typed_entities": [
+        {
+          "type": "QUANTITY",
+          "surface": "18 years"
+        }
+      ],
+      "hypothetical_questions": [
+        "What is the minimum age for participants?",
+        "What is the age criterion for inclusion in the study?",
+        "Are minors allowed to participate?"
+      ],
+      "semantic_key": "age inclusion criterion",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b10": {
+      "semantic_role": "section_header",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Type of Participant",
+      "summary": "This section outlines the type of participants eligible for the study.",
+      "keywords": [
+        "participant",
+        "study",
+        "inclusion criteria"
+      ],
+      "typed_entities": [],
+      "hypothetical_questions": [
+        "What types of participants are included in the study?",
+        "What is the age requirement for participants?",
+        "Are there specific participants that are targeted?"
+      ],
+      "semantic_key": "participant eligibility criteria",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b11": {
+      "semantic_role": "primary_item",
+      "marker": "2",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Increased risk of SARS-CoV-2 infection",
+      "summary": "This chunk states that there is an increased risk of SARS-CoV-2 infection.",
+      "keywords": [
+        "SARS-CoV-2",
+        "infection",
+        "risk"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "SARS-CoV-2 infection"
+        }
+      ],
+      "hypothetical_questions": [
+        "What is the implication of increased risk of SARS-CoV-2 infection?",
+        "How does this affect inclusion criteria for participants?",
+        "What criteria measure risk for SARS-CoV-2 infection?"
+      ],
+      "semantic_key": "increased risk of SARS-CoV-2 infection",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b12": {
+      "semantic_role": "sub_bullet",
+      "marker": "1",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Definition of High-Risk Adults",
+      "summary": "This chunk defines high-risk adults as those whose circumstances increase their exposure risk to SARS-CoV-2 and COVID-19, based on current risk assessments at enrollment.",
+      "keywords": [
+        "high-risk",
+        "adults",
+        "SARS-CoV-2",
+        "COVID-19",
+        "exposure risk"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "SARS-CoV-2"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "COVID-19"
+        },
+        {
+          "type": "QUANTITY",
+          "surface": "appreciable risk"
+        }
+      ],
+      "hypothetical_questions": [
+        "Who is considered at risk for COVID-19?",
+        "What criteria determine high-risk adults for SARS-CoV-2 exposure?",
+        "How is exposure risk assessed during enrollment?"
+      ],
+      "semantic_key": "Definition of high-risk participants",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b13": {
+      "semantic_role": "primary_item",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Criteria for Medically Stable Participants",
+      "summary": "Participants must be medically stable and not expected to require hospitalization during the study period, as assessed by the investigator.",
+      "keywords": [
+        "medically stable",
+        "hospitalization",
+        "investigator judgment",
+        "study period",
+        "follow-up"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "medically stable"
+        },
+        {
+          "type": "OTHER",
+          "surface": "study period"
+        },
+        {
+          "type": "OTHER",
+          "surface": "investigator"
+        }
+      ],
+      "hypothetical_questions": [
+        "What does it mean to be medically stable in this study?",
+        "How does the investigator assess hospitalization risk?",
+        "What is the expected duration of participation in the study?"
+      ],
+      "semantic_key": "criteria for medically stable participants",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b14": {
+      "semantic_role": "sub_bullet",
+      "marker": "-",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Definition of Stable Medical Condition",
+      "summary": "A stable medical condition is characterized by not requiring significant therapy changes or hospitalizations due to worsening disease in the three months before enrollment.",
+      "keywords": [
+        "stable",
+        "medical condition",
+        "disease",
+        "treatment",
+        "hospitalization"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "stable medical condition"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "disease"
+        }
+      ],
+      "hypothetical_questions": [
+        "What defines a stable medical condition?",
+        "What is required for a participant's disease before enrollment?",
+        "How does hospitalization affect eligibility?"
+      ],
+      "semantic_key": "definition of stable medical condition",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b15": {
+      "semantic_role": "primary_item",
+      "marker": "4",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Understanding Study Requirements",
+      "summary": "Participants must be able to understand and comply with study procedures, potentially with support from a caregiver or representative, as assessed by the investigator.",
+      "keywords": [
+        "understand",
+        "comply",
+        "study procedures",
+        "investigator",
+        "caregiver",
+        "representative"
+      ],
+      "typed_entities": [
+        {
+          "type": "ROLE",
+          "surface": "investigator"
+        },
+        {
+          "type": "ROLE",
+          "surface": "caregiver"
+        },
+        {
+          "type": "ROLE",
+          "surface": "surrogate"
+        },
+        {
+          "type": "ROLE",
+          "surface": "legally authorized representative"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the compliance requirements for participants?",
+        "Can participants receive assistance in understanding the study?",
+        "Who assesses the participant's ability to comply with study procedures?"
+      ],
+      "semantic_key": "Participant compliance with study requirements",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b16": {
+      "semantic_role": "category_header",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": "Reproduction",
+      "title": "Reproduction Section in Inclusion Criteria",
+      "summary": "This chunk serves as a header for the category related to reproduction within the inclusion criteria of the study population.",
+      "keywords": [
+        "Reproduction",
+        "inclusion criteria",
+        "study population",
+        "clinical trial"
+      ],
+      "typed_entities": [],
+      "hypothetical_questions": [
+        "What criteria related to reproduction are included in the study?",
+        "How does reproduction factor into study eligibility?",
+        "What are the guidelines for reproduction in this clinical trial?"
+      ],
+      "semantic_key": "Inclusion Criteria: Reproduction",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b17": {
+      "semantic_role": "sub_explanation",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Contraceptive Use Regulations",
+      "summary": "This section outlines that women's use of contraception must adhere to local regulations in clinical studies.",
+      "keywords": [
+        "contraceptive use",
+        "women",
+        "local regulations",
+        "clinical studies"
+      ],
+      "typed_entities": [
+        {
+          "type": "OTHER",
+          "surface": "local regulations"
+        },
+        {
+          "type": "OTHER",
+          "surface": "contraception"
+        },
+        {
+          "type": "OTHER",
+          "surface": "clinical studies"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the regulations for contraceptive use in clinical studies?",
+        "How should women participate in contraception within trials?",
+        "Are there specific methods of contraception that must be followed?"
+      ],
+      "semantic_key": "Contraceptive use and regulations",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b18": {
+      "semantic_role": "primary_item",
+      "marker": "6",
+      "parent_role_chunk_id": null,
+      "category_label": "Reproduction",
+      "title": "Female Participants Inclusion Criteria",
+      "summary": "This chunk specifies that the inclusion criteria for the study require participation from female individuals.",
+      "keywords": [
+        "female",
+        "participants",
+        "inclusion",
+        "criteria",
+        "study",
+        "population"
+      ],
+      "typed_entities": [
+        {
+          "type": "OTHER",
+          "surface": "Female participants"
+        }
+      ],
+      "hypothetical_questions": [
+        "What is the inclusion criterion for female participants?",
+        "How many female participants are in the study?",
+        "What demographic is targeted for the study population?"
+      ],
+      "semantic_key": "inclusion criteria for female participants",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b19": {
+      "semantic_role": "sub_clause",
+      "marker": "(a)",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Criteria for Women of Childbearing Potential",
+      "summary": "This clause outlines the requirements for women of childbearing potential participating in the study.",
+      "keywords": [
+        "women",
+        "childbearing potential",
+        "criteria",
+        "study"
+      ],
+      "typed_entities": [],
+      "hypothetical_questions": [
+        "What must women of childbearing potential do?",
+        "What criteria are set for women participants?",
+        "Are there specific inclusion requirements for women?"
+      ],
+      "semantic_key": "Inclusion criteria for women of childbearing potential",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b20": {
+      "semantic_role": "sub_bullet",
+      "marker": "-",
+      "parent_role_chunk_id": null,
+      "category_label": "Reproduction",
+      "title": "Negative Pregnancy Test Requirement",
+      "summary": "Participants must have a negative pregnancy test both on the day of screening and on Day 1 of the study.",
+      "keywords": [
+        "negative pregnancy test",
+        "Day 1",
+        "screening"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "pregnancy"
+        },
+        {
+          "type": "DATE",
+          "surface": "Day 1"
+        },
+        {
+          "type": "EVENT",
+          "surface": "screening"
+        }
+      ],
+      "hypothetical_questions": [
+        "What is required for a negative pregnancy test?",
+        "When must the pregnancy test be taken?",
+        "What does inclusion criteria state for pregnancy testing?"
+      ],
+      "semantic_key": "Negative pregnancy test criteria",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p38_b21": {
+      "semantic_role": "sub_bullet",
+      "marker": "-",
+      "parent_role_chunk_id": null,
+      "category_label": "Reproduction",
+      "title": "Contraceptive Requirements for Study Participation",
+      "summary": "Participants must use a highly effective form of birth control for at least 28 days prior to Day 1 and continue for 60 days after the second dose. Acceptable contraceptive methods are specified, excluding methods like abstinence and withdrawal.",
+      "keywords": [
+        "birth control",
+        "effective contraception",
+        "study intervention",
+        "failure rate",
+        "acceptable methods"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "birth control"
+        },
+        {
+          "type": "PROCEDURE",
+          "surface": "use one highly effective form of birth control"
+        },
+        {
+          "type": "MEASUREMENT",
+          "surface": "less than 1% per year"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the birth control requirements for study participants?",
+        "What constitutes a highly effective method of contraception?",
+        "Which methods of contraception are not acceptable for the study?"
+      ],
+      "semantic_key": "Contraceptive requirements for study participation",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p39_b4": {
+      "semantic_role": "sub_clause",
+      "marker": "(b)",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Criteria for Childbearing Potential",
+      "summary": "This clause specifies that women are classified as being of childbearing potential unless they meet certain criteria.",
+      "keywords": [
+        "women",
+        "childbearing potential",
+        "criteria"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "childbearing potential"
+        }
+      ],
+      "hypothetical_questions": [
+        "What defines childbearing potential in women?",
+        "What criteria exempt women from being considered of childbearing potential?",
+        "Are women classified based on reproductive criteria?"
+      ],
+      "semantic_key": "criteria for childbearing potential",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p39_b5": {
+      "semantic_role": "sub_bullet",
+      "marker": "-",
+      "parent_role_chunk_id": null,
+      "category_label": "Reproduction",
+      "title": "Criteria for Sterilization in Study Population",
+      "summary": "This chunk outlines the criteria for being considered surgically sterilized within the inclusion criteria for the study population.",
+      "keywords": [
+        "surgically sterilized",
+        "bilateral tubal ligation",
+        "bilateral oophorectomy",
+        "hysterectomy"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "surgically sterilized"
+        },
+        {
+          "type": "PROCEDURE",
+          "surface": "bilateral tubal ligation"
+        },
+        {
+          "type": "PROCEDURE",
+          "surface": "bilateral oophorectomy"
+        },
+        {
+          "type": "PROCEDURE",
+          "surface": "hysterectomy"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the criteria for surgical sterilization?",
+        "Which procedures are considered for sterilization in this study?",
+        "How does one qualify as surgically sterilized in the study criteria?"
+      ],
+      "semantic_key": "Criteria for surgical sterilization in study population",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p39_b6": {
+      "semantic_role": "sub_bullet",
+      "marker": "-",
+      "parent_role_chunk_id": null,
+      "category_label": "Reproduction",
+      "title": "Post-Menopausal Definition",
+      "summary": "This chunk specifies the status of post-menopausal women as part of the inclusion criteria for the study population.",
+      "keywords": [
+        "post-menopausal",
+        "inclusion criteria",
+        "study population"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "post-menopausal"
+        }
+      ],
+      "hypothetical_questions": [
+        "What defines a post-menopausal woman in this study?",
+        "What are the inclusion criteria related to menopause?",
+        "Is surgical sterilization considered in defining reproductive status?"
+      ],
+      "semantic_key": "Post-menopausal definition",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p39_b7": {
+      "semantic_role": "sub_bullet",
+      "marker": "-",
+      "parent_role_chunk_id": null,
+      "category_label": "Reproduction",
+      "title": "Definition of Post-menopausal Status",
+      "summary": "This bullet specifies the criteria for defining post-menopausal status in women aged less than 50 years.",
+      "keywords": [
+        "women",
+        "post-menopausal",
+        "definition",
+        "aged less than 50",
+        "criteria"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "post-menopausal"
+        },
+        {
+          "type": "QUANTITY",
+          "surface": "< 50 years"
+        }
+      ],
+      "hypothetical_questions": [
+        "What is the age requirement for post-menopausal definition?",
+        "What defines a woman as post-menopausal?",
+        "What are the criteria for post-menopausal status in the study?"
+      ],
+      "semantic_key": "definition of post-menopausal status",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p39_b8": {
+      "semantic_role": "sub_bullet",
+      "marker": "\u25cb",
+      "parent_role_chunk_id": null,
+      "category_label": "Reproduction",
+      "title": "Amenorrhea Inclusion Criterion",
+      "summary": "This criterion specifies the requirement of at least 12 months of amenorrhea prior to randomization without alternative causes, after stopping exogenous sex-hormonal treatment.",
+      "keywords": [
+        "amenorrhea",
+        "randomization",
+        "exogenous",
+        "hormonal",
+        "treatment"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "amenorrhea"
+        },
+        {
+          "type": "TIME",
+          "surface": "12 months"
+        }
+      ],
+      "hypothetical_questions": [
+        "What is the duration of amenorrhea required for inclusion?",
+        "Is there a requirement for the cause of amenorrhea?",
+        "What treatment must be ceased prior to randomization?"
+      ],
+      "semantic_key": "12 months amenorrhea prior to randomization",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p39_b9": {
+      "semantic_role": "primary_item",
+      "marker": "\u25cb",
+      "parent_role_chunk_id": null,
+      "category_label": "Reproduction",
+      "title": "Follicle-Stimulating Hormone Inclusion Criteria",
+      "summary": "Participants in the study must have a follicle-stimulating hormone level in the post-menopausal range to be considered not of childbearing potential.",
+      "keywords": [
+        "follicle-stimulating hormone",
+        "post-menopausal range",
+        "childbearing potential",
+        "inclusion criteria",
+        "menopausal range"
+      ],
+      "typed_entities": [
+        {
+          "type": "MEASUREMENT",
+          "surface": "follicle-stimulating hormone level"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "post-menopausal"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "childbearing potential"
+        }
+      ],
+      "hypothetical_questions": [
+        "What is the requirement for follicle-stimulating hormone levels?",
+        "How is childbearing potential defined in the study?",
+        "What range must follicle-stimulating hormone levels fall within?"
+      ],
+      "semantic_key": "follicle-stimulating hormone criteria",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p39_b10": {
+      "semantic_role": "sub_bullet",
+      "marker": "-",
+      "parent_role_chunk_id": null,
+      "category_label": "Reproduction",
+      "title": "Post-Menopausal Definition for Women",
+      "summary": "This chunk defines post-menopausal for women aged 50 years and older, specifically as having a history of at least 12 months of amenorrhea prior to randomization, without alternative causes, and after cessation of exogenous sex-hormonal treatment.",
+      "keywords": [
+        "post-menopausal",
+        "amenorrhea",
+        "criteria",
+        "exogenous sex-hormones",
+        "women",
+        "50 years"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "post-menopausal"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "amenorrhea"
+        },
+        {
+          "type": "QUANTITY",
+          "surface": "\u00194 months"
+        }
+      ],
+      "hypothetical_questions": [
+        "What is defined as post-menopausal for women in this study?",
+        "What historical criteria must women meet to be included?",
+        "What is the age range for women considered in this criteria?"
+      ],
+      "semantic_key": "Post-Menopausal Definition",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p39_b12": {
+      "semantic_role": "table_caption",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Highly Effective Methods of Contraception",
+      "summary": "This caption describes a table showcasing various highly effective contraception methods.",
+      "keywords": [
+        "Contraception",
+        "Effective Methods",
+        "Table"
+      ],
+      "typed_entities": [],
+      "hypothetical_questions": [
+        "What are the highly effective methods of contraception?",
+        "How is the table on contraception organized?",
+        "What information does Table 6 provide?"
+      ],
+      "semantic_key": "Contraception effectiveness methods",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p39_b16": {
+      "semantic_role": "section_header",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Informed Consent",
+      "summary": "This section header introduces the topic of informed consent related to the inclusion criteria for the study population.",
+      "keywords": [
+        "Informed Consent",
+        "Study Population",
+        "Inclusion Criteria"
+      ],
+      "typed_entities": [],
+      "hypothetical_questions": [
+        "What is the purpose of the informed consent section?",
+        "How does informed consent relate to study inclusion criteria?",
+        "Where can I find detailed information about informed consent requirements?"
+      ],
+      "semantic_key": "Informed Consent Section",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p39_b17": {
+      "semantic_role": "primary_item",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Informed Consent Criteria",
+      "summary": "This chunk outlines the requirement for participants to be capable of giving signed informed consent in accordance with specific criteria and restrictions.",
+      "keywords": [
+        "informed consent",
+        "signed consent",
+        "ICF",
+        "requirements",
+        "restrictions"
+      ],
+      "typed_entities": [
+        {
+          "type": "OTHER",
+          "surface": "Appendix A"
+        },
+        {
+          "type": "OTHER",
+          "surface": "ICF"
+        },
+        {
+          "type": "OTHER",
+          "surface": "protocol"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the criteria for informed consent?",
+        "What does Appendix A include regarding consent?",
+        "What requirements must be complied with for informed consent?"
+      ],
+      "semantic_key": "Informed consent requirements",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b5": {
+      "semantic_role": "sub_explanation",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Exclusion Criteria Introduction",
+      "summary": "This chunk introduces the conditions under which participants will be excluded from the study.",
+      "keywords": [
+        "participants",
+        "excluded",
+        "study",
+        "criteria",
+        "apply"
+      ],
+      "typed_entities": [],
+      "hypothetical_questions": [
+        "What are the criteria for participant exclusion?",
+        "Who is eligible for the study?",
+        "What conditions lead to exclusion from the study?"
+      ],
+      "semantic_key": "conditions for participant exclusion",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b6": {
+      "semantic_role": "category_header",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Exclusion Criteria: Medical Conditions",
+      "summary": "This section outlines the medical conditions that exclude participants from the study.",
+      "keywords": [
+        "Medical Conditions",
+        "Exclusion Criteria",
+        "Participants"
+      ],
+      "typed_entities": [],
+      "hypothetical_questions": [
+        "What medical conditions lead to exclusion from the study?",
+        "How are participants evaluated for medical conditions?",
+        "What are the criteria related to medical conditions for trial inclusion?"
+      ],
+      "semantic_key": "Exclusion Criteria Medical Conditions",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b7": {
+      "semantic_role": "primary_item",
+      "marker": "1",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Exclusion Criterion for Vaccine Trial",
+      "summary": "Individuals with a history of allergy to any component of the vaccine are excluded from the study population.",
+      "keywords": [
+        "allergy",
+        "vaccine",
+        "exclusion criteria",
+        "medical conditions"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "allergy"
+        },
+        {
+          "type": "PRODUCT",
+          "surface": "vaccine"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the exclusion criteria for the study?",
+        "Who is not eligible for the vaccine trial?",
+        "What types of allergies disqualify a participant?"
+      ],
+      "semantic_key": "history of allergy to vaccine components",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b8": {
+      "semantic_role": "primary_item",
+      "marker": "2",
+      "parent_role_chunk_id": null,
+      "category_label": "Medical Conditions",
+      "title": "History of Demyelinating Conditions",
+      "summary": "This criterion specifies that individuals with a history of Guillain-Barr\u00e9 syndrome or other demyelinating conditions are excluded from the study.",
+      "keywords": [
+        "Guillain-Barr\u00e9 syndrome",
+        "demyelinating condition",
+        "exclusion criteria"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "Guillain-Barr\u00e9 syndrome"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "demyelinating condition"
+        }
+      ],
+      "hypothetical_questions": [
+        "What medical conditions exclude a participant from the study?",
+        "Are individuals with a history of Guillain-Barr\u00e9 syndrome eligible for the study?",
+        "What are the criteria for exclusion related to medical history?"
+      ],
+      "semantic_key": "exclusion criteria for medical conditions",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b9": {
+      "semantic_role": "primary_item",
+      "marker": "3",
+      "parent_role_chunk_id": null,
+      "category_label": "Medical Conditions",
+      "title": "Exclusion due to Significant Infection",
+      "summary": "Exclusion criteria specify that participants should not have significant infections or acute illnesses, particularly fever on the day prior to or the day of randomization.",
+      "keywords": [
+        "infection",
+        "acute illness",
+        "fever",
+        "randomization",
+        "exclusion criteria"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "infection"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "acute illness"
+        },
+        {
+          "type": "MEASUREMENT",
+          "surface": "fever >100\u00b0F (>37.8\u00b0C)"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the exclusion criteria related to infections?",
+        "Is a fever on randomization day an exclusion factor?",
+        "What temperature defines a fever in this study?"
+      ],
+      "semantic_key": "Exclusion due to infection or illness",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b10": {
+      "semantic_role": "primary_item",
+      "marker": "4",
+      "parent_role_chunk_id": null,
+      "category_label": "Medical Conditions",
+      "title": "History of SARS-CoV-2 Infection",
+      "summary": "This chunk outlines the criterion related to the history of laboratory-confirmed SARS-CoV-2 infection for the exclusion criteria in the study population.",
+      "keywords": [
+        "SARS-CoV-2",
+        "infection",
+        "history",
+        "laboratory-confirmed",
+        "exclusion criteria"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "SARS-CoV-2 infection"
+        }
+      ],
+      "hypothetical_questions": [
+        "What medical condition is mentioned for exclusion?",
+        "What does the exclusion criterion state about SARS-CoV-2?",
+        "Is a history of SARS-CoV-2 infection a reason for exclusion from the study?"
+      ],
+      "semantic_key": "History of SARS-CoV-2 Infection",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b11": {
+      "semantic_role": "primary_item",
+      "marker": "5",
+      "parent_role_chunk_id": null,
+      "category_label": "Exclusion Criteria",
+      "title": "Exclusion Due to Immunosuppressive States",
+      "summary": "Participants with confirmed or suspected immunosuppressive or immunodeficient states, including asplenia, are excluded from the study.",
+      "keywords": [
+        "immunosuppressive",
+        "immunodeficient",
+        "asplenia",
+        "Exclusion Criteria"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "immunosuppressive or immunodeficient state"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "asplenia"
+        }
+      ],
+      "hypothetical_questions": [
+        "What medical conditions exclude participants from the study?",
+        "Is asplenia a condition for exclusion?",
+        "What does immunodeficient state refer to in this context?"
+      ],
+      "semantic_key": "Exclusion Criteria for Immunosuppressive States",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b12": {
+      "semantic_role": "primary_item",
+      "marker": "6",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Exclusion Criteria for Severe Infections and Immunosuppressants",
+      "summary": "This criterion outlines the exclusion of participants with recurrent severe infections or those using immunosuppressant medications within the past six months. It specifies the dosage and duration of prednisone administration that qualifies as a disqualifying factor.",
+      "keywords": [
+        "recurrent severe infections",
+        "immunosuppressants",
+        "prednisone",
+        "exclusion criteria",
+        "study intervention"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "recurrent severe infections"
+        },
+        {
+          "type": "PRODUCT",
+          "surface": "immunosuppressant medication"
+        },
+        {
+          "type": "PRODUCT",
+          "surface": "prednisone"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the criteria for excluding participants with infections?",
+        "How does prednisone use affect eligibility for the study?",
+        "What defines a severe infection in this context?"
+      ],
+      "semantic_key": "exclusion criterion for infections and immunosuppressants",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b13": {
+      "semantic_role": "sub_bullet",
+      "marker": "-",
+      "parent_role_chunk_id": null,
+      "category_label": "Medical Conditions",
+      "title": "Use of Steroids in Exclusion Criteria",
+      "summary": "This chunk specifies the exclusion of participants who have used topical/inhaled steroids or short-term oral steroids lasting 14 days or less from the clinical trial.",
+      "keywords": [
+        "Topical steroids",
+        "Inhaled steroids",
+        "Oral steroids",
+        "Exclusion criteria"
+      ],
+      "typed_entities": [
+        {
+          "type": "PRODUCT",
+          "surface": "Topical/inhaled steroids"
+        },
+        {
+          "type": "PRODUCT",
+          "surface": "oral steroids"
+        },
+        {
+          "type": "MEASUREMENT",
+          "surface": "14 days"
+        }
+      ],
+      "hypothetical_questions": [
+        "What types of steroids are considered for exclusion?",
+        "What is the duration limit for steroid use in this trial?",
+        "Are short-term oral steroids included in the exclusion criteria?"
+      ],
+      "semantic_key": "Steroid use exclusion criteria",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b14": {
+      "semantic_role": "sub_bullet",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": "Medical Conditions",
+      "title": "HIV-positive participants on therapy",
+      "summary": "The chunk specifies conditions regarding HIV-positive participants who are stable and on antiretroviral therapy, referencing NIH and Waldrop et al. studies.",
+      "keywords": [
+        "HIV",
+        "antiretroviral therapy",
+        "stable participants",
+        "medical conditions",
+        "exclusion criteria"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "Human immunodeficiency virus"
+        },
+        {
+          "type": "PRODUCT",
+          "surface": "antiretroviral therapy"
+        },
+        {
+          "type": "REFERENCE",
+          "surface": "NIH 2020"
+        },
+        {
+          "type": "REFERENCE",
+          "surface": "Waldrop et al 2016"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the medical conditions for inclusion in the study?",
+        "What type of participants are excluded based on their medical conditions?",
+        "What therapy must participants be on to be classified as stable?"
+      ],
+      "semantic_key": "HIV-positive participants criteria",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b15": {
+      "semantic_role": "exception",
+      "marker": "7",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Exclusion Criteria for History of Malignancy",
+      "summary": "This chunk specifies the exclusion of participants with a history of primary malignancy from the study, with particular exceptions noted following it.",
+      "keywords": [
+        "exclusion criteria",
+        "primary malignancy",
+        "medical conditions",
+        "history"
+      ],
+      "typed_entities": [],
+      "hypothetical_questions": [
+        "What are the exclusion criteria regarding malignancy?",
+        "Are there any exceptions for patients with a history of primary malignancy?",
+        "What medical conditions are considered for exclusion?"
+      ],
+      "semantic_key": "exclusion of history of malignancy",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b16": {
+      "semantic_role": "sub_clause",
+      "marker": "(a)",
+      "parent_role_chunk_id": null,
+      "category_label": "Medical Conditions",
+      "title": "Exclusion Criterion for Low Risk Malignancy",
+      "summary": "This exclusion criterion details malignancy types considered to pose low risk for recurrence or metastasis after treatment, based on the site investigator's judgment.",
+      "keywords": [
+        "malignancy",
+        "low risk",
+        "recurrence",
+        "curative treatment",
+        "metastasis",
+        "site investigator"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "childhood leukaemia"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "indolent prostate cancer"
+        }
+      ],
+      "hypothetical_questions": [
+        "What types of malignancies are excluded based on low risk?",
+        "What is considered curative treatment for malignancies?",
+        "How does the site investigator assess malignancy risk?"
+      ],
+      "semantic_key": "exclusion of low risk malignancies",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b17": {
+      "semantic_role": "sub_clause",
+      "marker": "(b)",
+      "parent_role_chunk_id": null,
+      "category_label": "Medical Conditions",
+      "title": "Exclusion Criteria for Skin Cancer",
+      "summary": "This clause outlines the exclusion criteria for participants with adequately treated non-melanoma skin cancer or lentigo maligna who show no signs of disease.",
+      "keywords": [
+        "non-melanoma skin cancer",
+        "lento maligna",
+        "exclusion criteria"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "non-melanoma skin cancer"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "lentigo maligna"
+        }
+      ],
+      "hypothetical_questions": [
+        "What conditions exclude participants from the study?",
+        "What type of skin cancers are considered for exclusion?",
+        "Is there a requirement for evidence of disease regarding skin cancer?"
+      ],
+      "semantic_key": "skin cancer exclusion criteria",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b18": {
+      "semantic_role": "sub_clause",
+      "marker": "(c)",
+      "parent_role_chunk_id": null,
+      "category_label": "Medical Conditions",
+      "title": "Exclusion Criterion for Cervical Carcinoma",
+      "summary": "This criterion excludes participants who have adequately treated uterine cervical carcinoma in situ without any evidence of disease.",
+      "keywords": [
+        "cervical carcinoma",
+        "exclusion criteria",
+        "adequately treated",
+        "disease evidence"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "uterine cervical carcinoma in situ"
+        }
+      ],
+      "hypothetical_questions": [
+        "What type of cancer is excluded from the study?",
+        "What condition must be adequately treated to qualify for the study?",
+        "Is evidence of disease required for participants with cervical carcinoma?"
+      ],
+      "semantic_key": "exclusion criterion cervical carcinoma",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b19": {
+      "semantic_role": "sub_clause",
+      "marker": "(d)",
+      "parent_role_chunk_id": null,
+      "category_label": "Medical Conditions",
+      "title": "Localized Prostate Cancer Exclusion",
+      "summary": "This chunk specifies localized prostate cancer as a condition that leads to exclusion from the study population.",
+      "keywords": [
+        "localized",
+        "prostate",
+        "cancer",
+        "exclusion",
+        "criteria"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "localized prostate cancer"
+        }
+      ],
+      "hypothetical_questions": [
+        "What conditions exclude participants from the study?",
+        "Is localized prostate cancer among the exclusion criteria?",
+        "What does the exclusion criteria for medical conditions include?"
+      ],
+      "semantic_key": "Localized prostate cancer exclusion criteria",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b20": {
+      "semantic_role": "sub_bullet",
+      "marker": "8",
+      "parent_role_chunk_id": null,
+      "category_label": "Medical Conditions",
+      "title": "Exclusion due to bleeding disorders",
+      "summary": "This chunk outlines specific bleeding disorders or prior significant bleeding experiences that exclude a participant from the study.",
+      "keywords": [
+        "bleeding disorder",
+        "factor deficiency",
+        "coagulopathy",
+        "platelet disorder",
+        "IM injections"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "clinically significant bleeding disorder"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "factor deficiency"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "coagulopathy"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "platelet disorder"
+        }
+      ],
+      "hypothetical_questions": [
+        "What conditions exclude a participant from the study?",
+        "What types of bleeding disorders are mentioned?",
+        "What is considered significant bleeding in this context?"
+      ],
+      "semantic_key": "Exclusion criteria for bleeding disorders",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b21": {
+      "semantic_role": "primary_item",
+      "marker": "9",
+      "parent_role_chunk_id": null,
+      "category_label": "Medical Conditions",
+      "title": "Exclusion Criteria for Medical Conditions",
+      "summary": "Participants with severe or uncontrolled cardiovascular, respiratory, gastrointestinal, liver, renal, endocrine, or neurological diseases are excluded from the study, as assessed by the Investigator. Mild or moderate comorbidities that are well-controlled are permitted.",
+      "keywords": [
+        "cardiovascular disease",
+        "respiratory disease",
+        "gastrointestinal disease",
+        "liver disease",
+        "renal disease",
+        "endocrine disorder",
+        "neurological illness"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "cardiovascular disease"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "respiratory disease"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "gastrointestinal disease"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "liver disease"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "renal disease"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "endocrine disorder"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "neurological illness"
+        }
+      ],
+      "hypothetical_questions": [
+        "What medical conditions exclude participants from the study?",
+        "How does the Investigator determine the severity of comorbidities?",
+        "Are mild comorbidities allowed in participants?"
+      ],
+      "semantic_key": "Exclusion Criteria for Severe Medical Conditions",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b22": {
+      "semantic_role": "primary_item",
+      "marker": "10",
+      "parent_role_chunk_id": null,
+      "category_label": "Medical Conditions",
+      "title": "Significant Diseases Affecting Study Participation",
+      "summary": "This criterion identifies any significant disease, disorder, or finding that could increase risk for a participant, hinder their ability to engage in the study, or affect the interpretation of study data.",
+      "keywords": [
+        "significant disease",
+        "disorder",
+        "risk",
+        "study participation",
+        "study data"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "disease"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "disorder"
+        },
+        {
+          "type": "EVENT",
+          "surface": "participation"
+        }
+      ],
+      "hypothetical_questions": [
+        "What types of diseases could exclude a participant from the study?",
+        "How might a disorder affect a participant's ability to engage in the study?",
+        "What findings are considered significant for study exclusion?"
+      ],
+      "semantic_key": "significant diseases and disorders in study",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p40_b23": {
+      "semantic_role": "sub_explanation",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Consideration of AESIs in Exclusion Criterion 10",
+      "summary": "The note indicates that AESIs outlined in Appendix E should be taken into account when evaluating participants against Exclusion Criterion 10, specifically concerning their presence.",
+      "keywords": [
+        "AESIs",
+        "Exclusion Criterion 10",
+        "Appendix E",
+        "Medical Conditions",
+        "participant evaluation"
+      ],
+      "typed_entities": [
+        {
+          "type": "OTHER",
+          "surface": "AESIs"
+        },
+        {
+          "type": "OTHER",
+          "surface": "Appendix E"
+        },
+        {
+          "type": "OTHER",
+          "surface": "Exclusion Criterion 10"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are AESIs?",
+        "How do AESIs affect exclusion criteria?",
+        "Where can I find the details about AESIs?"
+      ],
+      "semantic_key": "AESIs in exclusion criteria consideration",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b4": {
+      "semantic_role": "primary_item",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Eligibility Determination for Study Participants",
+      "summary": "Conditions that may affect a participant's safety and study involvement are discussed, highlighting the need for investigator discretion in eligibility assessments. Investigators are encouraged to consult Appendices E and F for relevant medical conditions.",
+      "keywords": [
+        "safety risk",
+        "participant eligibility",
+        "clinical judgment",
+        "medical conditions",
+        "study data",
+        "investigator review"
+      ],
+      "typed_entities": [
+        {
+          "type": "OTHER",
+          "surface": "Appendix F"
+        },
+        {
+          "type": "OTHER",
+          "surface": "Appendix E"
+        }
+      ],
+      "hypothetical_questions": [
+        "What safety risks might prevent a participant's eligibility?",
+        "How should investigators assess participant eligibility?",
+        "What information is found in the appendices regarding medical conditions?"
+      ],
+      "semantic_key": "Participant eligibility assessment based on medical conditions",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b5": {
+      "semantic_role": "section_header",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Prior/Concomitant Therapy",
+      "summary": "This section addresses the prior and concomitant therapies that may affect participant eligibility in the study.",
+      "keywords": [
+        "prior therapy",
+        "concomitant therapy",
+        "study eligibility"
+      ],
+      "typed_entities": [],
+      "hypothetical_questions": [
+        "What therapies are considered prior or concomitant?",
+        "How do prior therapies impact study participation?",
+        "What are the eligibility criteria related to prior therapy?"
+      ],
+      "semantic_key": "Prior/Concomitant Therapy Criteria",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b6": {
+      "semantic_role": "primary_item",
+      "marker": "11",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Receipt of Investigational Products Related to COVID-19",
+      "summary": "This criterion excludes participants who have received or are planned to receive investigational products intended for SARS-CoV-2 or COVID-19 treatment/prevention.",
+      "keywords": [
+        "receipt",
+        "investigational products",
+        "SARS-CoV-2",
+        "COVID-19",
+        "exclusion criteria"
+      ],
+      "typed_entities": [
+        {
+          "type": "PRODUCT",
+          "surface": "investigational products"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "SARS-CoV-2"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "COVID-19"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the exclusion criteria related to investigational products?",
+        "What conditions are mentioned in the exclusion criteria?",
+        "What treatments are participants excluded from?"
+      ],
+      "semantic_key": "Exclusion of prior investigational product receipt for COVID-19",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b7": {
+      "semantic_role": "sub_bullet",
+      "marker": "Note",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Permitted Treatments for Hospitalized Participants",
+      "summary": "Participants who are hospitalized due to COVID-19 may receive licensed treatment options or participate in investigational treatment studies.",
+      "keywords": [
+        "hospitalization",
+        "COVID-19",
+        "licensed treatment",
+        "investigational treatments"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "COVID-19"
+        },
+        {
+          "type": "PROCEDURE",
+          "surface": "licensed treatment options"
+        },
+        {
+          "type": "EVENT",
+          "surface": "participation in investigational treatment studies"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the allowed treatments for hospitalized participants?",
+        "Can hospitalized participants join investigational treatment studies?",
+        "Are there exceptions to the exclusion criteria for treatments?"
+      ],
+      "semantic_key": "Permitted COVID-19 Treatments for Hospitalized Participants",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b8": {
+      "semantic_role": "primary_item",
+      "marker": "12",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Exclusion Criterion for Vaccination",
+      "summary": "This criterion excludes participants who have received any vaccines, licensed or investigational, other than licensed influenza vaccines within 30 days before and after the study intervention administration.",
+      "keywords": [
+        "vaccine",
+        "influenza",
+        "exclusion",
+        "criteria",
+        "study",
+        "intervention"
+      ],
+      "typed_entities": [
+        {
+          "type": "PRODUCT",
+          "surface": "vaccine"
+        },
+        {
+          "type": "PRODUCT",
+          "surface": "licensed influenza vaccines"
+        },
+        {
+          "type": "DATE",
+          "surface": "30 days"
+        }
+      ],
+      "hypothetical_questions": [
+        "What vaccines are excluded in this study?",
+        "What is the time frame for the vaccination exclusion?",
+        "Are investigational vaccines part of the exclusion criteria?"
+      ],
+      "semantic_key": "Exclusion of certain vaccines before and after intervention",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b9": {
+      "semantic_role": "primary_item",
+      "marker": "13",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Exclusion Criterion for Immunoglobulins and Blood Products",
+      "summary": "This chunk specifies that individuals who have received immunoglobulins or any blood products within three months before the study intervention, or are expected to receive them during the study follow-up, are excluded from the trial.",
+      "keywords": [
+        "immunoglobulins",
+        "blood products",
+        "exclusion criteria",
+        "study intervention",
+        "study follow-up"
+      ],
+      "typed_entities": [
+        {
+          "type": "OTHER",
+          "surface": "immunoglobulins"
+        },
+        {
+          "type": "OTHER",
+          "surface": "blood products"
+        },
+        {
+          "type": "TIME",
+          "surface": "3 months"
+        }
+      ],
+      "hypothetical_questions": [
+        "What therapies exclude a participant from the study?",
+        "How long before the study intervention must blood products not be received?",
+        "What types of products affect eligibility for the trial?"
+      ],
+      "semantic_key": "exclusion criteria for blood product receipt",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b10": {
+      "semantic_role": "section_header",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Other Exclusions",
+      "summary": "This section outlines additional criteria for exclusion from the study population.",
+      "keywords": [
+        "exclusions",
+        "study population",
+        "criteria",
+        "study"
+      ],
+      "typed_entities": [],
+      "hypothetical_questions": [
+        "What are the additional exclusions for this study?",
+        "How does 'Other Exclusions' relate to exclusion criteria?",
+        "What criteria must not apply to potential participants?"
+      ],
+      "semantic_key": "additional_exclusion_criteria",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b11": {
+      "semantic_role": "primary_item",
+      "marker": "14",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Exclusion Criteria for Study Involvement",
+      "summary": "This chunk states that involvement in the planning or conduct of the study applies to both sponsor staff and study site staff, marking them as ineligible.",
+      "keywords": [
+        "involvement",
+        "planning",
+        "conduct",
+        "study",
+        "exclusion"
+      ],
+      "typed_entities": [
+        {
+          "type": "OTHER",
+          "surface": "Sponsor staff"
+        },
+        {
+          "type": "OTHER",
+          "surface": "study site staff"
+        }
+      ],
+      "hypothetical_questions": [
+        "Who is excluded from the study?",
+        "What involvement disqualifies participants?",
+        "Who are considered the sponsor staff?"
+      ],
+      "semantic_key": "involvement exclusion criteria",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b12": {
+      "semantic_role": "primary_item",
+      "marker": "15",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Exclusion for Pregnancy or Breastfeeding",
+      "summary": "This criterion excludes women who are currently pregnant or breastfeeding from the study.",
+      "keywords": [
+        "pregnancy",
+        "breastfeeding",
+        "exclusion",
+        "criteria",
+        "study",
+        "women"
+      ],
+      "typed_entities": [
+        {
+          "type": "CONDITION",
+          "surface": "pregnant"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "breast-feeding"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the criteria for excluding participants?",
+        "Are pregnant women allowed in the study?",
+        "Does breastfeeding exclude participation?"
+      ],
+      "semantic_key": "exclusion criteria for pregnant or breastfeeding women",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b13": {
+      "semantic_role": "primary_item",
+      "marker": "16",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Exclusion Criteria for Blood Donation",
+      "summary": "Individuals who have donated blood products within 30 days prior to randomization or plan to donate blood within 90 days after administration of the second dose of the study intervention are excluded from the study.",
+      "keywords": [
+        "blood donation",
+        "exclusion criteria",
+        "randomization",
+        "study intervention"
+      ],
+      "typed_entities": [
+        {
+          "type": "MEASUREMENT",
+          "surface": "450 mL"
+        },
+        {
+          "type": "TIME",
+          "surface": "30 days"
+        },
+        {
+          "type": "TIME",
+          "surface": "90 days"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the blood donation criteria for participants?",
+        "How recent can blood donation occur before randomization?",
+        "What is the timeframe for expected blood donation after the second dose?"
+      ],
+      "semantic_key": "criteria for blood donation exclusion",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b15": {
+      "semantic_role": "primary_item",
+      "marker": "1",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Contraception Requirements for Participants",
+      "summary": "Participants are required to adhere to specific contraception requirements detailed in a prior section.",
+      "keywords": [
+        "participants",
+        "contraception",
+        "requirements",
+        "outlined",
+        "section 5.1"
+      ],
+      "typed_entities": [
+        {
+          "type": "OTHER",
+          "surface": "contraception requirements"
+        },
+        {
+          "type": "OTHER",
+          "surface": "Section 5.1"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the contraception requirements for participants?",
+        "Where can I find the details of the contraception requirements?",
+        "Who must follow the contraception requirements?"
+      ],
+      "semantic_key": "contraception requirements for study participants",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b16": {
+      "semantic_role": "sub_clause",
+      "marker": "2",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Restrictions on Concomitant Medications",
+      "summary": "This chunk refers to the restrictions related to concomitant medications and indicates that further details are provided in Section 6.5.",
+      "keywords": [
+        "restrictions",
+        "concomitant medications",
+        "Section 6.5"
+      ],
+      "typed_entities": [],
+      "hypothetical_questions": [
+        "What are the restrictions on concomitant medications?",
+        "Where can I find more information about these restrictions?",
+        "What section addresses concomitant medications?"
+      ],
+      "semantic_key": "concomitant medications restrictions",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b17": {
+      "semantic_role": "primary_item",
+      "marker": "3",
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Agreement to Wear Digital Health Device",
+      "summary": "Participants must agree to wear a digital health device if they are diagnosed with COVID-19, as detailed in a specific section of the protocol.",
+      "keywords": [
+        "digital health device",
+        "COVID-19",
+        "diagnosed",
+        "agreement"
+      ],
+      "typed_entities": [
+        {
+          "type": "PROCEDURE",
+          "surface": "wear digital health device"
+        },
+        {
+          "type": "CONDITION",
+          "surface": "COVID-19"
+        }
+      ],
+      "hypothetical_questions": [
+        "What are the conditions for wearing a digital health device?",
+        "What should participants do if diagnosed with COVID-19?",
+        "Where can I find more details about this requirement?"
+      ],
+      "semantic_key": "agreement for digital health device in COVID-19",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p41_b19": {
+      "semantic_role": "primary_item",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Definition of Screen Failures in Clinical Trials",
+      "summary": "Screen failures refer to participants who consent to a clinical study but are not randomly assigned to the study intervention. A minimum set of information is required to report these participants to comply with publishing standards.",
+      "keywords": [
+        "screen failures",
+        "participants",
+        "clinical study",
+        "random assignment",
+        "reporting requirements"
+      ],
+      "typed_entities": [
+        {
+          "type": "OTHER",
+          "surface": "screen failures"
+        },
+        {
+          "type": "OTHER",
+          "surface": "Consolidated Standards of Reporting Trials"
+        }
+      ],
+      "hypothetical_questions": [
+        "What defines a screen failure in a clinical study?",
+        "Why is reporting screen failure information important?",
+        "What are the requirements for reporting screen failures?"
+      ],
+      "semantic_key": "definition of screen failures",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p42_b4": {
+      "semantic_role": "primary_item",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Regulatory Queries Information Requirements",
+      "summary": "This section outlines the minimal information required for queries from regulatory authorities, including demographic data, screen failure details, eligibility criteria, and any serious adverse events (SAEs).",
+      "keywords": [
+        "regulatory authorities",
+        "demography",
+        "screen failure",
+        "eligibility criteria",
+        "SAEs"
+      ],
+      "typed_entities": [
+        {
+          "type": "OTHER",
+          "surface": "regulatory authorities"
+        },
+        {
+          "type": "OTHER",
+          "surface": "demography"
+        },
+        {
+          "type": "OTHER",
+          "surface": "screen failure"
+        },
+        {
+          "type": "OTHER",
+          "surface": "eligibility criteria"
+        },
+        {
+          "type": "OTHER",
+          "surface": "SAEs"
+        }
+      ],
+      "hypothetical_questions": [
+        "What minimal information is required for regulatory queries?",
+        "Which details are included in screen failures?",
+        "What information must be provided about SAEs?"
+      ],
+      "semantic_key": "minimal information for regulatory queries",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    },
+    "AZ_demo_p42_b5": {
+      "semantic_role": "primary_item",
+      "marker": null,
+      "parent_role_chunk_id": null,
+      "category_label": null,
+      "title": "Rescreening of Screen Failures",
+      "summary": "Individuals who do not meet participation criteria may be rescreened once, requiring them to sign a new informed consent form and receive a new participant number.",
+      "keywords": [
+        "rescreening",
+        "screen failure",
+        "participation criteria",
+        "informed consent",
+        "new participant number"
+      ],
+      "typed_entities": [
+        {
+          "type": "EVENT",
+          "surface": "rescreening"
+        },
+        {
+          "type": "OTHER",
+          "surface": "single rescreening"
+        },
+        {
+          "type": "PROCEDURE",
+          "surface": "sign a new ICF"
+        }
+      ],
+      "hypothetical_questions": [
+        "What is the process for rescreening participants?",
+        "How many times can a participant be rescreened?",
+        "What documentation is required for rescreened participants?",
+        "Will rescreened participants receive a new number?"
+      ],
+      "semantic_key": "rescreening eligibility for study participation",
+      "is_boilerplate": false,
+      "confidence": 0.9
+    }
+  }
+}
