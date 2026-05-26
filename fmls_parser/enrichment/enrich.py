@@ -19,9 +19,22 @@ GPU is auto-detected; falls back to CPU.
 
 from __future__ import annotations
 
+import logging
+import os
 import re
 from datetime import datetime, timezone
 from typing import Any, Optional
+
+# Silence noisy debug logs from medspacy/PyRuSH/loguru before any imports use them
+os.environ.setdefault("LOGURU_LEVEL", "WARNING")
+logging.getLogger("PyRuSH").setLevel(logging.WARNING)
+logging.getLogger("pyrush").setLevel(logging.WARNING)
+try:
+    from loguru import logger as _loguru_logger
+    _loguru_logger.remove()
+    _loguru_logger.add(lambda msg: None, level="WARNING")
+except Exception:
+    pass
 
 import langdetect
 import pysbd
