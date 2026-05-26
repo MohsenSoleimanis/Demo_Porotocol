@@ -1,0 +1,136 @@
+{
+  "doc_id": "AZ_demo",
+  "metrics": {
+    "precision": 0.7916666666666666,
+    "recall": 0.8260869565217391,
+    "f1": 0.8085106382978724,
+    "category_accuracy_on_matched": 1.0,
+    "n_correct": 19,
+    "n_extracted": 24,
+    "n_gold": 23,
+    "n_wrong_category": 0,
+    "n_false_positive": 5,
+    "n_false_negative": 4,
+    "n_partial": 0
+  },
+  "matches": [
+    {
+      "gold_id": "inc_2",
+      "score": 1.0
+    },
+    {
+      "gold_id": "inc_3",
+      "score": 1.0
+    },
+    {
+      "gold_id": "inc_4",
+      "score": 1.0
+    },
+    {
+      "gold_id": "inc_5",
+      "score": 1.0
+    },
+    {
+      "gold_id": "inc_7",
+      "score": 1.0
+    },
+    {
+      "gold_id": "exc_1",
+      "score": 1.0
+    },
+    {
+      "gold_id": "exc_2",
+      "score": 1.0
+    },
+    {
+      "gold_id": "exc_3",
+      "score": 1.0
+    },
+    {
+      "gold_id": "exc_4",
+      "score": 1.0
+    },
+    {
+      "gold_id": "exc_5",
+      "score": 1.0
+    },
+    {
+      "gold_id": "exc_6",
+      "score": 0.723404255319149
+    },
+    {
+      "gold_id": "exc_8",
+      "score": 1.0
+    },
+    {
+      "gold_id": "exc_9",
+      "score": 1.0
+    },
+    {
+      "gold_id": "exc_10",
+      "score": 1.0
+    },
+    {
+      "gold_id": "exc_11",
+      "score": 1.0
+    },
+    {
+      "gold_id": "exc_12",
+      "score": 1.0
+    },
+    {
+      "gold_id": "exc_13",
+      "score": 1.0
+    },
+    {
+      "gold_id": "exc_14",
+      "score": 1.0
+    },
+    {
+      "gold_id": "exc_15",
+      "score": 1.0
+    }
+  ],
+  "wrong_categories": [],
+  "false_negatives": [
+    {
+      "gold_id": "inc_1",
+      "text": "Adult, \u2265 18 years of age at the time of consent"
+    },
+    {
+      "gold_id": "inc_6",
+      "text": "Female participants"
+    },
+    {
+      "gold_id": "exc_7",
+      "text": "History of primary malignancy"
+    },
+    {
+      "gold_id": "exc_16",
+      "text": "Has donated \u2265 450 mL of blood products within 30 days prior to randomization or expects to donate blood within 90 days of administration of second dose of study intervention"
+    }
+  ],
+  "false_positives": [
+    {
+      "text": "Prospective approval of protocol deviations to recruitment and enrollment criteria, also known as protocol waivers or exemptions, is not permitted.",
+      "category": "inclusion"
+    },
+    {
+      "text": "Women are considered of childbearing potential unless they meet either of the following criteria: Surgically sterilized (including bilateral tubal ligation, bilateral oophorectomy, or hysterectomy), or Post-menopausal",
+      "category": "inclusion"
+    },
+    {
+      "text": "Participants must follow the contraception requirements outlined in Section 5.1.",
+      "category": "inclusion"
+    },
+    {
+      "text": "Agree to wear digital health device if diagnosed with COVID-19 as described in Section 8.1.2.2",
+      "category": "inclusion"
+    },
+    {
+      "text": "Individuals who do not meet the criteria for participation in this study (screen failure) may be rescreened.",
+      "category": "inclusion"
+    }
+  ],
+  "partials": []
+}

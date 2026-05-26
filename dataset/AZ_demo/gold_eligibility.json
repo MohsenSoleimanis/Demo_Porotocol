@@ -1,0 +1,248 @@
+{
+  "_meta": {
+    "doc_id": "AZ_demo",
+    "source": "AZD1222 (AstraZeneca) Clinical Study Protocol — Amendment 6, D8110C00001",
+    "extracted_by": "manual read of dataset/AZ_demo/AZ_demo.pdf §5.1 (page 39), §5.2 (pages 41-42)",
+    "ground_truth_date": "2026-05-26",
+    "structure_note": "Top-level criteria only. Sub-items (sub-bullets defining or clarifying a criterion) are stored under sub_items[] of the parent criterion, NOT as separate criteria. A correct extractor should produce one record per top-level criterion, with the sub-items either folded into the criterion text OR captured as structured sub-criteria of the same parent. Counting a sub-item as a separate criterion = false positive."
+  },
+  "criteria": [
+    {
+      "id": "inc_1",
+      "category": "inclusion",
+      "identifier": "1",
+      "category_header": "Age",
+      "text": "Adult, ≥ 18 years of age at the time of consent",
+      "sub_items": [],
+      "source_page": 39
+    },
+    {
+      "id": "inc_2",
+      "category": "inclusion",
+      "identifier": "2",
+      "category_header": "Type of Participant",
+      "text": "Increased risk of SARS-CoV-2 infection",
+      "sub_items": [
+        {
+          "kind": "definition",
+          "text": "Defined as adults whose locations or circumstances put them at appreciable risk of exposure to SARS-CoV-2 and COVID-19, based on available risk assessment contemporaneous to enrollment (believed to be at risk/exposure)"
+        }
+      ],
+      "source_page": 39
+    },
+    {
+      "id": "inc_3",
+      "category": "inclusion",
+      "identifier": "3",
+      "category_header": "Type of Participant",
+      "text": "Medically stable such that, according to the judgment of the investigator, hospitalization within the study period is not anticipated and the participant appears likely to be able to remain on study through the end of protocol-specified follow-up",
+      "sub_items": [
+        {
+          "kind": "definition",
+          "text": "A stable medical condition is defined as disease not requiring significant change in therapy or hospitalization for worsening disease during the 3 months prior to enrollment"
+        }
+      ],
+      "source_page": 39
+    },
+    {
+      "id": "inc_4",
+      "category": "inclusion",
+      "identifier": "4",
+      "category_header": "Type of Participant",
+      "text": "Able to understand and comply with study requirements/procedures (if applicable, with assistance by caregiver, surrogate, or legally authorized representative) based on the assessment of the investigator",
+      "sub_items": [],
+      "source_page": 39
+    },
+    {
+      "id": "inc_5",
+      "category": "inclusion",
+      "identifier": "5",
+      "category_header": "Reproduction",
+      "text": "Contraceptive use by women should be consistent with local regulations regarding the methods of contraception for those participating in clinical studies",
+      "sub_items": [],
+      "source_page": 39
+    },
+    {
+      "id": "inc_6",
+      "category": "inclusion",
+      "identifier": "6",
+      "category_header": "Reproduction",
+      "text": "Female participants",
+      "sub_items": [
+        {
+          "kind": "clause",
+          "label": "(a)",
+          "text": "Women of childbearing potential must: Have a negative pregnancy test on the day of screening and on Day 1; Use one highly effective form of birth control for at least 28 days prior to Day 1 and agree to continue using one highly effective form of birth control through 60 days following administration of the second dose of study intervention"
+        },
+        {
+          "kind": "clause",
+          "label": "(b)",
+          "text": "Women are considered of childbearing potential unless they meet either of the following criteria: Surgically sterilized (including bilateral tubal ligation, bilateral oophorectomy, or hysterectomy); or Post-menopausal (with age-specific definitions)"
+        }
+      ],
+      "source_page": 39
+    },
+    {
+      "id": "inc_7",
+      "category": "inclusion",
+      "identifier": "7",
+      "category_header": "Informed Consent",
+      "text": "Capable of giving signed informed consent as described in Appendix A, which includes compliance with the requirements and restrictions listed in the ICF and in this protocol",
+      "sub_items": [],
+      "source_page": 40
+    },
+
+    {
+      "id": "exc_1",
+      "category": "exclusion",
+      "identifier": "1",
+      "category_header": "Medical Conditions",
+      "text": "History of allergy to any component of the vaccine",
+      "sub_items": [],
+      "source_page": 41
+    },
+    {
+      "id": "exc_2",
+      "category": "exclusion",
+      "identifier": "2",
+      "category_header": "Medical Conditions",
+      "text": "History of Guillain-Barré syndrome or any other demyelinating condition",
+      "sub_items": [],
+      "source_page": 41
+    },
+    {
+      "id": "exc_3",
+      "category": "exclusion",
+      "identifier": "3",
+      "category_header": "Medical Conditions",
+      "text": "Significant infection or other acute illness, including fever > 100 °F (> 37.8 °C) on the day prior to or day of randomization",
+      "sub_items": [],
+      "source_page": 41
+    },
+    {
+      "id": "exc_4",
+      "category": "exclusion",
+      "identifier": "4",
+      "category_header": "Medical Conditions",
+      "text": "History of laboratory-confirmed SARS-CoV-2 infection",
+      "sub_items": [],
+      "source_page": 41
+    },
+    {
+      "id": "exc_5",
+      "category": "exclusion",
+      "identifier": "5",
+      "category_header": "Medical Conditions",
+      "text": "Any confirmed or suspected immunosuppressive or immunodeficient state, including asplenia",
+      "sub_items": [],
+      "source_page": 41
+    },
+    {
+      "id": "exc_6",
+      "category": "exclusion",
+      "identifier": "6",
+      "category_header": "Medical Conditions",
+      "text": "Recurrent severe infections and use of immunosuppressant medication within the past 6 months (≥ 20 mg per day of prednisone or its equivalent, given daily or on alternate days for ≥ 15 days within 30 days prior to administration of study intervention)",
+      "sub_items": [
+        {"kind": "exception", "text": "Topical/inhaled steroids or short-term oral steroids (course lasting ≤14 days)"},
+        {"kind": "exception", "text": "Human immunodeficiency virus-positive stable participants on stable antiretroviral therapy"}
+      ],
+      "source_page": 41
+    },
+    {
+      "id": "exc_7",
+      "category": "exclusion",
+      "identifier": "7",
+      "category_header": "Medical Conditions",
+      "text": "History of primary malignancy",
+      "sub_items": [
+        {"kind": "exception", "label": "(a)", "text": "Malignancy with low potential risk for recurrence after curative treatment (for example, history of childhood leukaemia) or metastasis (for example, indolent prostate cancer) in the opinion of the site investigator"},
+        {"kind": "exception", "label": "(b)", "text": "Adequately treated non-melanoma skin cancer or lentigo maligna without evidence of disease"},
+        {"kind": "exception", "label": "(c)", "text": "Adequately treated uterine cervical carcinoma in situ without evidence of disease"},
+        {"kind": "exception", "label": "(d)", "text": "Localized prostate cancer"}
+      ],
+      "source_page": 41
+    },
+    {
+      "id": "exc_8",
+      "category": "exclusion",
+      "identifier": "8",
+      "category_header": "Medical Conditions",
+      "text": "Clinically significant bleeding disorder (eg, factor deficiency, coagulopathy, or platelet disorder), or prior history of significant bleeding or bruising following IM injections or venepuncture",
+      "sub_items": [],
+      "source_page": 41
+    },
+    {
+      "id": "exc_9",
+      "category": "exclusion",
+      "identifier": "9",
+      "category_header": "Medical Conditions",
+      "text": "Severe and/or uncontrolled cardiovascular disease, respiratory disease, gastrointestinal disease, liver disease, renal disease, endocrine disorder, and neurological illness, as judged by the Investigator (mild/moderate well-controlled comorbidities are allowed)",
+      "sub_items": [],
+      "source_page": 41
+    },
+    {
+      "id": "exc_10",
+      "category": "exclusion",
+      "identifier": "10",
+      "category_header": "Medical Conditions",
+      "text": "Any other significant disease, disorder, or finding that may significantly increase the risk to the participant because of participation in the study, affect the ability of the participant to participate in the study, or impair interpretation of the study data",
+      "sub_items": [],
+      "source_page": 41
+    },
+    {
+      "id": "exc_11",
+      "category": "exclusion",
+      "identifier": "11",
+      "category_header": "Prior/Concomitant Therapy",
+      "text": "Receipt of, or planned receipt of investigational products indicated for the treatment or prevention of SARS-CoV-2 or COVID-19",
+      "sub_items": [],
+      "source_page": 42
+    },
+    {
+      "id": "exc_12",
+      "category": "exclusion",
+      "identifier": "12",
+      "category_header": "Prior/Concomitant Therapy",
+      "text": "Receipt of any vaccine (licensed or investigational) other than licensed influenza vaccines within 30 days prior to and after administration of study intervention",
+      "sub_items": [],
+      "source_page": 42
+    },
+    {
+      "id": "exc_13",
+      "category": "exclusion",
+      "identifier": "13",
+      "category_header": "Prior/Concomitant Therapy",
+      "text": "Receipt of immunoglobulins and/or any blood products within 3 months prior to administration of study intervention or expected receipt during the period of study follow-up",
+      "sub_items": [],
+      "source_page": 42
+    },
+    {
+      "id": "exc_14",
+      "category": "exclusion",
+      "identifier": "14",
+      "category_header": "Other Exclusions",
+      "text": "Involvement in the planning and/or conduct of this study (applies to both Sponsor staff and/or staff at the study site)",
+      "sub_items": [],
+      "source_page": 42
+    },
+    {
+      "id": "exc_15",
+      "category": "exclusion",
+      "identifier": "15",
+      "category_header": "Other Exclusions",
+      "text": "For women only - currently pregnant (confirmed with positive pregnancy test) or breast-feeding",
+      "sub_items": [],
+      "source_page": 42
+    },
+    {
+      "id": "exc_16",
+      "category": "exclusion",
+      "identifier": "16",
+      "category_header": "Other Exclusions",
+      "text": "Has donated ≥ 450 mL of blood products within 30 days prior to randomization or expects to donate blood within 90 days of administration of second dose of study intervention",
+      "sub_items": [],
+      "source_page": 42
+    }
+  ]
+}
